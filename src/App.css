@@ -10,7 +10,151 @@
   transform: translateZ(0);
   display: block;
 }
-
+.atropos {
+  position: relative;
+  display: block;
+  perspective: 1200px;
+  transform: translateZ(0);
+}
+.atropos-rotate-scroll-x,
+.atropos-rotate-scroll-y,
+.atropos-rotate-touch {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.atropos-rotate-touch-scroll-y {
+  touch-action: pan-y;
+}
+.atropos-rotate-touch-scroll-x {
+  touch-action: pan-x;
+}
+.atropos-rotate-touch {
+  touch-action: none;
+}
+.atropos-rotate,
+.atropos-scale {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition-property: transform;
+  display: block;
+}
+.atropos-highlight,
+.atropos-shadow {
+  position: absolute;
+  pointer-events: none;
+  transition-property: transform, opacity;
+  display: block;
+  opacity: 0;
+}
+.atropos-shadow {
+  z-index: -1;
+  background: #000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(30px);
+}
+.atropos-highlight {
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  background-image: radial-gradient(
+    circle at 50%,
+    hsla(0, 0%, 100%, 0.25),
+    transparent 50%
+  );
+  z-index: 0;
+}
+.atropos-inner,
+.atropos-rotate {
+  position: relative;
+}
+.atropos-inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+  display: block;
+}
+.atropos-active {
+  z-index: 1;
+}
+.atropos-active .atropos-shadow {
+  opacity: 1 !important;
+}
+[data-atropos-offset] {
+  transition-property: transform;
+}
+[data-atropos-opacity] {
+  transition-property: opacity;
+}
+[data-atropos-offset][data-atropos-opacity] {
+  transition-property: transform, opacity;
+}
+.atropos-header {
+  width: 100%;
+  aspect-ratio: 631/383;
+}
+.atropos-header img {
+  position: absolute;
+  left: -5%;
+  top: -5%;
+  width: 110%;
+  height: 110%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  display: block;
+  z-index: 1;
+  transform-style: preserve-3d;
+  pointer-events: none;
+  max-width: none;
+}
+.atropos-header img.atropos-header-spacer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+}
+.atropos-header .atropos-shadow {
+  filter: blur(50px);
+  opacity: 0.25;
+}
+.atropos-header .atropos-highlight {
+  z-index: 100;
+}
+.atropos-header-text {
+  position: absolute;
+  color: #fff;
+  font-weight: 700;
+  left: 0;
+  top: 0;
+}
+.atropos-header-button-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-box .atropos-shadow,
+.movie-box .atropos-shadow {
+  opacity: 0.5;
+  transform: translateZ(-1px);
+}
 .game-box .atropos-inner,
 .movie-box .atropos-inner {
   z-index: 1;
@@ -77,6 +221,12 @@
   height: 400px;
   width: 90%;
   object-fit: contain;
+}
+.game-box-studio {
+  right: 5px;
+  position: absolute;
+  object-fit: contain;
+  height: 80px;
 }
 .game-box-b,
 .game-box-l,
