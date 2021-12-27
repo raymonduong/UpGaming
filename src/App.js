@@ -14,7 +14,7 @@ export default function App() {
       <h2 className="text-center text-4xl md:text-3xl mb-56">
         Have a look at these upcoming video games
       </h2>
-      <div className="flex flex-col gap-5 mb-10 md:flex-row md:flex-wrap content-center justify-center ml-auto mr-auto w-auto">
+      <div className="flex flex-col gap-5 mb-10 md:flex-row md:flex-wrap content-center justify-center ml-auto mr-auto w-3/4">
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/SIFU.png"}
