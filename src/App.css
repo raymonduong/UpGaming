@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Vujahday+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Montserrat:wght@700&family=Poppins:wght@100;200;400&family=Vujahday+Script&display=swap');@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@100;200;400&family=Vujahday+Script&display=swap");
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .atropos {
   position: relative;
 }
@@ -9,7 +14,7 @@
   transform-style: preserve-3d;
   transform: translateZ(0);
   display: block;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .atropos {
   position: relative;
@@ -297,7 +302,7 @@ body {
   font-family: "Poppins";
   font-weight: 400;
   color: white;
-  
+
   background: #0f2027; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
