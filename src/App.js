@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "atropos/css";
 import Atropos from "atropos/react";
@@ -306,7 +305,7 @@ export default function App() {
             src={"assets/Logo/Redfall.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
-            style={{top:"-130px", left:"15px"}}
+            style={{ top: "-130px", left: "15px" }}
             alt="Redfall Logo"
           ></img>
           <img
@@ -315,6 +314,35 @@ export default function App() {
             data-atropos-offset="3"
             style={{ width: "80px", bottom: "-20px", right: "10px" }}
             alt="Bethesda Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/SR.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Saints Row Art"
+          ></img>
+          <img
+            src={"assets/Studios/DeepSilver.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "40px", bottom: "-10px", right: "5px" }}
+            alt="Deep Silver Logo"
+          ></img>
+          <img
+            src={"assets/Logo/SR.svg"}
+            className="game-box-logo game-box"
+            data-atropos-offset="1"
+            style={{ top: "-130px", left: "15px" }}
+            alt="Saints Row Logo"
+          ></img>
+          <img
+            src={"assets/Logo/MC.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ width: "100%", objectFit: "cover", left: "0" }}
+            alt="Main Protagonist"
           ></img>
         </Atropos>
       </div>
