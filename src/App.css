@@ -4,7 +4,6 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
 }
-
 .atropos {
   position: relative;
 }
@@ -108,7 +107,6 @@ h1 {
 }
 .atropos-header {
   width: 100%;
-  aspect-ratio: 631/383;
 }
 .atropos-header img {
   position: absolute;
@@ -189,8 +187,8 @@ h1 {
   --side-color: #004297;
   --side-size: 32px;
   width: 100%;
-  height: 400px;
-  aspect-ratio: 16/27;
+  height: 500px;
+  aspect-ratio: 380/640;
   object-fit: cover;
 }
 
@@ -225,7 +223,7 @@ h1 {
   left: 10px;
   top: 0;
   position: absolute;
-  height: 400px;
+  height: 500px;
   width: 90%;
   object-fit: contain;
 }

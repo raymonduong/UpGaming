@@ -10,7 +10,7 @@ export default function App() {
       <Helmet>
         <title>UpGaming</title>
       </Helmet>
-      <h1 className="text-center text-4xl md:text-9xl mt-52 mb-8">UpGaming</h1>
+      <h1 className="text-center text-5xl md:text-9xl mt-52 mb-8">UpGaming</h1>
       <h2 className="text-center text-4xl md:text-3xl mb-56">
         Have a look at these upcoming video games
       </h2>
@@ -112,7 +112,7 @@ export default function App() {
             src={"assets/Studios/Ubisoft.png"}
             className="game-box-studio game-box"
             data-atropos-offset="3"
-            style={{ bottom: "100px", width: "100px", right: "25px" }}
+            style={{ bottom: "140px", width: "100px", right: "35px" }}
             alt="Ubisoft Logo"
           ></img>
           <img
@@ -133,7 +133,7 @@ export default function App() {
             src={"assets/Logo/DL2.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
-            style={{ top: "80px" }}
+            style={{ top: "100px" }}
             alt="Dying Light 2 Logo"
           ></img>
           <img
