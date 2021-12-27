@@ -9,6 +9,7 @@
   transform-style: preserve-3d;
   transform: translateZ(0);
   display: block;
+  border-radius: 10px;
 }
 .atropos {
   position: relative;
@@ -181,13 +182,13 @@
 .game-box {
   --side-color: #004297;
   --side-size: 32px;
-  width: auto;
+  width: 100%;
   height: 400px;
   aspect-ratio: 16/27;
   object-fit: cover;
 }
 
-.game-box img.game-box-bg {
+.game-box .game-box-bg img {
   left: -5%;
   top: -5%;
   width: 110%;
@@ -295,17 +296,22 @@ body {
   justify-content: center;
   font-family: "Poppins";
   font-weight: 400;
-  background: #e8cbc0; /* fallback for old browsers */
+  color: white;
+  
+  background: #0f2027; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to top,
-    #636fa4,
-    #e8cbc0
+    to bottom,
+    #2c5364,
+    #203a43,
+    #0f2027
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to top,
-    #636fa4,
-    #e8cbc0
+    to bottom,
+    #2c5364,
+    #203a43,
+    #0f2027
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
