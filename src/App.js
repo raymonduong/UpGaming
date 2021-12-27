@@ -327,7 +327,7 @@ export default function App() {
             src={"assets/Studios/DeepSilver.png"}
             className="game-box-studio game-box"
             data-atropos-offset="3"
-            style={{ width: "40px", bottom: "-10px", right: "5px" }}
+            style={{ width: "40px", bottom: "-5px", right: "5px" }}
             alt="Deep Silver Logo"
           ></img>
           <img
