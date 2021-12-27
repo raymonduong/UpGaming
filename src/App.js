@@ -112,17 +112,17 @@ export default function App() {
             alt="Rainbow Six Extraction Cover Art"
           ></img>
           <img
+            src={"assets/Studios/Ubisoft.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ bottom: "100px", width: "100px", right: "25px" }}
+            alt="Ubisoft Logo"
+          ></img>
+          <img
             src={"assets/Logo/R6Extract.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="Rainbow Six Extraction Logo"
-          ></img>
-          <img
-            src={"assets/Studios/Ubisoft.png"}
-            className="game-box-studio game-box"
-            data-atropos-offset="5"
-            style={{ bottom: "100px", width: "100px", right: "25px" }}
-            alt="Ubisoft Logo"
           ></img>
         </Atropos>
         <Atropos>
@@ -223,7 +223,7 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="God of War: Ragnorak Logo"
-            style={{top: "-150px", left: "15px" }}
+            style={{ top: "-150px", left: "15px" }}
           ></img>
           <img
             src={"assets/Studios/ps.png"}
