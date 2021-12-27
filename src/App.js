@@ -345,6 +345,28 @@ export default function App() {
             alt="Main Protagonist"
           ></img>
         </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/Starfield.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Redfall Art"
+          ></img>
+          <img
+            src={"assets/Logo/Starfield.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ top: "0", left: "15px" }}
+            alt="Redfall Logo"
+          ></img>
+          <img
+            src={"assets/Studios/Bethesda.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "80px", bottom: "-20px", right: "10px" }}
+            alt="Bethesda Logo"
+          ></img>
+        </Atropos>
       </div>
     </div>
   );
