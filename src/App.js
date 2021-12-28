@@ -68,7 +68,7 @@ export default function App() {
             src={"assets/Logo/ELDENRING.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
-            style={{ top: "-130px" }}
+            style={{ top: "-150px" }}
             alt="Elden Ring Logo"
           ></img>
           <img
@@ -305,7 +305,7 @@ export default function App() {
             src={"assets/Logo/Redfall.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
-            style={{ top: "-130px", left: "15px" }}
+            style={{ top: "-165px", left: "15px" }}
             alt="Redfall Logo"
           ></img>
           <img
@@ -350,14 +350,14 @@ export default function App() {
             src={"assets/Cover Art/Starfield.png"}
             className="game-box game-box-bg rounded-md"
             data-atropos-offset="-4"
-            alt="Redfall Art"
+            alt="Starfield Art"
           ></img>
           <img
             src={"assets/Logo/Starfield.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
             style={{ top: "0", left: "15px" }}
-            alt="Redfall Logo"
+            alt="Starfield Logo"
           ></img>
           <img
             src={"assets/Studios/Bethesda.png"}
@@ -365,6 +365,139 @@ export default function App() {
             data-atropos-offset="3"
             style={{ width: "80px", bottom: "-20px", right: "10px" }}
             alt="Bethesda Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/Minecraft.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Minecraft Art"
+            style={{objectPosition:"left"}}
+          ></img>
+          <img
+            src={"assets/Logo/Minecraft.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ top: "0", left: "15px" }}
+            alt="Redfall Logo"
+          ></img>
+          <img
+            src={"assets/Studios/Mojang.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "50px", bottom: "-15px", right: "5px" }}
+            alt="Mojang Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/LEGO.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="LEGO Star Wars: The Skywalker Saga Art"
+          ></img>
+          <img
+            src={"assets/Logo/LEGO.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ top: "125px", left: "15px" }}
+            alt="LEGO Star Wars: The Skywalker Saga Logo"
+          ></img>
+          <img
+            src={"assets/Studios/WB.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "40px", bottom: "-10px", right: "5px" }}
+            alt="Warner Brothers Logo"
+          ></img>
+        </Atropos>
+        <Atropos>
+          <img
+            src={"assets/Cover Art/Loz.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="The Sequel to the Legend of Zelda: Breath of the Wild Cover Art"
+          ></img>
+          <img
+            src={"assets/Studios/Nintendo.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "45px", top: "-18px", left: "0" }}
+            alt="Nintendo Switch Logo"
+          ></img>
+          <img
+            src={"assets/Logo/LoZ.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ top: "0", left:"20px" }}
+            alt="The Sequel to the Legend of Zelda: Breath of the Wild Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/GWT.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Ghostwire Tokyo Art"
+          ></img>
+          <img
+            src={"assets/Logo/GWT.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ top: "120px", left: "15px" }}
+            alt="Ghostwire Tokyo Logo"
+          ></img>
+          <img
+            src={"assets/Studios/Bethesda.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "80px", bottom: "-20px", right: "10px" }}
+            alt="Bethesda Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/Sonic.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Sonic Frontiers Tokyo Art"
+          ></img>
+          <img
+            src={"assets/Logo/Sonic.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ top: "-120px", left: "15px" }}
+            alt="Sonic Frontiers  Logo"
+          ></img>
+          <img
+            src={"assets/Studios/Sega.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "80px", bottom: "-20px", right: "10px" }}
+            alt="Sega Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/Stray.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Stray Art"
+          ></img>
+          <img
+            src={"assets/Logo/Stray.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ top: "90px", left: "15px" }}
+            alt="Stray Logo"
+          ></img>
+          <img
+            src={"assets/Studios/Annapurna.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "50px", bottom: "-10px", right: "5px" }}
+            alt="Annapurna Interactive Logo"
           ></img>
         </Atropos>
       </div>
