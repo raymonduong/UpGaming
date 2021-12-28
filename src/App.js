@@ -373,7 +373,7 @@ export default function App() {
             className="game-box game-box-bg rounded-md"
             data-atropos-offset="-4"
             alt="Minecraft Art"
-            style={{objectPosition:"left"}}
+            style={{ objectPosition: "left" }}
           ></img>
           <img
             src={"assets/Logo/Minecraft.png"}
@@ -430,7 +430,7 @@ export default function App() {
             src={"assets/Logo/LoZ.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
-            style={{ top: "0", left:"20px" }}
+            style={{ top: "0", left: "20px" }}
             alt="The Sequel to the Legend of Zelda: Breath of the Wild Logo"
           ></img>
         </Atropos>
@@ -498,6 +498,58 @@ export default function App() {
             data-atropos-offset="3"
             style={{ width: "50px", bottom: "-10px", right: "5px" }}
             alt="Annapurna Interactive Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/SS.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Blank White Background"
+          ></img>
+          <img
+            src={"assets/Studios/WB.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "40px", bottom: "-5px", right: "5px" }}
+            alt="Warner Bros Logo"
+          ></img>
+          <img
+            src={"assets/Logo/SSLogo.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="1"
+            style={{ top: "0", left: "15px" }}
+            alt="Suicide Squad: Kill the Justice League Logo"
+          ></img>
+          <img
+            src={"assets/Logo/SS.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="3"
+            style={{ width: "100%", objectFit: "cover", left: "0" }}
+            alt="Suicide Squad: Kill the Justice League Cast"
+          ></img>
+        </Atropos>
+        <Atropos>
+          <img
+            src={"assets/Cover Art/Splatoon3.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Splatoon 3 Cover Art"
+            style={{objectPosition:"left"}}
+          ></img>
+          <img
+            src={"assets/Studios/Nintendo.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "45px", top: "-18px", left: "0" }}
+            alt="Nintendo Switch Logo"
+          ></img>
+          <img
+            src={"assets/Logo/Splatoon3.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ top: "0", left: "20px" }}
+            alt="Splatoon 3 Logo"
           ></img>
         </Atropos>
       </div>
