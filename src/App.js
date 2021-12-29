@@ -183,7 +183,7 @@ export default function App() {
             src={"assets/Logo/Triangle.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
-            style={{ top: "-50px", left:"15px" }}
+            style={{ top: "-50px", left: "15px" }}
             alt="Triangle Strategy Logo"
           ></img>
         </Atropos>
@@ -308,6 +308,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "-165px", left: "15px" }}
             alt="Redfall Logo"
+            title="Of course Massachusetts get infested with vampires."
           ></img>
           <img
             src={"assets/Studios/Bethesda.png"}
@@ -344,6 +345,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ width: "100%", objectFit: "cover", left: "0" }}
             alt="Main Protagonist"
+            title="All I need to know is if I can change certain...attributes of my characters"
           ></img>
         </Atropos>
         <Atropos className="atropos">
@@ -359,6 +361,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "0", left: "15px" }}
             alt="Starfield Logo"
+            title="But can we climb ladders?"
           ></img>
           <img
             src={"assets/Studios/Bethesda.png"}
@@ -373,7 +376,7 @@ export default function App() {
             src={"assets/Cover Art/Minecraft.png"}
             className="game-box game-box-bg rounded-md"
             data-atropos-offset="-4"
-            alt="Minecraft Art"
+            alt="Minecraft The Wild Update Art"
             style={{ objectPosition: "left" }}
           ></img>
           <img
@@ -381,7 +384,8 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             style={{ top: "0", left: "15px" }}
-            alt="Redfall Logo"
+            alt="Minecraft The Wild Update Logo"
+            title="Mud blocks and mangroves! Frogs and tadpoles! Chests in boats! The deep dark! The warden! The warden? The warden!!! Eeeek"
           ></img>
           <img
             src={"assets/Studios/Mojang.png"}
@@ -404,6 +408,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "125px", left: "15px" }}
             alt="LEGO Star Wars: The Skywalker Saga Logo"
+            title="I want to become a Lego figure like my father."
           ></img>
           <img
             src={"assets/Studios/WB.png"}
@@ -433,6 +438,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "0", left: "20px" }}
             alt="The Sequel to the Legend of Zelda: Breath of the Wild Logo"
+            title="Yahaha! You found me!"
           ></img>
         </Atropos>
         <Atropos className="atropos">
@@ -448,6 +454,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "120px", left: "15px" }}
             alt="Ghostwire Tokyo Logo"
+            title="It's spoooky."
           ></img>
           <img
             src={"assets/Studios/Bethesda.png"}
@@ -469,7 +476,8 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             style={{ top: "-120px", left: "15px" }}
-            alt="Sonic Frontiers  Logo"
+            alt="Sonic Frontiers Logo"
+            title="Uhh...Meow?"
           ></img>
           <img
             src={"assets/Studios/Sega.png"}
@@ -492,6 +500,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "90px", left: "15px" }}
             alt="Stray Logo"
+            title="Uhh...Meow?"
           ></img>
           <img
             src={"assets/Studios/Annapurna.png"}
@@ -528,6 +537,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ width: "100%", objectFit: "cover", left: "0" }}
             alt="Suicide Squad: Kill the Justice League Cast"
+            title="Bird."
           ></img>
         </Atropos>
         <Atropos>
@@ -551,6 +561,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "0", left: "20px" }}
             alt="Splatoon 3 Logo"
+            title="You're a kid. You're a squid. You're a kid. You're a squid. You're a kid. You're a squid. You're a kid. You're a squid. You're a kid. You're a squid."
           ></img>
         </Atropos>
         <Atropos className="atropos">
@@ -566,6 +577,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "0" }}
             alt="Hogwarts Legacy Logo"
+            title="Hogwarts didn't always have bathrooms. Before adopting Muggle plumbing methods in the eighteenth century, witches and wizards simply relieved themselves wherever they stood, and vanished the evidence."
           ></img>
           <img
             src={"assets/Studios/WB.png"}
@@ -588,6 +600,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "150px" }}
             alt="Total War: Warhammer 3 Logo"
+            title="Get ready for your computer to get toasty"
           ></img>
           <img
             src={"assets/Studios/CreativeAssembly.png"}
@@ -602,14 +615,15 @@ export default function App() {
             src={"assets/Cover Art/FFOrigin.png"}
             className="game-box game-box-bg rounded-md"
             data-atropos-offset="-4"
-            alt="Forspoken Cover Art"
+            alt="Stranger of Paradise: Final Fantasy Origin Cover Art"
           ></img>
           <img
             src={"assets/Logo/FFOrigin.png"}
             className="game-box-logo game-box drop-shadow-2xl"
             data-atropos-offset="5"
-            alt="Forspoken Logo"
+            alt="Stranger of Paradise: Final Fantasy Origin Logo"
             style={{ top: "-60px" }}
+            title="*Limp Bizkit plays*"
           ></img>
           <img
             src={"assets/Studios/SQBlack.png"}
@@ -632,6 +646,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ left: "15px" }}
             alt="Gotham Knights Logo"
+            title="Batman may cause internal bleeding and life-lasting injuries, but he doesn't kill"
           ></img>
           <img
             src={"assets/Studios/WB.png"}
@@ -646,14 +661,15 @@ export default function App() {
             src={"assets/Cover Art/MMS.png"}
             className="game-box game-box-bg rounded-md"
             data-atropos-offset="-4"
-            alt="Gotham Knights Art"
+            alt="Marvel's Midnight Suns Art"
           ></img>
           <img
             src={"assets/Logo/MMS.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
             style={{ left: "22px" }}
-            alt="Gotham Knights Logo"
+            alt="Marvel's Midnight Suns Logo"
+            title="Exit light! Enter nighttt!"
           ></img>
           <img
             src={"assets/Studios/2K.svg"}
@@ -683,6 +699,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ left: "22px", top: "170px" }}
             alt="A Plague Tale: Requiem Logo"
+            title="I don't know how my computer rendered all those rats"
           ></img>
         </Atropos>
         <Atropos className="atropos">
@@ -704,7 +721,11 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="The Lord of the Rings: Gollum Logo"
-            style={{top:"-150px", filter: "drop-shadow(5px 5px 5px #ffffff)" }}
+            style={{
+              top: "-150px",
+              filter: "drop-shadow(5px 5px 5px #ffffff)",
+            }}
+            title="My preciousssssss"
           ></img>
         </Atropos>
         <Atropos className="atropos">
@@ -728,6 +749,7 @@ export default function App() {
             data-atropos-offset="5"
             alt="Avatar: Frontiers of Pandora Logo"
             style={{ top: "-110px" }}
+            title="I wonder if this is based off a movie"
           ></img>
         </Atropos>
         <Atropos>
@@ -735,7 +757,7 @@ export default function App() {
             src={"assets/Cover Art/M+R.png"}
             className="game-box game-box-bg rounded-md"
             data-atropos-offset="-4"
-            alt="Pokemon Legends Arceus Cover Art"
+            alt="Mario + Rabbids Sparks of Hope Cover Art"
           ></img>
           <img
             src={"assets/Studios/Nintendo.png"}
@@ -749,14 +771,15 @@ export default function App() {
             className="game-box-studio game-box"
             data-atropos-offset="3"
             style={{ width: "45px", bottom: "-15px", right: "5px" }}
-            alt="Nintendo Switch Logo"
+            alt="Ubisoft Logo"
           ></img>
           <img
             src={"assets/Logo/M+R.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
             style={{ top: "-160px" }}
-            alt="Pokemon Legends Arceus Logo"
+            alt="Mario + Rabbids Sparks of Hope Logo"
+            title="It's a me, Chris Pratt"
           ></img>
         </Atropos>
         <Atropos className="atropos">
@@ -800,6 +823,7 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="Little Devil Inside Logo"
+            title="Korean Indie Game!"
           ></img>
         </Atropos>
         <Atropos className="atropos">
@@ -813,7 +837,7 @@ export default function App() {
             src={"assets/Studios/Squad.png"}
             className="game-box-studio game-box"
             data-atropos-offset="3"
-            style={{ bottom: "-10px", right: "5px", width: "50px" }}
+            style={{ bottom: "-15px", right: "5px", width: "40px" }}
             alt="Squad Logo"
           ></img>
           <img
@@ -821,11 +845,67 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="Kerbal Space Program 2 Logo"
-            style={{ top: "50px", left:"20px"}}
+            style={{ top: "50px", left: "20px" }}
+            title="This is probably the closest you'll get to working at NASA"
           ></img>
         </Atropos>
-        <h1 className="text-center text-3xl md:text-6xl mt-20">Where's my favorite game?</h1>
-        <p className="text-center text-lg mr-auto ml-auto w-4/6">Unfortunately, these things take time! If you haven't already guessed, there's loads upon loads of games coming out in 2022. Please be patient, I may get around to it sooner or later.</p>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/BRC.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Bomb Rush Cyberfunk Art"
+          ></img>
+          <img
+            src={"assets/Studios/TeamReptile.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ bottom: "0px", right: "-40px", width: "150px" }}
+            alt="Team Reptile Logo"
+          ></img>
+          <img
+            src={"assets/Logo/BRC.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            alt="Bomb Rush Cyberfunk Logo"
+            style={{ width: "auto", left: "0" }}
+            title="Not to be confused with Jet Set Radio"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/KOFXV.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            style={{ objectPosition: "" }}
+            alt="Bomb Rush Cyberfunk Art"
+          ></img>
+          <img
+            src={"assets/Studios/SNK.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ bottom: "-15px", right: "5px", width: "100px" }}
+            alt="Team Reptile Logo"
+          ></img>
+          <img
+            src={"assets/Logo/KOFXV.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            alt="Bomb Rush Cyberfunk Logo"
+            style={{ width: "auto", left: "0" }}
+            title="Are you okay? Buster Wolf!"
+          ></img>
+        </Atropos>
+        <div>
+          <h1 className="text-center text-3xl md:text-6xl mt-20">
+            Where's my favorite game?
+          </h1>
+          <p className="text-center text-lg mr-auto ml-auto w-4/6 mt-5">
+            Unfortunately, these things take time! If you haven't already
+            guessed, there's loads upon loads of games coming out in 2022.
+            Please be patient, I may get around to it sooner or later.
+          </p>
+        </div>
       </div>
     </div>
   );
