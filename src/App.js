@@ -9,16 +9,20 @@ export default function App() {
     <div id="app" className="App">
       <Helmet>
         <title>UpGaming</title>
+        <link
+          rel="icon"
+          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>"
+        />
       </Helmet>
-      <h1 className="text-center text-5xl md:text-9xl mt-52 mb-8">UpGaming</h1>
-      <h2 className="text-center text-4xl md:text-3xl mb-56">
+      <h1 className="mb-8 text-5xl text-center md:text-9xl mt-52">UpGaming</h1>
+      <h2 className="mb-56 text-4xl text-center md:text-3xl">
         Have a look at these upcoming video games
       </h2>
-      <div className="flex flex-col gap-5 mb-10 md:flex-row md:flex-wrap content-center justify-center ml-auto mr-auto w-3/4">
+      <div className="flex flex-col content-center justify-center w-3/4 gap-5 mx-auto mb-10 md:flex-row md:flex-wrap">
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/SIFU.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Sifu Cover Art"
           ></img>
@@ -40,7 +44,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/HFW.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Horizon Forbidden West Cover Art"
           ></img>
@@ -62,7 +66,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/ELDENRING.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Elden Ring Cover Art"
           ></img>
@@ -85,7 +89,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/Arceus.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Pokemon Legends Arceus Cover Art"
           ></img>
@@ -108,7 +112,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/R6Extract.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Rainbow Six Extraction Cover Art"
           ></img>
@@ -130,7 +134,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/DL2.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Dying Light 2 Cover Art"
           ></img>
@@ -153,7 +157,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/GT7.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Gran Turismo 7 Cover Art"
           ></img>
@@ -174,8 +178,8 @@ export default function App() {
         </Atropos>
         <Atropos>
           <img
-            src={"assets/Cover Art/Triangle.png"}
-            className="game-box game-box-bg rounded-md"
+            src={"assets/Cover Art/Black.png"}
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Triangle Strategy Cover Art"
           ></img>
@@ -198,7 +202,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/TTW.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Tiny Tina's Wonderland Cover Art"
           ></img>
@@ -220,7 +224,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/GOWR.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="God of War: Ragnorak Cover Art"
           ></img>
@@ -243,7 +247,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Forspoken.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Forspoken Cover Art"
           ></img>
@@ -252,21 +256,21 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="Forspoken Logo"
-            style={{ left: "15px", top:"-210px"}}
+            style={{ left: "15px", top: "-210px" }}
             title="Her bracelet can talk! It's also from Sussex!"
           ></img>
           <img
             src={"assets/Studios/SQBlack.png"}
             className="game-box-studio game-box"
             data-atropos-offset="3"
-            style={{ width: "100px", bottom: "-30px", right: "5px" }}
+            style={{ width: "80px", bottom: "-30px", right: "5px" }}
             alt="Square Enix Logo"
           ></img>
         </Atropos>
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Stalker2.png"}
-            className="game-box game-box-bg rounded-md brightness-50"
+            className="rounded-md game-box game-box-bg brightness-50"
             data-atropos-offset="-4"
             alt="Stalker 2 Art"
           ></img>
@@ -288,7 +292,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/Kirby.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Kirby and the Forgetten Land Cover Art"
           ></img>
@@ -311,7 +315,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Redfall.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Redfall Art"
           ></img>
@@ -334,7 +338,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/SR.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Saints Row Art"
           ></img>
@@ -364,7 +368,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Starfield.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Starfield Art"
           ></img>
@@ -387,7 +391,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Minecraft.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Minecraft The Wild Update Art"
             style={{ objectPosition: "left" }}
@@ -411,7 +415,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/LEGO.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="LEGO Star Wars: The Skywalker Saga Art"
           ></img>
@@ -434,7 +438,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/Loz.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="The Sequel to the Legend of Zelda: Breath of the Wild Cover Art"
           ></img>
@@ -457,7 +461,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/GWT.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Ghostwire Tokyo Art"
           ></img>
@@ -480,7 +484,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Sonic.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Sonic Frontiers Tokyo Art"
           ></img>
@@ -503,7 +507,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Stray.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Stray Art"
           ></img>
@@ -526,7 +530,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/SS.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Blank White Background"
           ></img>
@@ -556,7 +560,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/Splatoon3.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Splatoon 3 Cover Art"
             style={{ objectPosition: "left" }}
@@ -580,7 +584,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Hogwarts.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Hogwarts Legacy Art"
           ></img>
@@ -603,7 +607,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Warhammer.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Total War: Warhammer 3 Art"
           ></img>
@@ -626,7 +630,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/FFOrigin.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Stranger of Paradise: Final Fantasy Origin Cover Art"
           ></img>
@@ -649,7 +653,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/GK.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Gotham Knights Art"
           ></img>
@@ -672,7 +676,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/MMS.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Marvel's Midnight Suns Art"
           ></img>
@@ -695,7 +699,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/PTR.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="A Plague Tale: Requiem Art"
           ></img>
@@ -718,7 +722,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Gollum.png"}
-            className="game-box game-box-bg rounded-md brightness-110"
+            className="rounded-md game-box game-box-bg brightness-110"
             data-atropos-offset="-4"
             alt="The Lord of the Rings: Gollum Art"
           ></img>
@@ -744,7 +748,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Avatar.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Avatar: Frontiers of Pandora Art"
             style={{ objectPosition: "left" }}
@@ -768,7 +772,7 @@ export default function App() {
         <Atropos>
           <img
             src={"assets/Cover Art/M+R.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Mario + Rabbids Sparks of Hope Cover Art"
           ></img>
@@ -798,7 +802,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/TCP.png"}
-            className="game-box game-box-bg rounded-md brightness-75"
+            className="rounded-md game-box game-box-bg brightness-75"
             data-atropos-offset="-4"
             alt="The Callisto Protocol Art"
             style={{ objectPosition: "left" }}
@@ -820,7 +824,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/LDI.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Little Devil Inside Art"
           ></img>
@@ -842,7 +846,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/KSP2.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Kerbal Space Program 2 Art"
           ></img>
@@ -865,7 +869,7 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/BRC.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             alt="Bomb Rush Cyberfunk Art"
           ></img>
@@ -888,35 +892,112 @@ export default function App() {
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/KOFXV.png"}
-            className="game-box game-box-bg rounded-md"
+            className="rounded-md game-box game-box-bg"
             data-atropos-offset="-4"
             style={{ objectPosition: "" }}
-            alt="Bomb Rush Cyberfunk Art"
+            alt="The King of Fighters XV Art"
           ></img>
           <img
             src={"assets/Studios/SNK.png"}
             className="game-box-studio game-box"
             data-atropos-offset="3"
-            style={{ bottom: "-15px", right: "5px", width: "100px" }}
-            alt="Team Reptile Logo"
+            style={{ bottom: "-20px", right: "5px", width: "80px" }}
+            alt="SNK Logo"
           ></img>
           <img
             src={"assets/Logo/KOFXV.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
-            alt="Bomb Rush Cyberfunk Logo"
+            alt="The King of Fighters XV Logo"
             style={{ width: "auto", left: "0" }}
             title="Are you okay? Buster Wolf!"
           ></img>
         </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/TMNT.png"}
+            className="rounded-md game-box game-box-bg"
+            data-atropos-offset="-4"
+            style={{ objectPosition: "" }}
+            alt="Teenage Mutant Ninja Turtles: Shredder's Revenge Art"
+          ></img>
+          <img
+            src={"assets/Studios/Tribute.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ bottom: "-15px", right: "5px", width: "40px" }}
+            alt="Tribute Games Logo"
+          ></img>
+          <img
+            src={"assets/Logo/TMNT.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            alt="Teenage Mutant Ninja Turtles: Shredder's Revenge Logo"
+            style={{ width: "auto", top: "-160px", left: "-10px" }}
+            title="I really hope they tip their pizza delivery guy generously"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/Chocobo.png"}
+            className="rounded-md game-box game-box-bg"
+            data-atropos-offset="-4"
+            alt="Chocobo GP Cover Art"
+          ></img>
+          <img
+            src={"assets/Logo/Chocobo.png"}
+            className="game-box-logo game-box drop-shadow-2xl"
+            data-atropos-offset="5"
+            alt="Chocobo GP Logo"
+            style={{ top: "60px" }}
+            title="I want to ride my chocobo all day~"
+          ></img>
+          <img
+            src={"assets/Studios/SQ.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "100px", bottom: "-25px", right: "0px" }}
+            alt="Square Enix Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/Black.png"}
+            className="rounded-md game-box game-box-bg"
+            data-atropos-offset="-4"
+            alt="Black Cover Art"
+          ></img>
+          <img
+            src={"assets/Logo/WeirdWest.png"}
+            className="game-box-logo game-box drop-shadow-2xl"
+            data-atropos-offset="5"
+            alt="Weird West Logo"
+            title="Welcome to the Weird West."
+          ></img>
+          <img
+            src={"assets/Studios/Devolver.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "150px", bottom: "-15px", right: "-20px" }}
+            alt="Devolver Digital Logo"
+          ></img>
+        </Atropos>{" "}
         <div>
-          <h1 className="text-center text-3xl md:text-6xl mt-20">
+          <h1 className="w-4/6 mx-auto mt-20 text-2xl text-center md:text-2xl">
             Where's my favorite game?
           </h1>
-          <p className="text-center text-lg mr-auto ml-auto w-4/6 mt-5">
+          <p className="w-4/6 mx-auto mt-5 text-lg text-center">
             Unfortunately, these things take time! If you haven't already
             guessed, there's loads upon loads of games coming out in 2022.
             Please be patient, I may get around to it sooner or later.
+          </p>
+          <h1 className="w-4/6 mx-auto mt-10 text-2xl text-center md:text-2xl">
+            Why do you sometimes use pictures that aren't the official covers?
+          </h1>
+          <p className="w-4/6 mx-auto mt-5 text-lg text-center">
+            I would if I could. However, some covers do not have a clean
+            logoless version out there, so I resort to having to use something
+            else, preferably an asset from the studio themselves.
           </p>
         </div>
       </div>
