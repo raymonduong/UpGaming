@@ -183,7 +183,7 @@ export default function App() {
             src={"assets/Logo/Triangle.png"}
             className="game-box-logo game-box"
             data-atropos-offset="5"
-            style={{ top: "-50px" }}
+            style={{ top: "-50px", left:"15px" }}
             alt="Triangle Strategy Logo"
           ></img>
         </Atropos>
@@ -220,7 +220,7 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="God of War: Ragnorak Logo"
-            style={{ top: "-150px", left: "15px" }}
+            style={{ top: "-180px", left: "15px" }}
           ></img>
           <img
             src={"assets/Studios/ps.png"}
@@ -242,6 +242,7 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="Forspoken Logo"
+            style={{ left: "15px" }}
           ></img>
           <img
             src={"assets/Studios/SQ.png"}
@@ -260,7 +261,7 @@ export default function App() {
           ></img>
           <img
             src={"assets/Logo/Stalker2.png"}
-            className="game-box-logo game-box"
+            className="game-box-logo game-box drop-shadow-2xl"
             data-atropos-offset="5"
             alt="Stalker 2 Logo"
           ></img>
@@ -524,7 +525,7 @@ export default function App() {
           <img
             src={"assets/Logo/SS.png"}
             className="game-box-logo game-box"
-            data-atropos-offset="3"
+            data-atropos-offset="5"
             style={{ width: "100%", objectFit: "cover", left: "0" }}
             alt="Suicide Squad: Kill the Justice League Cast"
           ></img>
@@ -535,7 +536,7 @@ export default function App() {
             className="game-box game-box-bg rounded-md"
             data-atropos-offset="-4"
             alt="Splatoon 3 Cover Art"
-            style={{objectPosition:"left"}}
+            style={{ objectPosition: "left" }}
           ></img>
           <img
             src={"assets/Studios/Nintendo.png"}
@@ -552,6 +553,279 @@ export default function App() {
             alt="Splatoon 3 Logo"
           ></img>
         </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/Hogwarts.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Hogwarts Legacy Art"
+          ></img>
+          <img
+            src={"assets/Logo/Hogwarts.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ top: "0" }}
+            alt="Hogwarts Legacy Logo"
+          ></img>
+          <img
+            src={"assets/Studios/WB.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "40px", bottom: "-10px", right: "5px" }}
+            alt="Warner Brothers Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/Warhammer.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Total War: Warhammer 3 Art"
+          ></img>
+          <img
+            src={"assets/Logo/Warhammer.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ top: "150px" }}
+            alt="Total War: Warhammer 3 Logo"
+          ></img>
+          <img
+            src={"assets/Studios/CreativeAssembly.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "40px", bottom: "-10px", right: "5px" }}
+            alt="Creative Assembly Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/FFOrigin.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Forspoken Cover Art"
+          ></img>
+          <img
+            src={"assets/Logo/FFOrigin.png"}
+            className="game-box-logo game-box drop-shadow-2xl"
+            data-atropos-offset="5"
+            alt="Forspoken Logo"
+            style={{ top: "-60px" }}
+          ></img>
+          <img
+            src={"assets/Studios/SQBlack.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "100px", bottom: "-20px", right: "10px" }}
+            alt="Square Enix Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/GK.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Gotham Knights Art"
+          ></img>
+          <img
+            src={"assets/Logo/GK.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ left: "15px" }}
+            alt="Gotham Knights Logo"
+          ></img>
+          <img
+            src={"assets/Studios/WB.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "40px", bottom: "-10px", right: "5px" }}
+            alt="Warner Brothers Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/MMS.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Gotham Knights Art"
+          ></img>
+          <img
+            src={"assets/Logo/MMS.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ left: "22px" }}
+            alt="Gotham Knights Logo"
+          ></img>
+          <img
+            src={"assets/Studios/2K.svg"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "40px", bottom: "-10px", right: "5px" }}
+            alt="2K Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/PTR.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="A Plague Tale: Requiem Art"
+          ></img>
+          <img
+            src={"assets/Studios/FocusEntertainment.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "35px", bottom: "-10px", right: "5px" }}
+            alt="Focus Entertainment Logo"
+          ></img>
+          <img
+            src={"assets/Logo/PTR.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ left: "22px", top: "170px" }}
+            alt="A Plague Tale: Requiem Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/Gollum.png"}
+            className="game-box game-box-bg rounded-md brightness-110"
+            data-atropos-offset="-4"
+            alt="The Lord of the Rings: Gollum Art"
+          ></img>
+          <img
+            src={"assets/Studios/Daedalic.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ bottom: "-10px", left: "150px", width: "150px" }}
+            alt="Daedalic Entertainment Logo"
+          ></img>
+          <img
+            src={"assets/Logo/Gollum.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            alt="The Lord of the Rings: Gollum Logo"
+            style={{top:"-150px", filter: "drop-shadow(5px 5px 5px #ffffff)" }}
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/Avatar.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Avatar: Frontiers of Pandora Art"
+            style={{ objectPosition: "left" }}
+          ></img>
+          <img
+            src={"assets/Studios/UbisoftLogo.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ bottom: "-10px", right: "10px", width: "40px" }}
+            alt="Daedalic Entertainment Logo"
+          ></img>
+          <img
+            src={"assets/Logo/Avatar.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            alt="Avatar: Frontiers of Pandora Logo"
+            style={{ top: "-110px" }}
+          ></img>
+        </Atropos>
+        <Atropos>
+          <img
+            src={"assets/Cover Art/M+R.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Pokemon Legends Arceus Cover Art"
+          ></img>
+          <img
+            src={"assets/Studios/Nintendo.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "45px", top: "-18px", left: "0" }}
+            alt="Nintendo Switch Logo"
+          ></img>
+          <img
+            src={"assets/Studios/UbisoftBlack.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ width: "45px", bottom: "-15px", right: "5px" }}
+            alt="Nintendo Switch Logo"
+          ></img>
+          <img
+            src={"assets/Logo/M+R.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            style={{ top: "-160px" }}
+            alt="Pokemon Legends Arceus Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/TCP.png"}
+            className="game-box game-box-bg rounded-md brightness-75"
+            data-atropos-offset="-4"
+            alt="The Callisto Protocol Art"
+            style={{ objectPosition: "left" }}
+          ></img>
+          <img
+            src={"assets/Studios/Krafton.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ bottom: "-20px", right: "10px", width: "90px" }}
+            alt="Daedalic Entertainment Logo"
+          ></img>
+          <img
+            src={"assets/Logo/TCP.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            alt="The Callisto Protocol Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/LDI.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Little Devil Inside Art"
+          ></img>
+          <img
+            src={"assets/Studios/Neostream.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ bottom: "-10px", right: "-10px", width: "80px" }}
+            alt="Neostream Logo"
+          ></img>
+          <img
+            src={"assets/Logo/LDI.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            alt="Little Devil Inside Logo"
+          ></img>
+        </Atropos>
+        <Atropos className="atropos">
+          <img
+            src={"assets/Cover Art/KSP2.png"}
+            className="game-box game-box-bg rounded-md"
+            data-atropos-offset="-4"
+            alt="Kerbal Space Program 2 Art"
+          ></img>
+          <img
+            src={"assets/Studios/Squad.png"}
+            className="game-box-studio game-box"
+            data-atropos-offset="3"
+            style={{ bottom: "-10px", right: "5px", width: "50px" }}
+            alt="Squad Logo"
+          ></img>
+          <img
+            src={"assets/Logo/KSP2.png"}
+            className="game-box-logo game-box"
+            data-atropos-offset="5"
+            alt="Kerbal Space Program 2 Logo"
+            style={{ top: "50px", left:"20px"}}
+          ></img>
+        </Atropos>
+        <h1 className="text-center text-3xl md:text-6xl mt-20">Where's my favorite game?</h1>
+        <p className="text-center text-lg mr-auto ml-auto w-4/6">Unfortunately, these things take time! If you haven't already guessed, there's loads upon loads of games coming out in 2022. Please be patient, I may get around to it sooner or later.</p>
       </div>
     </div>
   );
