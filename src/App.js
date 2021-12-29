@@ -27,6 +27,7 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="Sifu Logo"
+            title="I know gōngfu"
           ></img>
           <img
             src={"assets/Studios/Sloclap.png"}
@@ -48,6 +49,7 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="Horizon Forbidden West Logo"
+            title="I wonder what Lance Reddick is up to now"
           ></img>
           <img
             src={"assets/Studios/ps.png"}
@@ -70,6 +72,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "-150px" }}
             alt="Elden Ring Logo"
+            title="OOOOOOOOOOOOOOOHHHHHHHHHHHHHHHHHHHHH"
           ></img>
           <img
             src={"assets/Studios/BandaiNamco.png"}
@@ -99,6 +102,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "-90px" }}
             alt="Pokemon Legends Arceus Logo"
+            title="I would die for Hisuian Voltorb"
           ></img>
         </Atropos>
         <Atropos>
@@ -120,6 +124,7 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="Rainbow Six Extraction Logo"
+            title="Who's the real monster here? Caveira players or the alien?"
           ></img>
         </Atropos>
         <Atropos>
@@ -135,6 +140,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "100px" }}
             alt="Dying Light 2 Logo"
+            title="Zombies are a great motivator to learn parkour"
           ></img>
           <img
             src={"assets/Studios/Techland.png"}
@@ -156,6 +162,7 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="Gran Turismo 7 Logo"
+            title="Vrrrrooooooooommm responsibly."
           ></img>
           <img
             src={"assets/Studios/ps.png"}
@@ -185,6 +192,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "-50px", left: "15px" }}
             alt="Triangle Strategy Logo"
+            title="It wasn't very hard to make this card"
           ></img>
         </Atropos>
         <Atropos>
@@ -199,6 +207,7 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="Tiny Tina's Wonderland Logo"
+            title="Who's ready to riggedy roleplay? Spoilers: It's you baby"
           ></img>
           <img
             src={"assets/Studios/2K.svg"}
@@ -221,6 +230,7 @@ export default function App() {
             data-atropos-offset="5"
             alt="God of War: Ragnorak Logo"
             style={{ top: "-180px", left: "15px" }}
+            title="Kratos and Atreus experiences what it feels like to be in Canada"
           ></img>
           <img
             src={"assets/Studios/ps.png"}
@@ -242,20 +252,21 @@ export default function App() {
             className="game-box-logo game-box"
             data-atropos-offset="5"
             alt="Forspoken Logo"
-            style={{ left: "15px" }}
+            style={{ left: "15px", top:"-210px"}}
+            title="Her bracelet can talk! It's also from Sussex!"
           ></img>
           <img
-            src={"assets/Studios/SQ.png"}
+            src={"assets/Studios/SQBlack.png"}
             className="game-box-studio game-box"
             data-atropos-offset="3"
-            style={{ width: "100px", bottom: "-15px", right: "0" }}
+            style={{ width: "100px", bottom: "-30px", right: "5px" }}
             alt="Square Enix Logo"
           ></img>
         </Atropos>
         <Atropos className="atropos">
           <img
             src={"assets/Cover Art/Stalker2.png"}
-            className="game-box game-box-bg rounded-md"
+            className="game-box game-box-bg rounded-md brightness-50"
             data-atropos-offset="-4"
             alt="Stalker 2 Art"
           ></img>
@@ -264,6 +275,7 @@ export default function App() {
             className="game-box-logo game-box drop-shadow-2xl"
             data-atropos-offset="5"
             alt="Stalker 2 Logo"
+            title="Good Hunting, STALKER"
           ></img>
           <img
             src={"assets/Studios/GameWorld.png"}
@@ -293,6 +305,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "-90px" }}
             alt="Kirby and the Forgetten Land Logo"
+            title="It's canon that Kirby has killed a god"
           ></img>
         </Atropos>
         <Atropos className="atropos">
@@ -308,7 +321,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ top: "-165px", left: "15px" }}
             alt="Redfall Logo"
-            title="Of course Massachusetts get infested with vampires."
+            title="Of course Massachusetts gets infested with vampires."
           ></img>
           <img
             src={"assets/Studios/Bethesda.png"}
@@ -699,7 +712,7 @@ export default function App() {
             data-atropos-offset="5"
             style={{ left: "22px", top: "170px" }}
             alt="A Plague Tale: Requiem Logo"
-            title="I don't know how my computer rendered all those rats"
+            title="I don't know how my computer rendered all those rats without exploding"
           ></img>
         </Atropos>
         <Atropos className="atropos">
@@ -723,7 +736,7 @@ export default function App() {
             alt="The Lord of the Rings: Gollum Logo"
             style={{
               top: "-150px",
-              filter: "drop-shadow(5px 5px 5px #ffffff)",
+              filter: "drop-shadow(5px 5px 5px #000000)",
             }}
             title="My preciousssssss"
           ></img>
