@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Montserrat:wght@700&family=Poppins:wght@100;200;400&family=Vujahday+Script&display=swap');@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@100;200;400&family=Vujahday+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Montserrat:wght@700&family=Poppins:wght@100;200;400&family=Vujahday+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@100;200;400&family=Vujahday+Script&display=swap");
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 .atropos {
   position: relative;
@@ -293,7 +294,28 @@ h1 {
   left: 0;
   top: 9px;
 }
-
+.Modal {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #2a5060;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 body {
   display: grid;
   align-content: center;
@@ -318,4 +340,24 @@ body {
 
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  max-height: 360px;
+  max-width: 640px;
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
