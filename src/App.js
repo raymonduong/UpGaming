@@ -1,12 +1,9 @@
 import "./App.css";
 import "atropos/css";
-import React, { useState, Component } from "react";
+import React, { Component } from "react";
 import Atropos from "atropos/react";
 import { Helmet } from "react-helmet";
-import ReactDOM from "react-dom";
-import Modal from "react-modal";
 import ReactModal from "react-modal";
-import PropTypes from "prop-types";
 import YoutubeEmbed from "./components/YoutubeEmbed";
 <link rel="stylesheet" href="path/to/atropos.css" />;
 
