@@ -688,7 +688,7 @@ export default class App extends Component {
                 effectively.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="UwJAAy7tPhE"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -740,7 +740,7 @@ export default class App extends Component {
                 2022.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="wqv3Es1oJyE"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -790,7 +790,7 @@ export default class App extends Component {
                 successor to Borderlands 2: Tiny Tina's Assault on Dragon Keep
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="Ikqs6B4ozM0"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -841,7 +841,7 @@ export default class App extends Component {
                 2022 for the PlayStation 4 and PlayStation 5.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="EE-4GvjKcfs"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -892,7 +892,7 @@ export default class App extends Component {
                 PlayStation 5.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="AdZUrXCqUck"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -945,7 +945,7 @@ export default class App extends Component {
                 since the release of Call of Pripyat in 2009.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="SjDMwsbaSd8"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -997,7 +997,7 @@ export default class App extends Component {
                 Spring 2022.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="H3LAkr0ANgw"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1048,7 +1048,7 @@ export default class App extends Component {
                 2022.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="3pWjcqXnP2g"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1107,7 +1107,7 @@ export default class App extends Component {
                 Windows platforms.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="YgjzDJA1o1E"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1160,7 +1160,7 @@ export default class App extends Component {
                 space-themed world.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="pYqyVpCV-3c"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1214,7 +1214,7 @@ export default class App extends Component {
                 introduces several new mobs and biome variants.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="or1DfXdqu3U"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1266,7 +1266,7 @@ export default class App extends Component {
                 games and the successor to Lego Star Wars: The Force Awakens.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="2yTr5oS99_c"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1317,7 +1317,7 @@ export default class App extends Component {
                 aimed to be released in 2022 for the Nintendo Switch
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="3fr1Z07AV00"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1368,7 +1368,7 @@ export default class App extends Component {
                 and as a timed console exclusive for PlayStation 5.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="l4tkNjJsOvY"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1419,7 +1419,7 @@ export default class App extends Component {
                 explores the Starfall Islands, which comprise various biomes.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="RRkKZG1z9PY"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1470,7 +1470,7 @@ export default class App extends Component {
                 Microsoft Windows, PlayStation 4, and PlayStation 5.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="u84hRUQlaio"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1527,7 +1527,7 @@ export default class App extends Component {
                 published by Warner Bros. Interactive Entertainment.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="2EVFYstVuVk"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1580,7 +1580,7 @@ export default class App extends Component {
                 story-driven single-player mode.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="GUYDXVDLmns"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1631,7 +1631,7 @@ export default class App extends Component {
                 Interactive Entertainment under its Portkey Games label.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="1O6Qstncpnc"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1683,7 +1683,7 @@ export default class App extends Component {
                 universe.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="033FWxL22A0"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1733,7 +1733,7 @@ export default class App extends Component {
                 and published by Square Enix.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="heLn5URnZCc"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1783,7 +1783,7 @@ export default class App extends Component {
                 Entertainment.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="IhVf_3TeTQE"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1835,7 +1835,7 @@ export default class App extends Component {
                 Runaways.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="Ripgh8W2PMg"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1889,7 +1889,7 @@ export default class App extends Component {
                 curse hunts them down.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="aPKIQgc0Fnw"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1944,7 +1944,7 @@ export default class App extends Component {
                 The Lord of the Rings and The Hobbit.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="Qv2YBl9LL3s"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -1990,14 +1990,14 @@ export default class App extends Component {
               overlayClassName="Overlay"
             >
               <p className="text-white pb-14">
-                Tom Clancy's Rainbow Six Extraction is an upcoming tactical
-                shooter developed by Ubisoft Montreal and published by Ubisoft.
-                A spin-off of Rainbow Six Siege, Extraction is a cooperative
-                multiplayer game in which players must work together to combat
-                and defeat a type of parasite-like aliens called the Archaeans.
+                Avatar: Frontiers of Pandora is an upcoming open-world
+                action-adventure video game based on James Cameron's Avatar film
+                series. The game is being developed by Massive Entertainment and
+                will be published by Ubisoft for Microsoft Windows, PlayStation
+                5, Xbox Series X/S, Amazon Luna and Stadia in 2022.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="Axmg1E4HrVE"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -2049,14 +2049,14 @@ export default class App extends Component {
               overlayClassName="Overlay"
             >
               <p className="text-white pb-14">
-                Avatar: Frontiers of Pandora is an upcoming open-world
-                action-adventure video game based on James Cameron's Avatar film
-                series. The game is being developed by Massive Entertainment and
-                will be published by Ubisoft for Microsoft Windows, PlayStation
-                5, Xbox Series X/S, Amazon Luna and Stadia in 2022.
+                Mario + Rabbids Sparks of Hope is an upcoming turn-based
+                strategy adventure game developed by Ubisoft Milan and published
+                by Ubisoft for the Nintendo Switch. The game is a crossover
+                between Nintendo's Mario and Ubisoft's Raving Rabbids franchises
+                and a sequel to the 2017 game Mario + Rabbids Kingdom Battle
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="VHIuHMv3t88"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -2106,7 +2106,7 @@ export default class App extends Component {
                 Schofield, who had previously co-created the Dead Space series.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="WnVhgyLbC8A"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -2157,7 +2157,7 @@ export default class App extends Component {
                 monsters & supernatural events in a 19th-century-inspired world.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="QFdoqcJEi8o"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -2209,7 +2209,7 @@ export default class App extends Component {
                 4, PlayStation 5, Xbox One and Xbox Series X/S.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="P_nj6wW6Gsc"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -2259,7 +2259,7 @@ export default class App extends Component {
                 Steam for Microsoft Windows sometime in 2022.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="1mptdlfRJkw"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -2313,7 +2313,7 @@ export default class App extends Component {
                 first to use GGPO rollback networking.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="_o7Ip64-Sio"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -2366,7 +2366,7 @@ export default class App extends Component {
                 the games based on it.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="13qJvTq7_KA"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -2391,7 +2391,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="Chocobo GP Logo"
                 style={{ top: "60px" }}
-                title="I want to ride my chocobo all day~"
+                title="Game of the Decade"
               ></img>
               <img
                 src={"assets/Studios/SQ.png"}
@@ -2418,7 +2418,7 @@ export default class App extends Component {
                 scheduled for release for the Nintendo Switch on March 10, 2022.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="pY9weUmUw_0"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -2468,7 +2468,7 @@ export default class App extends Component {
                 Xbox One in March 2022.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="0NS3lzv0Nw4"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -2518,7 +2518,7 @@ export default class App extends Component {
                 in the Gran Turismo series.
               </p>
               <YoutubeEmbed
-                embedId="oFzsANuSbdw"
+                embedId="1tBUsXIkG1A"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
