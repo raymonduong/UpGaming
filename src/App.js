@@ -524,7 +524,7 @@ export default class App extends Component {
               <YoutubeEmbed embedId="1FQ1YO3Ks2U"></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -668,7 +668,7 @@ export default class App extends Component {
               <YoutubeEmbed embedId="E3Huy2cdih0"></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal3}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -740,7 +740,7 @@ export default class App extends Component {
               <YoutubeEmbed embedId="YUW1ZWAq09M"></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal4}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -816,7 +816,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal5}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -896,7 +896,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal6}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -971,7 +971,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal7}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1045,7 +1045,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal8}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1119,7 +1119,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal9}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1193,7 +1193,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal10}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1270,7 +1270,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal11}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1344,7 +1344,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal12}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1420,7 +1420,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal13}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1504,7 +1504,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal14}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1582,7 +1582,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal15}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1663,7 +1663,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal16}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1742,7 +1742,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal17}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1815,7 +1815,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal18}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1890,7 +1890,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal19}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1967,7 +1967,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal20}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2042,7 +2042,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal21}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2122,7 +2122,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal22}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2199,7 +2199,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal23}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2279,7 +2279,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal24}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2353,7 +2353,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal25}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2428,7 +2428,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal26}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2505,7 +2505,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal27}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2582,7 +2582,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal28}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2663,7 +2663,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal29}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2744,7 +2744,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal30}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2821,7 +2821,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal31}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2902,7 +2902,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal32}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2978,7 +2978,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal33}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3055,7 +3055,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal34}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3131,7 +3131,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal35}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3204,7 +3204,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal36}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3282,7 +3282,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal37}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3360,7 +3360,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal38}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3434,7 +3434,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal39}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3510,7 +3510,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal40}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3583,7 +3583,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal41}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3661,7 +3661,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal42}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3737,7 +3737,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal43}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3814,7 +3814,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal44}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3889,7 +3889,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal45}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3962,7 +3962,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal46}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -4037,7 +4037,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal47}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -4112,7 +4112,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal48}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
