@@ -58,6 +58,12 @@ export default class App extends Component {
       showModal40: false,
       showModal41: false,
       showModal42: false,
+      showModal43: false,
+      showModal44: false,
+      showModal45: false,
+      showModal46: false,
+      showModal47: false,
+      showModal48: false,
     };
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
@@ -102,6 +108,12 @@ export default class App extends Component {
     this.handleOpenModal40 = this.handleOpenModal40.bind(this);
     this.handleOpenModal41 = this.handleOpenModal41.bind(this);
     this.handleOpenModal42 = this.handleOpenModal42.bind(this);
+    this.handleOpenModal43 = this.handleOpenModal43.bind(this);
+    this.handleOpenModal44 = this.handleOpenModal44.bind(this);
+    this.handleOpenModal45 = this.handleOpenModal45.bind(this);
+    this.handleOpenModal46 = this.handleOpenModal46.bind(this);
+    this.handleOpenModal47 = this.handleOpenModal47.bind(this);
+    this.handleOpenModal48 = this.handleOpenModal48.bind(this);
 
     this.handleCloseModal = this.handleCloseModal.bind(this);
     this.handleCloseModal2 = this.handleCloseModal2.bind(this);
@@ -145,6 +157,12 @@ export default class App extends Component {
     this.handleCloseModal40 = this.handleCloseModal40.bind(this);
     this.handleCloseModal41 = this.handleCloseModal41.bind(this);
     this.handleCloseModal42 = this.handleCloseModal42.bind(this);
+    this.handleCloseModal43 = this.handleCloseModal43.bind(this);
+    this.handleCloseModal44 = this.handleCloseModal44.bind(this);
+    this.handleCloseModal45 = this.handleCloseModal45.bind(this);
+    this.handleCloseModal46 = this.handleCloseModal46.bind(this);
+    this.handleCloseModal47 = this.handleCloseModal47.bind(this);
+    this.handleCloseModal48 = this.handleCloseModal48.bind(this);
   }
   handleOpenModal() {
     this.setState({ showModal: true });
@@ -272,6 +290,24 @@ export default class App extends Component {
   handleOpenModal42() {
     this.setState({ showModal42: true });
   }
+  handleOpenModal43() {
+    this.setState({ showModal43: true });
+  }
+  handleOpenModal44() {
+    this.setState({ showModal44: true });
+  }
+  handleOpenModal45() {
+    this.setState({ showModal45: true });
+  }
+  handleOpenModal46() {
+    this.setState({ showModal46: true });
+  }
+  handleOpenModal47() {
+    this.setState({ showModal47: true });
+  }
+  handleOpenModal48() {
+    this.setState({ showModal48: true });
+  }
   handleCloseModal() {
     this.setState({ showModal: false });
   }
@@ -398,6 +434,24 @@ export default class App extends Component {
   handleCloseModal42() {
     this.setState({ showModal42: false });
   }
+  handleCloseModal43() {
+    this.setState({ showModal43: false });
+  }
+  handleCloseModal44() {
+    this.setState({ showModal44: false });
+  }
+  handleCloseModal45() {
+    this.setState({ showModal45: false });
+  }
+  handleCloseModal46() {
+    this.setState({ showModal46: false });
+  }
+  handleCloseModal47() {
+    this.setState({ showModal47: false });
+  }
+  handleCloseModal48() {
+    this.setState({ showModal48: false });
+  }
 
   render() {
     return (
@@ -413,7 +467,7 @@ export default class App extends Component {
           UpGaming
         </h1>
         <h2 className="mb-5 text-4xl text-center md:text-3xl">
-          Have a look at these upcoming video games
+          Have a look at these upcoming video games.
         </h2>
         <p className="text-lg text-gray-400 text-center mb-40">
           Go ahead, click any.
@@ -3629,8 +3683,459 @@ export default class App extends Component {
             </ReactModal>
           </div>
           <div>
+            <Atropos onClick={this.handleOpenModal43}>
+              <img
+                src={"assets/Cover Art/SM2.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Space Marine 2 Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/SM2.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Space Marine 2 Logo"
+              ></img>
+              <img
+                src={"assets/Studios/Saber.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "30px", bottom: "-15px" }}
+                alt="Saber Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal43}
+              onRequestClose={this.handleCloseModal43}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+                <PlayStation></PlayStation>
+                <Xbox></Xbox>
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-white text-sm md:text-lg">
+                Warhammer 40,000: Space Marine II is an upcoming third-person
+                shooter hack-n-slash video game being developed by Saber
+                Interactive and published by Focus Entertainment. It will be
+                released for Microsoft Windows, PlayStation 5 and Xbox Series
+                X/S at a date that is yet to be announced.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed and published by Saber Interactive
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                The galaxy is in peril. Entire worlds are falling. The Imperium
+                needs you.
+              </span>
+              <YoutubeEmbed
+                embedId="TgxVQRTXtz0"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal43}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal44}>
+              <img
+                src={"assets/Cover Art/Yomi.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Trek to Yomi Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/Yomi.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Trek to Yomi Logo"
+              ></img>
+              <img
+                src={"assets/Studios/Devolver.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "150px", bottom: "-15px", right: "-20px" }}
+                alt="Devolver Digital Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal44}
+              onRequestClose={this.handleCloseModal44}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+                <PlayStation></PlayStation>
+                <Xbox></Xbox>
+                <GamePass></GamePass>
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-white text-sm md:text-lg">
+                As a vow to his dying Master, the young swordsman Hiroki is
+                sworn to protect his town and the people he loves against all
+                threats. Faced with tragedy and bound to duty, the lone samurai
+                must voyage beyond life and death to confront himself and decide
+                his path forward.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Flying Wild Hog and Leonard Menchiari and published
+                by Devolver Digital
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                私は恐怖の達人です、老人。
+              </span>
+              <YoutubeEmbed
+                embedId="q4Dyrl7dVbo"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal44}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal45}>
+              <img
+                src={"assets/Cover Art/Spider-man.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Spider-Man 2 Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/spider-man.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Spider-Man 2 Logo"
+              ></img>
+              <img
+                src={"assets/Studios/PS.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "30px", bottom: "-15px" }}
+                alt="PlayStation Studios Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal45}
+              onRequestClose={this.handleCloseModal45}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+                <PlayStation></PlayStation>
+              </div>
+              <p className="pb-4 text-white text-sm md:text-lg">
+                Marvel's Spider-Man 2 is a 2023 action-adventure video game
+                developed by Insomniac Games and published by Sony Interactive
+                Entertainment for the PlayStation 5, serving as a sequel to the
+                highly successful Marvel's Spider-Man in 2018. This game takes
+                place just a couple months after Marvel's Spider-Man: Miles
+                Morales.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Insomniac Games and published by Sony Interactive
+                Entertainment
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Spider-Mans? Spider-Men? Spideys?
+              </span>
+              <YoutubeEmbed
+                embedId="sAKe9OI3Cog"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal45}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal46}>
+              <img
+                src={"assets/Cover Art/Wolverine.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Wolverine Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/Wolverine.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Wolverine Logo"
+              ></img>
+              <img
+                src={"assets/Studios/PS.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "30px", bottom: "-15px" }}
+                alt="PlayStation Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal46}
+              onRequestClose={this.handleCloseModal46}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+                <PlayStation></PlayStation>
+              </div>
+              <p className="pb-4 text-white text-sm md:text-lg">
+                Marvel’s Wolverine is currently in development by Insomniac
+                Games for PlayStation 5. Created in collaboration with Marvel
+                Games and PlayStation.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Insomniac Games and published by Sony Interactive
+                Entertainment
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                "I'm the best there is at what I do, but what I do best isn't
+                very nice."
+              </span>
+              <YoutubeEmbed
+                embedId="Zcj9AzHv_l8"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal46}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal47}>
+              <img
+                src={"assets/Cover Art/MFE.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Midnight Fight Express Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/MFE.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Midnight Fight Express Logo"
+                style={{ top: "-160px" }}
+              ></img>
+              <img
+                src={"assets/Studios/Humble.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "auto", bottom: "-15px" }}
+                alt="Humble Games Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal47}
+              onRequestClose={this.handleCloseModal47}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+                <PlayStation></PlayStation>
+                <Xbox></Xbox>
+                <GamePass></GamePass>
+                <PC></PC>
+                <Nintendo></Nintendo>
+              </div>
+              <p className="pb-4 text-white text-sm md:text-lg">
+                Fight your way across the city in a brutal romp that mixes old
+                school brawlers and fast-paced motion-captured combat.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Jacob Dzwinel and published by Humble Games
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                One person made this game! One!
+              </span>
+              <YoutubeEmbed
+                embedId="vAAG5ramERM"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal47}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal48}>
+              <img
+                src={"assets/Cover Art/HKS.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Hollow Knight Silksong Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/HKS.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                style={{ top:"100px" }}
+                alt="Hollow Knight Silksong Logo"
+              ></img>
+              <img
+                src={"assets/Studios/Cherry.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "30px", bottom: "-15px" }}
+                alt="Team Cherry Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal48}
+              onRequestClose={this.handleCloseModal48}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+                <PC></PC>
+                <Nintendo></Nintendo>
+              </div>
+              <p className="pb-4 text-white text-sm md:text-lg">
+                Hollow Knight: Silksong is an upcoming Metroidvania
+                action-adventure video game developed and published by Team
+                Cherry for Windows, macOS, Linux and Nintendo Switch. It was
+                originally announced in February 2019 as a sequel to the 2017
+                game Hollow Knight.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed and published by Team Cherry
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Release date when?
+              </span>
+              <YoutubeEmbed
+                embedId="yQxwbZsL14Y"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal48}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-3 right-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
             <h1 className="w-4/6 mx-auto mt-20 text-2xl text-center md:text-2xl">
-              Where's my favorite game?
+              Where's the game I'm looking forward to?
             </h1>
             <p className="w-4/6 mx-auto mt-5 text-lg text-center">
               Unfortunately, these things take time! If you haven't already
