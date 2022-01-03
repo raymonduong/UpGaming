@@ -653,7 +653,8 @@ export default class App extends Component {
                 the same region as Pokémon Diamond and Pearl and their remakes.
               </p>
               <p className="pb-4">
-                Developed by Game Freak and Published by Nintendo and The Pokémon Company
+                Developed by Game Freak and Published by Nintendo and The
+                Pokémon Company
               </p>
               <span className="pb-10 text-sm italic text-gray-400">
                 I would die for Hisuian Voltorb
@@ -702,7 +703,7 @@ export default class App extends Component {
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Rainbow Six Extraction Logo"
-                title="Who's the real monster here? Caveira players or the alien?"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal5}>More Info</button>
@@ -721,6 +722,12 @@ export default class App extends Component {
                 multiplayer game in which players must work together to combat
                 and defeat a type of parasite-like aliens called the Archaeans.
               </p>
+              <p className="pb-4">
+                Developed by Ubisoft Montreal and published by Ubisoft
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Who's the real monster here? Caveira players or the alien?
+              </span>
               <YoutubeEmbed
                 embedId="oFzsANuSbdw"
                 className="mb-10"
@@ -762,7 +769,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "100px" }}
                 alt="Dying Light 2 Logo"
-                title="Zombies are a great motivator to learn parkour"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/Techland.png"}
@@ -789,6 +796,10 @@ export default class App extends Component {
                 your way through its desolate urban landscape quickly and
                 effectively.
               </p>
+              <p className="pb-4">Developed and published by Techland</p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Zombies are a great motivator to learn parkour
+              </span>
               <YoutubeEmbed
                 embedId="UwJAAy7tPhE"
                 className="mb-10"
@@ -837,7 +848,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "-50px", left: "15px" }}
                 alt="Triangle Strategy Logo"
-                title="It wasn't very hard to make this card"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal7}>More Info</button>
@@ -856,6 +867,12 @@ export default class App extends Component {
                 is scheduled for release on the Nintendo Switch on March 4,
                 2022.
               </p>
+              <p className="pb-4">
+                Developed by Artdink and Square Enix and published by Nintendo
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                It wasn't very hard to make this card
+              </span>
               <YoutubeEmbed
                 embedId="wqv3Es1oJyE"
                 className="mb-10"
@@ -921,6 +938,12 @@ export default class App extends Component {
                 by 2K Games. It is a spin-off in the Borderlands series and a
                 successor to Borderlands 2: Tiny Tina's Assault on Dragon Keep
               </p>
+              <p className="pb-4">
+                Developed by Gearbox Software and published by 2K Games
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                I would die for Hisuian Voltorb
+              </span>
               <YoutubeEmbed
                 embedId="Ikqs6B4ozM0"
                 className="mb-10"
@@ -962,7 +985,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="God of War: Ragnorak Logo"
                 style={{ top: "-180px", left: "15px" }}
-                title="Kratos and Atreus experiences what it feels like to be in Canada"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/ps.png"}
@@ -987,6 +1010,13 @@ export default class App extends Component {
                 Interactive Entertainment. It is scheduled to be released in
                 2022 for the PlayStation 4 and PlayStation 5.
               </p>
+              <p className="pb-4">
+                Developed by Santa Monica Studio and published by Sony
+                Interactive Entertainment
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Kratos and Atreus experiences what it feels like to be in Canada
+              </span>
               <YoutubeEmbed
                 embedId="EE-4GvjKcfs"
                 className="mb-10"
@@ -1028,7 +1058,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="Forspoken Logo"
                 style={{ left: "15px", top: "-210px" }}
-                title="Her bracelet can talk! It's also from Sussex!"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/SQBlack.png"}
@@ -1053,6 +1083,12 @@ export default class App extends Component {
                 It is to be released on May 24, 2022 for Microsoft Windows and
                 PlayStation 5.
               </p>
+              <p className="pb-4">
+                Developed by Luminous Productions and published by Square Enix
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Her bracelet can talk! It's also from Sussex!
+              </span>
               <YoutubeEmbed
                 embedId="AdZUrXCqUck"
                 className="mb-10"
@@ -1093,7 +1129,7 @@ export default class App extends Component {
                 className="game-box-logo game-box drop-shadow-2xl"
                 data-atropos-offset="5"
                 alt="Stalker 2 Logo"
-                title="Good Hunting, STALKER"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/GameWorld.png"}
@@ -1121,6 +1157,10 @@ export default class App extends Component {
                 consoles, as well as the first S.T.A.L.K.E.R. game in 13 years
                 since the release of Call of Pripyat in 2009.
               </p>
+              <p className="pb-4">Developed and published by GSC Game World</p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Good Hunting, STALKER.
+              </span>
               <YoutubeEmbed
                 embedId="SjDMwsbaSd8"
                 className="mb-10"
@@ -1169,7 +1209,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "-90px" }}
                 alt="Kirby and the Forgetten Land Logo"
-                title="It's canon that Kirby has killed a god"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal12}>More Info</button>
@@ -1188,6 +1228,12 @@ export default class App extends Component {
                 on September 23, 2021 and is planned to release worldwide in
                 Spring 2022.
               </p>
+              <p className="pb-4">
+                Developed by HAL Laboratory and published by Nintendo
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Btw, it's canon that Kirby has killed a god
+              </span>
               <YoutubeEmbed
                 embedId="H3LAkr0ANgw"
                 className="mb-10"
@@ -1229,7 +1275,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "-165px", left: "15px" }}
                 alt="Redfall Logo"
-                title="Of course Massachusetts gets infested with vampires."
+                title=""
               ></img>
               <img
                 src={"assets/Studios/Bethesda.png"}
@@ -1254,6 +1300,12 @@ export default class App extends Component {
                 be released for Microsoft Windows and Xbox Series X/S in Summer
                 2022.
               </p>
+              <p className="pb-4">
+                Developed by Arkane Studios and published by Bethesda Softworks
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Of course Massachusetts gets infested with vampires.
+              </span>
               <YoutubeEmbed
                 embedId="3pWjcqXnP2g"
                 className="mb-10"
@@ -1309,7 +1361,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ width: "100%", objectFit: "cover", left: "0" }}
                 alt="Main Protagonist"
-                title="All I need to know is if I can change certain...attributes of my characters"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal14}>More Info</button>
@@ -1328,6 +1380,13 @@ export default class App extends Component {
                 PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, and
                 Windows platforms.
               </p>
+              <p className="pb-4">
+                Developed by Volition and published by Deep Silver
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                All I need to know is if I can change certain...attributes of my
+                characters
+              </span>
               <YoutubeEmbed
                 embedId="YgjzDJA1o1E"
                 className="mb-10"
@@ -1369,7 +1428,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "0", left: "15px" }}
                 alt="Starfield Logo"
-                title="But can we climb ladders?"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/Bethesda.png"}
@@ -1396,6 +1455,13 @@ export default class App extends Component {
                 new, next-generation experience set in an entirely new
                 space-themed world.
               </p>
+              <p className="pb-4">
+                Developed by Bethesda Game Studios and published by Bethesda
+                Softworks
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                But can we climb ladders?
+              </span>
               <YoutubeEmbed
                 embedId="pYqyVpCV-3c"
                 className="mb-10"
@@ -1438,7 +1504,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "0", left: "15px" }}
                 alt="Minecraft The Wild Update Logo"
-                title="Mud blocks and mangroves! Frogs and tadpoles! Chests in boats! The deep dark! The warden! The warden? The warden!!! Eeeek"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/Mojang.png"}
@@ -1465,6 +1531,11 @@ export default class App extends Component {
                 biomes more atmospheric and immersive. In addition, it also
                 introduces several new mobs and biome variants.
               </p>
+              <p className="pb-4">Developed and published by Mojang</p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                "Mud blocks and mangroves! Frogs and tadpoles! Chests in boats!
+                The deep dark! The warden! The warden? The warden!!! Eeeek"
+              </span>
               <YoutubeEmbed
                 embedId="or1DfXdqu3U"
                 className="mb-10"
@@ -1506,7 +1577,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "125px", left: "15px" }}
                 alt="LEGO Star Wars: The Skywalker Saga Logo"
-                title="I want to become a Lego figure like my father."
+                title=""
               ></img>
               <img
                 src={"assets/Studios/WB.png"}
@@ -1532,6 +1603,13 @@ export default class App extends Component {
                 the sixth entry in TT Games' Lego Star Wars series of video
                 games and the successor to Lego Star Wars: The Force Awakens.
               </p>
+              <p className="pb-4">
+                Developed by Traveller's Tales and published by Warner Bros.
+                Interactive Entertainment
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                I want to become a Lego figure, like my father before me.
+              </span>
               <YoutubeEmbed
                 embedId="2yTr5oS99_c"
                 className="mb-10"
@@ -1580,7 +1658,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "0", left: "20px" }}
                 alt="The Sequel to the Legend of Zelda: Breath of the Wild Logo"
-                title="Yahaha! You found me!"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal18}>More Info</button>
@@ -1598,6 +1676,10 @@ export default class App extends Component {
                 sequel is part of The Legend of Zelda series and is currently
                 aimed to be released in 2022 for the Nintendo Switch
               </p>
+              <p className="pb-4">Developed and published by Nintendo</p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Can't wait for all the speedruns.
+              </span>
               <YoutubeEmbed
                 embedId="3fr1Z07AV00"
                 className="mb-10"
@@ -1639,7 +1721,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "120px", left: "15px" }}
                 alt="Ghostwire Tokyo Logo"
-                title="It's spoooky."
+                title=""
               ></img>
               <img
                 src={"assets/Studios/Bethesda.png"}
@@ -1664,6 +1746,12 @@ export default class App extends Component {
                 is set to be released worldwide in 2022 for Microsoft Windows
                 and as a timed console exclusive for PlayStation 5.
               </p>
+              <p className="pb-4">
+                Developed by Tango Gameworks and published by Bethesda Softworks
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                It's spoooky.
+              </span>
               <YoutubeEmbed
                 embedId="l4tkNjJsOvY"
                 className="mb-10"
@@ -1705,7 +1793,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "-120px", left: "15px" }}
                 alt="Sonic Frontiers Logo"
-                title="Uhh...Meow?"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/Sega.png"}
@@ -1730,6 +1818,12 @@ export default class App extends Component {
                 game to feature open-world gameplay; as Sonic, the player
                 explores the Starfall Islands, which comprise various biomes.
               </p>
+              <p className="pb-4">
+                Developed by Sonic Team and published by Sega
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Uhh...Meow?
+              </span>
               <YoutubeEmbed
                 embedId="RRkKZG1z9PY"
                 className="mb-10"
@@ -1771,7 +1865,6 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "90px", left: "15px" }}
                 alt="Stray Logo"
-                title="Uhh...Meow?"
               ></img>
               <img
                 src={"assets/Studios/Annapurna.png"}
@@ -1796,6 +1889,13 @@ export default class App extends Component {
                 HK_Project, the game is scheduled for release in early 2022 for
                 Microsoft Windows, PlayStation 4, and PlayStation 5.
               </p>
+              <p className="pb-4">
+                Developed by BlueTwelve Studio and published by Annapurna
+                Interactive
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Uhh...Meow?
+              </span>
               <YoutubeEmbed
                 embedId="u84hRUQlaio"
                 className="mb-10"
@@ -1851,7 +1951,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ width: "100%", objectFit: "cover", left: "0" }}
                 alt="Suicide Squad: Kill the Justice League Cast"
-                title="Bird."
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal22}>More Info</button>
@@ -1868,6 +1968,11 @@ export default class App extends Component {
                 action-adventure game developed by Rocksteady Studios and
                 published by Warner Bros. Interactive Entertainment.
               </p>
+              <p className="pb-4">
+                Developed by Rocksteady Studios and published by Warner Bros.
+                Interactive Entertainment
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">Bird.</span>
               <YoutubeEmbed
                 embedId="2EVFYstVuVk"
                 className="mb-10"
@@ -1917,7 +2022,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "0", left: "20px" }}
                 alt="Splatoon 3 Logo"
-                title="You're a kid. You're a squid. You're a kid. You're a squid. You're a kid. You're a squid. You're a kid. You're a squid. You're a kid. You're a squid."
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal23}>More Info</button>
@@ -1936,6 +2041,12 @@ export default class App extends Component {
                 consists of competitive online multiplayer matches alongside a
                 story-driven single-player mode.
               </p>
+              <p className="pb-4">Developed and published by Nintendo</p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                You're a kid. You're a squid. You're a kid. You're a squid.
+                You're a kid. You're a squid. You're a kid. You're a squid.
+                You're a kid. You're a squid.
+              </span>
               <YoutubeEmbed
                 embedId="GUYDXVDLmns"
                 className="mb-10"
@@ -1977,7 +2088,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "0" }}
                 alt="Hogwarts Legacy Logo"
-                title="Hogwarts didn't always have bathrooms. Before adopting Muggle plumbing methods in the eighteenth century, witches and wizards simply relieved themselves wherever they stood, and vanished the evidence."
+                title=""
               ></img>
               <img
                 src={"assets/Studios/WB.png"}
@@ -2002,6 +2113,16 @@ export default class App extends Component {
                 developed by Avalanche Software and published by Warner Bros.
                 Interactive Entertainment under its Portkey Games label.
               </p>
+              <p className="pb-4">
+                Developed by Avalance Software and published by Warner Bros.
+                Interactive Entertainment
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Hogwarts didn't always have bathrooms. Before adopting Muggle
+                plumbing methods in the eighteenth century, witches and wizards
+                simply relieved themselves wherever they stood, and vanished the
+                evidence.
+              </span>
               <YoutubeEmbed
                 embedId="1O6Qstncpnc"
                 className="mb-10"
@@ -2043,7 +2164,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "150px" }}
                 alt="Total War: Warhammer 3 Logo"
-                title="Get ready for your computer to get toasty"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/CreativeAssembly.png"}
@@ -2069,6 +2190,12 @@ export default class App extends Component {
                 third to be set in Games Workshop's Warhammer Fantasy fictional
                 universe.
               </p>
+              <p className="pb-4">
+                Developed by Creative Assembly and published by Sega
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Get ready for your computer to get toasty
+              </span>
               <YoutubeEmbed
                 embedId="033FWxL22A0"
                 className="mb-10"
@@ -2110,7 +2237,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="Stranger of Paradise: Final Fantasy Origin Logo"
                 style={{ top: "-60px" }}
-                title="*Limp Bizkit plays*"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/SQBlack.png"}
@@ -2134,6 +2261,13 @@ export default class App extends Component {
                 role-playing game developed by Koei Tecmo Games and Team Ninja,
                 and published by Square Enix.
               </p>
+              <p className="pb-4">
+                Developed by Koei Tecmo Games and Team Ninja and published by
+                Square Enix
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Bullsh*t. *Limp Bizkit plays*
+              </span>
               <YoutubeEmbed
                 embedId="heLn5URnZCc"
                 className="mb-10"
@@ -2175,7 +2309,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ left: "15px" }}
                 alt="Gotham Knights Logo"
-                title="Batman may cause internal bleeding and life-lasting injuries, but he doesn't kill"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/WB.png"}
@@ -2199,6 +2333,14 @@ export default class App extends Component {
                 by WB Games Montréal and published by Warner Bros. Interactive
                 Entertainment.
               </p>
+              <p className="pb-4">
+                Developed by WB Games Montréal published by Warner Bros.
+                Interactive Entertainment
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Batman may cause internal bleeding and life-lasting injuries,
+                but he doesn't kill
+              </span>
               <YoutubeEmbed
                 embedId="IhVf_3TeTQE"
                 className="mb-10"
@@ -2240,7 +2382,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ left: "22px" }}
                 alt="Marvel's Midnight Suns Logo"
-                title="Exit light! Enter nighttt!"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/2K.svg"}
@@ -2266,6 +2408,12 @@ export default class App extends Component {
                 properties, such as Midnight Sons, Avengers, X-Men, and
                 Runaways.
               </p>
+              <p className="pb-4">
+                Developed by Firaxis Games and published by 2K Games
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Pretty sure one of these heroes died...
+              </span>
               <YoutubeEmbed
                 embedId="Ripgh8W2PMg"
                 className="mb-10"
@@ -2314,7 +2462,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ left: "22px", top: "170px" }}
                 alt="A Plague Tale: Requiem Logo"
-                title="I don't know how my computer rendered all those rats without exploding"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal29}>More Info</button>
@@ -2335,6 +2483,13 @@ export default class App extends Component {
                 brother, Hugo, on an intense new quest for hope, as a terrifying
                 curse hunts them down.
               </p>
+              <p className="pb-4">
+                Developed by Asobo Studio and published by Focus Entertainment
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                I don't know how my computer rendered all those rats without
+                exploding
+              </span>
               <YoutubeEmbed
                 embedId="aPKIQgc0Fnw"
                 className="mb-10"
@@ -2386,7 +2541,7 @@ export default class App extends Component {
                   top: "-150px",
                   filter: "drop-shadow(5px 5px 5px #000000)",
                 }}
-                title="My preciousssssss"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal30}>More Info</button>
@@ -2405,6 +2560,14 @@ export default class App extends Component {
                 Rings and follows the character of Gollum before the events of
                 The Lord of the Rings and The Hobbit.
               </p>
+              <p className="pb-4">
+                Developed by Daedalic Entertainment and published by Daedalic
+                Entertainment and Nacon
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                I would like Andy Serkis to act out in-person while I play this
+                game. While he's in his suit.
+              </span>
               <YoutubeEmbed
                 embedId="Qv2YBl9LL3s"
                 className="mb-10"
@@ -2454,7 +2617,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="Avatar: Frontiers of Pandora Logo"
                 style={{ top: "-110px" }}
-                title="I wonder if this is based off a movie"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal31}>More Info</button>
@@ -2473,6 +2636,12 @@ export default class App extends Component {
                 will be published by Ubisoft for Microsoft Windows, PlayStation
                 5, Xbox Series X/S, Amazon Luna and Stadia in 2022.
               </p>
+              <p className="pb-4">
+                Developed by Massive Entertainment and published by Ubisoft
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                I wonder if this is based off a movie
+              </span>
               <YoutubeEmbed
                 embedId="Axmg1E4HrVE"
                 className="mb-10"
@@ -2528,7 +2697,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 style={{ top: "-160px" }}
                 alt="Mario + Rabbids Sparks of Hope Logo"
-                title="It's a me, Chris Pratt"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal32}>More Info</button>
@@ -2547,6 +2716,12 @@ export default class App extends Component {
                 between Nintendo's Mario and Ubisoft's Raving Rabbids franchises
                 and a sequel to the 2017 game Mario + Rabbids Kingdom Battle
               </p>
+              <p className="pb-4">
+                Developed by Ubisoft Milan and published by Ubisoft
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                It's a me, Chris Pratt
+              </span>
               <YoutubeEmbed
                 embedId="VHIuHMv3t88"
                 className="mb-10"
@@ -2588,7 +2763,7 @@ export default class App extends Component {
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ bottom: "-20px", right: "10px", width: "90px" }}
-                alt="Daedalic Entertainment Logo"
+                alt="KRAFTON Logo"
               ></img>
               <img
                 src={"assets/Logo/TCP.png"}
@@ -2612,6 +2787,13 @@ export default class App extends Component {
                 developed by Striking Distance Studios, founded by Glen
                 Schofield, who had previously co-created the Dead Space series.
               </p>
+              <p className="pb-4">
+                Developed by Striking Distance Studios and published by KRAFTON
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                This takes place in the same universe as PUBG. No, I am not
+                joking.
+              </span>
               <YoutubeEmbed
                 embedId="WnVhgyLbC8A"
                 className="mb-10"
@@ -2673,11 +2855,18 @@ export default class App extends Component {
             >
               <p className="pb-4 text-white">
                 Little Devil Inside is an upcoming action-adventure video game
-                developed and published by Neostream Interactive. The game's
-                single-player and co-operative multiplayer modes both follow the
-                professional and personal lives of explorers searching for
-                monsters & supernatural events in a 19th-century-inspired world.
+                developed and published by Neostream Interactive, a studio based
+                in Seoul. The game's single-player and co-operative multiplayer
+                modes both follow the professional and personal lives of
+                explorers searching for monsters & supernatural events in a
+                19th-century-inspired world.
               </p>
+              <p className="pb-4">
+                Developed and published by Neostream Interactive
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                인디게임이 최고다!
+              </span>
               <YoutubeEmbed
                 embedId="QFdoqcJEi8o"
                 className="mb-10"
@@ -2726,7 +2915,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="Kerbal Space Program 2 Logo"
                 style={{ top: "50px", left: "20px" }}
-                title="This is probably the closest you'll get to working at NASA"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal35}>More Info</button>
@@ -2745,6 +2934,12 @@ export default class App extends Component {
                 scheduled for release in 2022 for Microsoft Windows, PlayStation
                 4, PlayStation 5, Xbox One and Xbox Series X/S.
               </p>
+              <p className="pb-4">
+                Developed by Intercept Games and published by Private Division
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                This is probably the closest you'll get to working at NASA
+              </span>
               <YoutubeEmbed
                 embedId="P_nj6wW6Gsc"
                 className="mb-10"
@@ -2793,7 +2988,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="Bomb Rush Cyberfunk Logo"
                 style={{ width: "auto", left: "0" }}
-                title="Not to be confused with Jet Set Radio"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal36}>More Info</button>
@@ -2810,6 +3005,10 @@ export default class App extends Component {
                 developed and published by Team Reptile. It will be released on
                 Steam for Microsoft Windows sometime in 2022.
               </p>
+              <p className="pb-4">Developed and published by Team Reptile</p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Not to be confused with Jet Set Radio
+              </span>
               <YoutubeEmbed
                 embedId="1mptdlfRJkw"
                 className="mb-10"
@@ -2859,7 +3058,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="The King of Fighters XV Logo"
                 style={{ width: "auto", left: "0" }}
-                title="Are you okay? Buster Wolf!"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal37}>More Info</button>
@@ -2879,6 +3078,10 @@ export default class App extends Component {
                 in The King of Fighters series to use Unreal Engine 4 and the
                 first to use GGPO rollback networking.
               </p>
+              <p className="pb-4">Developed and published by SNK</p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Are you okay? Buster Wolf!
+              </span>
               <YoutubeEmbed
                 embedId="_o7Ip64-Sio"
                 className="mb-10"
@@ -2928,7 +3131,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="Teenage Mutant Ninja Turtles: Shredder's Revenge Logo"
                 style={{ width: "auto", top: "-160px", left: "-10px" }}
-                title="I really hope they tip their pizza delivery guy generously"
+                title=""
               ></img>
             </Atropos>
             <button onClick={this.handleOpenModal38}>More Info</button>
@@ -2947,6 +3150,12 @@ export default class App extends Component {
                 Turtles franchise, and inspired by the 1987 animated series and
                 the games based on it.
               </p>
+              <p className="pb-4">
+                Developed by Tribute Games and published by Dotemu
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                I really hope they tip their pizza delivery guy generously
+              </span>
               <YoutubeEmbed
                 embedId="13qJvTq7_KA"
                 className="mb-10"
@@ -2988,7 +3197,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="Chocobo GP Logo"
                 style={{ top: "60px" }}
-                title="Game of the Decade"
+                title=""
               ></img>
               <img
                 src={"assets/Studios/SQ.png"}
@@ -3014,6 +3223,10 @@ export default class App extends Component {
                 franchise, and is a sequel to 1999's Chocobo Racing. It is
                 scheduled for release for the Nintendo Switch on March 10, 2022.
               </p>
+              <p className="pb-4">Developed and published by Square Enix</p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Game of the Decade
+              </span>
               <YoutubeEmbed
                 embedId="pY9weUmUw_0"
                 className="mb-10"
@@ -3054,7 +3267,7 @@ export default class App extends Component {
                 className="game-box-logo game-box drop-shadow-2xl"
                 data-atropos-offset="5"
                 alt="Weird West Logo"
-                title="Welcome to the Weird West."
+                title=""
               ></img>
               <img
                 src={"assets/Studios/Devolver.png"}
@@ -3079,6 +3292,12 @@ export default class App extends Component {
                 The game is set to be released for Windows, PlayStation 4 and
                 Xbox One in March 2022.
               </p>
+              <p className="pb-4">
+                Developed by WolfEye Studios and published by Devolver Digital
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Welcome to the Weird West.
+              </span>
               <YoutubeEmbed
                 embedId="0NS3lzv0Nw4"
                 className="mb-10"
@@ -3119,7 +3338,7 @@ export default class App extends Component {
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Gran Turismo 7 Logo"
-                title="Vrrrrooooooooommm responsibly."
+                title=""
               ></img>
               <img
                 src={"assets/Studios/ps.png"}
@@ -3144,6 +3363,12 @@ export default class App extends Component {
                 Entertainment. The game will be the eighth mainline installment
                 in the Gran Turismo series.
               </p>
+              <p className="pb-4">
+                Developed by Polyphony Digital and published by Sony Interactive Entertainment
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+              Vrrrrooooooooommm responsibly.
+              </span>
               <YoutubeEmbed
                 embedId="1tBUsXIkG1A"
                 className="mb-10"
@@ -3210,6 +3435,12 @@ export default class App extends Component {
                 only force capable of fending off the monstrous creations of the
                 evil alchemist known as The Fleshmancer.
               </p>
+              <p className="pb-4">
+                Developed and published by Sabotage Studio
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                With special guest composer Yasunori Mitsuda! (Chrono Trigger, Chrono Cross, Xeno series)
+              </span>
               <YoutubeEmbed
                 embedId="vqK-1WGqYmI"
                 className="mb-10"
