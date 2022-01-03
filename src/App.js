@@ -52,6 +52,7 @@ export default class App extends Component {
       showModal39: false,
       showModal40: false,
       showModal41: false,
+      showModal42: false,
     };
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
@@ -95,6 +96,7 @@ export default class App extends Component {
     this.handleOpenModal39 = this.handleOpenModal39.bind(this);
     this.handleOpenModal40 = this.handleOpenModal40.bind(this);
     this.handleOpenModal41 = this.handleOpenModal41.bind(this);
+    this.handleOpenModal42 = this.handleOpenModal42.bind(this);
 
     this.handleCloseModal = this.handleCloseModal.bind(this);
     this.handleCloseModal2 = this.handleCloseModal2.bind(this);
@@ -137,6 +139,7 @@ export default class App extends Component {
     this.handleCloseModal39 = this.handleCloseModal39.bind(this);
     this.handleCloseModal40 = this.handleCloseModal40.bind(this);
     this.handleCloseModal41 = this.handleCloseModal41.bind(this);
+    this.handleCloseModal42 = this.handleCloseModal42.bind(this);
   }
   handleOpenModal() {
     this.setState({ showModal: true });
@@ -261,6 +264,9 @@ export default class App extends Component {
   handleOpenModal41() {
     this.setState({ showModal41: true });
   }
+  handleOpenModal42() {
+    this.setState({ showModal42: true });
+  }
   handleCloseModal() {
     this.setState({ showModal: false });
   }
@@ -383,6 +389,9 @@ export default class App extends Component {
   }
   handleCloseModal41() {
     this.setState({ showModal41: false });
+  }
+  handleCloseModal42() {
+    this.setState({ showModal42: false });
   }
 
   render() {
@@ -3419,10 +3428,10 @@ export default class App extends Component {
                 alt="Sabotage Logo"
               ></img>
             </Atropos>
-            <button onClick={this.handleOpenModal41}>More Info</button>
+            <button onClick={this.handleOpenModal42}>More Info</button>
             <ReactModal
-              isOpen={this.state.showModal41}
-              onRequestClose={this.handleCloseModal41}
+              isOpen={this.state.showModal42}
+              onRequestClose={this.handleCloseModal42}
               className={
                 "fixed sm:inset-10 md:inset-36 lg:inset-20 md:inset-x-20 lg:inset-x-96 px-16 py-14 rounded-lg Modal flex flex-col"
               }
@@ -3446,7 +3455,7 @@ export default class App extends Component {
                 className="mb-10"
               ></YoutubeEmbed>
               <button
-                onClick={this.handleCloseModal41}
+                onClick={this.handleCloseModal42}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-2 left-3 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
