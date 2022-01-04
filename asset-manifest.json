@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.eb871a67.css",
-    "main.js": "/my-app/static/js/main.b600cee1.js",
-    "static/js/787.cfd8f164.chunk.js": "/my-app/static/js/787.cfd8f164.chunk.js",
-    "static/media/PlayStation.png": "/my-app/static/media/PlayStation.9d3d4ee1b7478cb9d5a6.png",
-    "static/media/Nintendo.png": "/my-app/static/media/Nintendo.4da6d068a57d6f343553.png",
-    "index.html": "/my-app/index.html",
-    "main.eb871a67.css.map": "/my-app/static/css/main.eb871a67.css.map",
-    "main.b600cee1.js.map": "/my-app/static/js/main.b600cee1.js.map",
-    "787.cfd8f164.chunk.js.map": "/my-app/static/js/787.cfd8f164.chunk.js.map"
+    "main.css": "/UpGaming/static/css/main.eb871a67.css",
+    "main.js": "/UpGaming/static/js/main.c5d66d91.js",
+    "static/js/787.cfd8f164.chunk.js": "/UpGaming/static/js/787.cfd8f164.chunk.js",
+    "static/media/PlayStation.png": "/UpGaming/static/media/PlayStation.9d3d4ee1b7478cb9d5a6.png",
+    "static/media/Nintendo.png": "/UpGaming/static/media/Nintendo.4da6d068a57d6f343553.png",
+    "index.html": "/UpGaming/index.html",
+    "main.eb871a67.css.map": "/UpGaming/static/css/main.eb871a67.css.map",
+    "main.c5d66d91.js.map": "/UpGaming/static/js/main.c5d66d91.js.map",
+    "787.cfd8f164.chunk.js.map": "/UpGaming/static/js/787.cfd8f164.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb871a67.css",
-    "static/js/main.b600cee1.js"
+    "static/js/main.c5d66d91.js"
   ]
 }
