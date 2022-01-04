@@ -469,7 +469,7 @@ export default class App extends Component {
         <h2 className="mb-5 text-4xl text-center md:text-3xl">
           Have a look at these upcoming video games.
         </h2>
-        <p className="text-lg text-gray-400 text-center mb-40">
+        <p className="mb-40 text-lg text-center text-gray-400">
           Go ahead, click any.
         </p>
         <div></div>
@@ -504,11 +504,11 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Sifu is the story of a young Kung Fu student on a path of
                 revenge, hunting for the murderers of his family. One against
                 all, he has no allies, and countless enemies. He has to rely on
@@ -524,7 +524,7 @@ export default class App extends Component {
               <YoutubeEmbed embedId="1FQ1YO3Ks2U"></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -575,10 +575,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Horizon Forbidden West continues the story of Aloy, a young
                 huntress of the Nora tribe sent on a quest to the arcane
                 frontier known as the Forbidden West to find the source of a
@@ -647,12 +647,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Elden Ring tells the story of the Tarnished who were banished
                 from The Lands Between. With the titular Elden Ring now
                 shattered, you build your very own Tarnished and set out on a
@@ -668,7 +668,7 @@ export default class App extends Component {
               <YoutubeEmbed embedId="E3Huy2cdih0"></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal3}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -708,7 +708,7 @@ export default class App extends Component {
                 src={"assets/Logo/Arceus.png"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
-                style={{ top: "-90px" }}
+                style={{ top: "-120px" }}
                 alt="Pokemon Legends Arceus Logo"
               ></img>
             </Atropos>
@@ -720,10 +720,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Pokémon Legends: Arceus is set in a version of Sinnoh based on
                 feudal Japan called the Hisui region. The player's goal is to
                 create the region's first ever Pokédex, and they will be based
@@ -740,7 +740,7 @@ export default class App extends Component {
               <YoutubeEmbed embedId="YUW1ZWAq09M"></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal4}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -792,12 +792,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Tom Clancy's Rainbow Six Extraction is an upcoming tactical
                 shooter developed by Ubisoft Montreal and published by Ubisoft.
                 A spin-off of Rainbow Six Siege, Extraction is a cooperative
@@ -816,7 +816,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal5}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -869,13 +869,13 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <Nintendo></Nintendo>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Taking the role of Aiden Caldwell, an infected survivor looking
                 for a cure in the City where the player encounters and has the
                 choice to aid various factions that are based within it that
@@ -896,7 +896,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal6}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -948,10 +948,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Command a group of warriors as Serenoa, heir of House Wolffort,
                 in a tangled plot where your decisions make all the difference.
                 Key choices you make will bolster one of three
@@ -971,7 +971,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal7}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1022,12 +1022,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Tiny Tina's Wonderlands is an action role-playing first-person
                 shooter video game developed by Gearbox Software and published
                 by 2K Games. It is a spin-off in the Borderlands series and a
@@ -1045,7 +1045,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal8}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1097,10 +1097,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 God of War Ragnarök is an upcoming action-adventure game
                 developed by Santa Monica Studio and will be published by Sony
                 Interactive Entertainment. It is scheduled to be released in
@@ -1119,7 +1119,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal9}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1153,10 +1153,10 @@ export default class App extends Component {
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Forspoken Logo"
-                style={{ left: "15px", top: "-210px" }}
+                style={{ left: "15px", top: "-100px" }}
               ></img>
               <img
-                src={"assets/Studios/SQBlack.png"}
+                src={"assets/Studios/SQ.png"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-30px", right: "5px" }}
@@ -1171,11 +1171,11 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Forspoken is an upcoming action role-playing video game
                 developed by Luminous Productions and published by Square Enix.
                 It is to be released on May 24, 2022 for Microsoft Windows and
@@ -1193,7 +1193,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal10}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1244,12 +1244,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 S.T.A.L.K.E.R. 2: Heart of Chernobyl is an upcoming first-person
                 shooter game developed and published by GSC Game World. Set to
                 release for Microsoft Windows and the Xbox Series X/S in April
@@ -1270,7 +1270,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal11}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1322,10 +1322,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Kirby and the Forgotten Land is an upcoming 3D platformer Kirby
                 game developed by HAL Laboratory and published by Nintendo for
                 the Nintendo Switch. The game was announced in a Nintendo Direct
@@ -1344,7 +1344,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal12}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1396,12 +1396,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Trapped inside Redfall, players must choose among four unique
                 survivors — cryptozoologist and inventor Devinder Crousley,
                 telekinetic student Layla Ellison, combat engineer Remi de la
@@ -1420,7 +1420,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal13}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1479,12 +1479,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Saints Row is an upcoming action-adventure game and reboot of
                 the Saints Row series. Developed by Volition and published by
                 Deep Silver, it is scheduled for release on August 23, 2022 for
@@ -1504,7 +1504,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal14}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1556,12 +1556,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Starfield is an upcoming action role-playing video game
                 developed by Bethesda Game Studios and published by Bethesda
                 Softworks. The game was formally announced during Bethesda's E3
@@ -1582,7 +1582,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal15}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1635,14 +1635,14 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 The Wild Update is the name of an upcoming major themed update
                 set to release in 2022 as Java Edition 1.19 and Bedrock Edition
                 1.19.0. It adds the Deep Dark biome, along with the warden,
@@ -1663,7 +1663,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal16}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1715,14 +1715,14 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Lego Star Wars: The Skywalker Saga is an upcoming Lego-themed
                 action-adventure game developed by Traveller's Tales and
                 published by Warner Bros. Interactive Entertainment. It will be
@@ -1742,7 +1742,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal17}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1794,10 +1794,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 An untitled sequel to the 2017 action-adventure game The Legend
                 of Zelda: Breath of the Wild is in development by Nintendo. The
                 sequel is part of The Legend of Zelda series and is currently
@@ -1815,7 +1815,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal18}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1868,11 +1868,11 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Ghostwire: Tokyo is an upcoming action-adventure game developed
                 by Tango Gameworks and published by Bethesda Softworks. The game
                 is set to be released worldwide in 2022 for Microsoft Windows
@@ -1890,7 +1890,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal19}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -1943,13 +1943,13 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Sonic Frontiers is an upcoming platform game developed by Sonic
                 Team and published by Sega. It is the first Sonic the Hedgehog
                 game to feature open-world gameplay; as Sonic, the player
@@ -1967,7 +1967,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal20}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2019,11 +2019,11 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Stray is an upcoming adventure game developed by BlueTwelve
                 Studio and published by Annapurna Interactive. Formerly known as
                 HK_Project, the game is scheduled for release in early 2022 for
@@ -2042,7 +2042,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal21}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2101,12 +2101,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Suicide Squad: Kill the Justice League is an upcoming
                 action-adventure game developed by Rocksteady Studios and
                 published by Warner Bros. Interactive Entertainment.
@@ -2122,7 +2122,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal22}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2175,10 +2175,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Splatoon 3 is an upcoming third-person shooter video game
                 developed and published by Nintendo for the Nintendo Switch
                 console. Like its predecessors in the Splatoon series, the game
@@ -2199,7 +2199,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal23}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2252,12 +2252,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Hogwarts Legacy is an upcoming open-world, action role-playing
                 video game set in the late 1800s in the Wizarding World being
                 developed by Avalanche Software and published by Warner Bros.
@@ -2279,7 +2279,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal24}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2331,10 +2331,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Total War: Warhammer III is an upcoming turn-based strategy and
                 real-time tactics video game developed by Creative Assembly and
                 published by Sega. It is part of the Total War series, and the
@@ -2353,7 +2353,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal25}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2405,12 +2405,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Stranger of Paradise: Final Fantasy Origin is an upcoming action
                 role-playing game developed by Koei Tecmo Games and Team Ninja,
                 and published by Square Enix.
@@ -2428,7 +2428,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal26}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2481,12 +2481,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Gotham Knights is an upcoming action role-playing game developed
                 by WB Games Montréal and published by Warner Bros. Interactive
                 Entertainment.
@@ -2505,7 +2505,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal27}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2557,13 +2557,13 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Marvel's Midnight Suns is an upcoming tactical role-playing game
                 developed by Firaxis Games in collaboration with Marvel Games.
                 It will feature comic book characters from multiple Marvel
@@ -2582,7 +2582,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal28}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2634,14 +2634,14 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 A Plague Tale: Requiem is a narrative-driven, action-adventure
                 survival horror stealth video game in development by Asobo
                 Studio and published by Focus Entertainment. A Plague Tale:
@@ -2663,7 +2663,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal29}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2718,12 +2718,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 The Lord of the Rings: Gollum is an upcoming action-adventure
                 game developed by Daedalic Entertainment and co-published by
                 Daedalic Entertainment and Nacon. It is based on The Lord of the
@@ -2744,7 +2744,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal30}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2797,12 +2797,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Avatar: Frontiers of Pandora is an upcoming open-world
                 action-adventure video game based on James Cameron's Avatar film
                 series. The game is being developed by Massive Entertainment and
@@ -2821,7 +2821,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal31}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2880,10 +2880,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Mario + Rabbids Sparks of Hope is an upcoming turn-based
                 strategy adventure game developed by Ubisoft Milan and published
                 by Ubisoft for the Nintendo Switch. The game is a crossover
@@ -2902,7 +2902,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal32}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -2954,12 +2954,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 The Callisto Protocol is an upcoming third-person survival
                 horror game scheduled for release in 2022. The game is being
                 developed by Striking Distance Studios, founded by Glen
@@ -2978,7 +2978,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal33}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3030,12 +3030,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Little Devil Inside is an upcoming action-adventure video game
                 developed and published by Neostream Interactive, a studio based
                 in Seoul. The game's single-player and co-operative multiplayer
@@ -3055,7 +3055,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal34}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3107,12 +3107,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Kerbal Space Program 2 is an upcoming space flight simulation
                 video game developed by Intercept Games and published by Private
                 Division. It is the sequel to 2015's Kerbal Space Program and is
@@ -3131,7 +3131,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal35}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3183,11 +3183,11 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Bomb Rush Cyberfunk is an upcoming action-adventure game
                 developed and published by Team Reptile. It will be released on
                 Steam for Microsoft Windows sometime in 2022.
@@ -3204,7 +3204,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal36}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3257,12 +3257,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 The King of Fighters XV, also called KOF XV, is an upcoming
                 fighting game developed by SNK. It is scheduled for release on
                 February 17, 2022 for Microsoft Windows, PlayStation 4,
@@ -3282,7 +3282,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal37}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3335,13 +3335,13 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Teenage Mutant Ninja Turtles: Shredder's Revenge is an upcoming
                 side-scrolling beat 'em up video game developed by Tribute Games
                 and published by Dotemu. It is based on the Teenage Mutant Ninja
@@ -3360,7 +3360,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal38}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3412,10 +3412,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Chocobo GP is an upcoming kart racing video game developed and
                 published by Square Enix. Chocobo GP is a spinoff of the Final
                 Fantasy series, features locales and characters from across the
@@ -3434,7 +3434,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal39}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3486,13 +3486,13 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Weird West is an upcoming action role-playing video game
                 developed by WolfEye Studios and published by Devolver Digital.
                 The game is set to be released for Windows, PlayStation 4 and
@@ -3510,7 +3510,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal40}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3561,10 +3561,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Gran Turismo 7 is an upcoming racing video game developed by
                 Polyphony Digital and published by Sony Interactive
                 Entertainment. The game will be the eighth mainline installment
@@ -3583,7 +3583,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal41}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3635,13 +3635,13 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Sea of Stars is a turn-based RPG inspired by the classics. It
                 tells the story of two Children of the Solstice who will combine
                 the powers of the sun and moon to perform Eclipse Magic, the
@@ -3661,7 +3661,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal42}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3712,12 +3712,12 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Warhammer 40,000: Space Marine II is an upcoming third-person
                 shooter hack-n-slash video game being developed by Saber
                 Interactive and published by Focus Entertainment. It will be
@@ -3737,7 +3737,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal43}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3788,13 +3788,13 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 As a vow to his dying Master, the young swordsman Hiroki is
                 sworn to protect his town and the people he loves against all
                 threats. Faced with tragedy and bound to duty, the lone samurai
@@ -3814,7 +3814,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal44}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3865,10 +3865,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Marvel's Spider-Man 2 is a 2023 action-adventure video game
                 developed by Insomniac Games and published by Sony Interactive
                 Entertainment for the PlayStation 5, serving as a sequel to the
@@ -3889,7 +3889,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal45}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3940,10 +3940,10 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Marvel’s Wolverine is currently in development by Insomniac
                 Games for PlayStation 5. Created in collaboration with Marvel
                 Games and PlayStation.
@@ -3962,7 +3962,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal46}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -3996,7 +3996,7 @@ export default class App extends Component {
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Midnight Fight Express Logo"
-                style={{ top: "-160px" }}
+                style={{ top: "10px" }}
               ></img>
               <img
                 src={"assets/Studios/Humble.png"}
@@ -4014,14 +4014,14 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Fight your way across the city in a brutal romp that mixes old
                 school brawlers and fast-paced motion-captured combat.
               </p>
@@ -4037,7 +4037,7 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal47}
-                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5  hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
                 <svg
@@ -4089,11 +4089,11 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex -ml-6 md:-ml-10 -mt-16 mb-10">
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
-              <p className="pb-4 text-white text-sm md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Hollow Knight: Silksong is an upcoming Metroidvania
                 action-adventure video game developed and published by Team
                 Cherry for Windows, macOS, Linux and Nintendo Switch. It was
@@ -4147,7 +4147,7 @@ export default class App extends Component {
             </h1>
             <p className="w-4/6 mx-auto mt-5 text-lg text-center">
               I would if I could. However, some covers do not have a clean
-              logoless version out there, so I resort to having to use something
+              logoless version out there - or in some cases, isn't even released yet - so I resort to having to use something
               else, preferably an asset from the studio themselves.
             </p>
           </div>
