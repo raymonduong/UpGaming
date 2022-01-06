@@ -64,6 +64,10 @@ export default class App extends Component {
       showModal46: false,
       showModal47: false,
       showModal48: false,
+      showModal49: false,
+      showModal50: false,
+      showModal51: false,
+      showModal52: false,
     };
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
@@ -114,6 +118,10 @@ export default class App extends Component {
     this.handleOpenModal46 = this.handleOpenModal46.bind(this);
     this.handleOpenModal47 = this.handleOpenModal47.bind(this);
     this.handleOpenModal48 = this.handleOpenModal48.bind(this);
+    this.handleOpenModal49 = this.handleOpenModal49.bind(this);
+    this.handleOpenModal50 = this.handleOpenModal50.bind(this);
+    this.handleOpenModal51 = this.handleOpenModal51.bind(this);
+    this.handleOpenModal52 = this.handleOpenModal52.bind(this);
 
     this.handleCloseModal = this.handleCloseModal.bind(this);
     this.handleCloseModal2 = this.handleCloseModal2.bind(this);
@@ -163,6 +171,10 @@ export default class App extends Component {
     this.handleCloseModal46 = this.handleCloseModal46.bind(this);
     this.handleCloseModal47 = this.handleCloseModal47.bind(this);
     this.handleCloseModal48 = this.handleCloseModal48.bind(this);
+    this.handleCloseModal49 = this.handleCloseModal49.bind(this);
+    this.handleCloseModal50 = this.handleCloseModal50.bind(this);
+    this.handleCloseModal51 = this.handleCloseModal51.bind(this);
+    this.handleCloseModal52 = this.handleCloseModal52.bind(this);
   }
   handleOpenModal() {
     this.setState({ showModal: true });
@@ -308,6 +320,18 @@ export default class App extends Component {
   handleOpenModal48() {
     this.setState({ showModal48: true });
   }
+  handleOpenModal49() {
+    this.setState({ showModal49: true });
+  }
+  handleOpenModal50() {
+    this.setState({ showModal50: true });
+  }
+  handleOpenModal51() {
+    this.setState({ showModal51: true });
+  }
+  handleOpenModal52() {
+    this.setState({ showModal52: true });
+  }
   handleCloseModal() {
     this.setState({ showModal: false });
   }
@@ -451,6 +475,18 @@ export default class App extends Component {
   }
   handleCloseModal48() {
     this.setState({ showModal48: false });
+  }
+  handleCloseModal49() {
+    this.setState({ showModal49: false });
+  }
+  handleCloseModal50() {
+    this.setState({ showModal50: false });
+  }
+  handleCloseModal51() {
+    this.setState({ showModal51: false });
+  }
+  handleCloseModal52() {
+    this.setState({ showModal52: false });
   }
 
   render() {
@@ -795,6 +831,7 @@ export default class App extends Component {
               <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
+                <GamePass></GamePass>
                 <PC></PC>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -4070,7 +4107,7 @@ export default class App extends Component {
                 src={"assets/Logo/HKS.png"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
-                style={{ top:"100px" }}
+                style={{ top: "100px" }}
                 alt="Hollow Knight Silksong Logo"
               ></img>
               <img
@@ -4134,6 +4171,305 @@ export default class App extends Component {
             </ReactModal>
           </div>
           <div>
+            <Atropos onClick={this.handleOpenModal49}>
+              <img
+                src={"assets/Cover Art/AdvanceWars.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Advance Wars 1+2: Re-Boot Camp Cover Art"
+              ></img>
+              <img
+                src={"assets/Studios/Nintendo.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "45px", top: "-18px", left: "0" }}
+                alt="Nintendo Switch Logo"
+              ></img>
+              <img
+                src={"assets/Logo/AdvanceWars.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                style={{ top: "50px", left: "0px", width: "150%" }}
+                alt="Advance Wars 1+2: Re-Boot Camp Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal49}
+              onRequestClose={this.handleCloseModal49}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+                <Nintendo></Nintendo>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                Take down enemy squads and capture towns and bases to secure
+                victory and keep the peace. Keep an eye on the game-changing
+                terrain and weather as you lead a variety of units across
+                multiple maps. This remake features two campaigns that cover the
+                events of Advance Wars and Advance Wars 2: Black Hole Rising!
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Wayforward and published by Nintendo
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Military warfare...but make it kid-friendly!
+              </span>
+              <YoutubeEmbed
+                embedId="fftL_XeK2qU"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal49}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal50}>
+              <img
+                src={"assets/Cover Art/Black.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Black Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/HCM.png"}
+                className="game-box-logo game-box drop-shadow-2xl"
+                data-atropos-offset="5"
+                alt="Horizon VR Call of the Mountain Logo"
+              ></img>
+              <img
+                src={"assets/Studios/PS.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "30px", bottom: "-15px" }}
+                alt="PlayStation Studios Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal50}
+              onRequestClose={this.handleCloseModal50}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+                <PlayStation></PlayStation>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                Horizon Call of the Mountain, created for PlayStation's Next-Gen
+                VR hardware, is an upcoming brand-new adventure in the world of
+                Horizon. Embrace a new level of immersion in an unique
+                experience, designed to push hardware technology, innovation,
+                and gameplay.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Firesprite and Guerrilla Games and published by
+                Sony Interactive Entertainment
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                Can't wait to get trampled by a Tallneck in VR
+              </span>
+              <YoutubeEmbed
+                embedId="yPNn-jwAC9c"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModa50}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal51}>
+              <img
+                src={"assets/Cover Art/FFXVI.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Final Fantasy 16 Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/FFXVI.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Final Fantasy 16 Logo"
+                style={{ left: "15px", top: "0" }}
+              ></img>
+              <img
+                src={"assets/Studios/SQ.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "100px", bottom: "-30px", right: "5px" }}
+                alt="Square Enix Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal51}
+              onRequestClose={this.handleCloseModal51}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+                <PlayStation></PlayStation>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                Final Fantasy XVI is an upcoming action role-playing game
+                developed and published by Square Enix for the PlayStation 5. It
+                is the sixteenth game in the mainline Final Fantasy series and
+                is being produced by Naoki Yoshida and directed by Hiroshi
+                Takai.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed and published by Square Enix
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                I've watched this trailer more times than I count.
+              </span>
+              <YoutubeEmbed
+                embedId="yr6PtdY0i7M"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal51}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal52}>
+              <img
+                src={"assets/Cover Art/Avowed.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Final Fantasy 16 Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/Avowed.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Final Fantasy 16 Logo"
+                style={{ left: "15px", top: "0" }}
+              ></img>
+              <img
+                src={"assets/Studios/Obsidian.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "80px", bottom: "-20px", right: "5px" }}
+                alt="Square Enix Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal52}
+              onRequestClose={this.handleCloseModal52}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+                <Xbox></Xbox>
+                <GamePass></GamePass>
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                Avowed is an upcoming first-person fantasy role-playing video
+                game developed by Obsidian Entertainment and published by Xbox
+                Game Studios. It was revealed at the Xbox Games Showcase on July
+                24, 2020, and is set to be released on Xbox Series X/S,
+                Xbox Game Pass, and Microsoft Windows. Set in the world of
+                Eora, it is a spin-off of the Pillars of Eternity series.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Obsidian Entertainment and published by Xbox Game Studios
+              </p>
+              <span className="pb-10 text-sm italic text-gray-400">
+                From the same company that owns Skyrim...get ready for the Skyrim killer.
+              </span>
+              <YoutubeEmbed
+                embedId="W3QkO8fy3tg"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal52}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
             <h1 className="w-4/6 mx-auto mt-20 text-2xl text-center md:text-2xl">
               Where's the game I'm looking forward to?
             </h1>
@@ -4147,8 +4483,9 @@ export default class App extends Component {
             </h1>
             <p className="w-4/6 mx-auto mt-5 text-lg text-center">
               I would if I could. However, some covers do not have a clean
-              logoless version out there - or in some cases, isn't even released yet - so I resort to having to use something
-              else, preferably an asset from the studio themselves.
+              logoless version out there - or in some cases, isn't even released
+              yet - so I resort to having to use something else, preferably an
+              asset from the studio themselves.
             </p>
           </div>
         </div>
