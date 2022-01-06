@@ -499,17 +499,17 @@ export default class App extends Component {
             href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>"
           />
         </Helmet>
-        <h1 className="mb-8 text-5xl text-center md:text-9xl mt-52">
+        <h1 className="p-5 mb-5 text-5xl text-center md:text-9xl mt-52 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500">
           UpGaming
         </h1>
-        <h2 className="mb-5 text-4xl text-center md:text-3xl">
+        <h2 className="mb-5 text-4xl text-center md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-600">
           Have a look at these upcoming video games.
         </h2>
         <p className="mb-40 text-lg text-center text-gray-400">
           Go ahead, click any.
         </p>
         <div></div>
-        <div className="flex flex-col items-start content-center justify-center w-2/3 gap-5 mx-auto mb-10 sm:w-3/4 md:flex-row md:flex-wrap">
+        <div className="flex flex-col items-start content-center justify-center w-2/3 gap-5 mx-auto sm:w-3/4 mb-16 md:flex-row md:flex-wrap">
           <div>
             <Atropos onClick={this.handleOpenModal}>
               <img
@@ -4432,15 +4432,17 @@ export default class App extends Component {
                 Avowed is an upcoming first-person fantasy role-playing video
                 game developed by Obsidian Entertainment and published by Xbox
                 Game Studios. It was revealed at the Xbox Games Showcase on July
-                24, 2020, and is set to be released on Xbox Series X/S,
-                Xbox Game Pass, and Microsoft Windows. Set in the world of
-                Eora, it is a spin-off of the Pillars of Eternity series.
+                24, 2020, and is set to be released on Xbox Series X/S, Xbox
+                Game Pass, and Microsoft Windows. Set in the world of Eora, it
+                is a spin-off of the Pillars of Eternity series.
               </p>
               <p className="pb-4 text-sm md:text-lg">
-                Developed by Obsidian Entertainment and published by Xbox Game Studios
+                Developed by Obsidian Entertainment and published by Xbox Game
+                Studios
               </p>
               <span className="pb-10 text-sm italic text-gray-400">
-                From the same company that owns Skyrim...get ready for the Skyrim killer.
+                From the same parent company that owns Skyrim...get ready for
+                the Skyrim killer.
               </span>
               <YoutubeEmbed
                 embedId="W3QkO8fy3tg"
@@ -4470,7 +4472,7 @@ export default class App extends Component {
             </ReactModal>
           </div>
           <div>
-            <h1 className="w-4/6 mx-auto mt-20 text-2xl text-center md:text-2xl">
+            <h1 className="w-4/6 mx-auto mt-20 text-2xl text-center md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500">
               Where's the game I'm looking forward to?
             </h1>
             <p className="w-4/6 mx-auto mt-5 text-lg text-center">
@@ -4478,7 +4480,7 @@ export default class App extends Component {
               guessed, there's loads upon loads of games coming out in 2022.
               Please be patient, I may get around to it sooner or later.
             </p>
-            <h1 className="w-4/6 mx-auto mt-10 text-2xl text-center md:text-2xl">
+            <h1 className="w-4/6 mx-auto mt-10 text-2xl text-center md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500">
               Why do you sometimes use pictures that aren't the official covers?
             </h1>
             <p className="w-4/6 mx-auto mt-5 text-lg text-center">
@@ -4489,6 +4491,23 @@ export default class App extends Component {
             </p>
           </div>
         </div>
+        <footer className="footer bg-zinc-50 relative w-full">
+          <div class="container mx-auto">
+            <div class=" flex flex-col items-center">
+              <div class="sm:w-2/3 text-center py-4">
+                <p class="text-sm text-blue-700 font-bold">
+                  Website made by{" "}
+                  <a
+                    href={"https://www.raymonduong.com/"}
+                    className="text-black"
+                  >
+                    © 2022 Raymond Duong
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     );
   }
