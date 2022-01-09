@@ -1619,12 +1619,12 @@ export default class App extends Component {
                 <PC></PC>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
-                Starfield is an upcoming action role-playing video game
-                developed by Bethesda Game Studios and published by Bethesda
-                Softworks. The game was formally announced during Bethesda's E3
-                Press Conference in 2018. The game was described as a wholly
-                new, next-generation experience set in an entirely new
-                space-themed world.
+                Starfield is the first new universe in 25 years from Bethesda
+                Game Studios, the award-winning creators of The Elder Scrolls V:
+                Skyrim and Fallout 4. In this next generation role-playing game
+                set amongst the stars, create any character you want and explore
+                with unparalleled freedom as you embark on an epic journey to
+                answer humanity’s greatest mystery.
               </p>
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Bethesda Game Studios and published by Bethesda
@@ -1930,10 +1930,12 @@ export default class App extends Component {
                 <PC></PC>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
-                Ghostwire: Tokyo is an upcoming action-adventure game developed
-                by Tango Gameworks and published by Bethesda Softworks. The game
-                is set to be released worldwide in 2022 for Microsoft Windows
-                and as a timed console exclusive for PlayStation 5.
+                Tokyo is overrun by deadly supernatural forces, perpetrated by a
+                dangerous occultist, causing Tokyo’s population to vanish in an
+                instant. Ally with a powerful spectral entity on their quest for
+                vengeance and master a powerful arsenal of abilities to unravel
+                the dark truth behind the disappearance as you FACE THE UNKNOWN
+                in Ghostwire: Tokyo.
               </p>
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Tango Gameworks and published by Bethesda Softworks
