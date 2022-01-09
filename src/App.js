@@ -3695,8 +3695,6 @@ export default class App extends Component {
               overlayClassName="Overlay"
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
-                <PlayStation></PlayStation>
-                <Xbox></Xbox>
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
