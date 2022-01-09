@@ -68,6 +68,8 @@ export default class App extends Component {
       showModal50: false,
       showModal51: false,
       showModal52: false,
+      showModal53: false,
+      showModal54: false,
     };
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
@@ -122,6 +124,8 @@ export default class App extends Component {
     this.handleOpenModal50 = this.handleOpenModal50.bind(this);
     this.handleOpenModal51 = this.handleOpenModal51.bind(this);
     this.handleOpenModal52 = this.handleOpenModal52.bind(this);
+    this.handleOpenModal53 = this.handleOpenModal53.bind(this);
+    this.handleOpenModal54 = this.handleOpenModal54.bind(this);
 
     this.handleCloseModal = this.handleCloseModal.bind(this);
     this.handleCloseModal2 = this.handleCloseModal2.bind(this);
@@ -175,6 +179,8 @@ export default class App extends Component {
     this.handleCloseModal50 = this.handleCloseModal50.bind(this);
     this.handleCloseModal51 = this.handleCloseModal51.bind(this);
     this.handleCloseModal52 = this.handleCloseModal52.bind(this);
+    this.handleCloseModal53 = this.handleCloseModal53.bind(this);
+    this.handleCloseModal54 = this.handleCloseModal54.bind(this);
   }
   handleOpenModal() {
     this.setState({ showModal: true });
@@ -332,6 +338,13 @@ export default class App extends Component {
   handleOpenModal52() {
     this.setState({ showModal52: true });
   }
+  handleOpenModal53() {
+    this.setState({ showModal53: true });
+  }
+  handleOpenModal54() {
+    this.setState({ showModal54: true });
+  }
+
   handleCloseModal() {
     this.setState({ showModal: false });
   }
@@ -488,6 +501,12 @@ export default class App extends Component {
   handleCloseModal52() {
     this.setState({ showModal52: false });
   }
+  handleCloseModal53() {
+    this.setState({ showModal53: false });
+  }
+  handleCloseModal54() {
+    this.setState({ showModal54: false });
+  }
 
   render() {
     return (
@@ -499,17 +518,17 @@ export default class App extends Component {
             href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>"
           />
         </Helmet>
-        <h1 className="p-5 mb-5 text-5xl text-center md:text-9xl mt-52 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500">
+        <h1 className="p-5 mb-5 text-5xl font-extrabold text-center text-transparent md:text-9xl mt-52 bg-clip-text bg-gradient-to-r from-blue-500 to-green-500">
           UpGaming
         </h1>
-        <h2 className="mb-5 text-4xl text-center md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-600">
+        <h2 className="p-5 mb-5 text-4xl text-center text-transparent md:text-3xl bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-600">
           Have a look at these upcoming video games.
         </h2>
         <p className="mb-40 text-lg text-center text-gray-400">
           Go ahead, click any.
         </p>
         <div></div>
-        <div className="flex flex-col items-start content-center justify-center w-2/3 gap-5 mx-auto sm:w-3/4 mb-16 md:flex-row md:flex-wrap">
+        <div className="flex flex-col items-start content-center justify-center w-3/5 gap-5 mx-auto mb-16 md:w-2/3 md:flex-row md:flex-wrap">
           <div>
             <Atropos onClick={this.handleOpenModal}>
               <img
@@ -540,7 +559,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
               </div>
@@ -554,7 +573,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by and published by Sloclap
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 I know gōngfu
               </span>
               <YoutubeEmbed embedId="1FQ1YO3Ks2U"></YoutubeEmbed>
@@ -611,7 +630,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -624,7 +643,7 @@ export default class App extends Component {
                 Developed by Guerrilla Games and Published by PlayStation
                 Studios
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Lance Reddick controlling an empire of robotic animals? Hell
                 yeah.
               </span>
@@ -683,7 +702,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -698,7 +717,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by FromSoftware and Published by Bandai Namco
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 OOOOOOOHHHHHHHH
               </span>
               <YoutubeEmbed embedId="E3Huy2cdih0"></YoutubeEmbed>
@@ -756,7 +775,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -770,7 +789,7 @@ export default class App extends Component {
                 Developed by Game Freak and Published by Nintendo and The
                 Pokémon Company
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 I would die for Hisuian Voltorb
               </span>
               <YoutubeEmbed embedId="YUW1ZWAq09M"></YoutubeEmbed>
@@ -828,7 +847,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
@@ -844,7 +863,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Ubisoft Montreal and published by Ubisoft
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Who's the real monster here? Caveira players or the alien?
               </span>
               <YoutubeEmbed
@@ -906,7 +925,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <Nintendo></Nintendo>
@@ -924,7 +943,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by Techland
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Zombies are a great motivator to learn parkour
               </span>
               <YoutubeEmbed
@@ -985,7 +1004,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -998,7 +1017,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Artdink and Square Enix and published by Nintendo
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 I unironically think that Project Triangle Strategy was a better
                 name
               </span>
@@ -1042,6 +1061,7 @@ export default class App extends Component {
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Tiny Tina's Wonderland Logo"
+                style={{ top: "-175px", width: "100%", left: "-1px" }}
               ></img>
               <img
                 src={"assets/Studios/2K.svg"}
@@ -1059,7 +1079,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -1073,7 +1093,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Gearbox Software and published by 2K Games
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 It is now my headcanon that Tiny Tina loves BABYMETAL
               </span>
               <YoutubeEmbed
@@ -1134,7 +1154,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -1147,7 +1167,7 @@ export default class App extends Component {
                 Developed by Santa Monica Studio and published by Sony
                 Interactive Entertainment
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Kratos and Atreus experiences what it feels like to be in Canada
               </span>
               <YoutubeEmbed
@@ -1208,7 +1228,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
               </div>
@@ -1221,7 +1241,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Luminous Productions and published by Square Enix
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Her bracelet can talk! It's also from Sussex!
               </span>
               <YoutubeEmbed
@@ -1281,7 +1301,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
@@ -1298,7 +1318,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by GSC Game World
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Good Hunting, STALKER.
               </span>
               <YoutubeEmbed
@@ -1359,7 +1379,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -1372,7 +1392,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by HAL Laboratory and published by Nintendo
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Btw, it's canon that Kirby has killed a god
               </span>
               <YoutubeEmbed
@@ -1433,7 +1453,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
@@ -1448,7 +1468,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Arkane Studios and published by Bethesda Softworks
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Of course Massachusetts gets infested with vampires.
               </span>
               <YoutubeEmbed
@@ -1516,7 +1536,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -1531,7 +1551,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Volition and published by Deep Silver
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 All I need to know is if I can change certain...attributes of my
                 characters
               </span>
@@ -1593,7 +1613,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
@@ -1610,7 +1630,7 @@ export default class App extends Component {
                 Developed by Bethesda Game Studios and published by Bethesda
                 Softworks
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 But can we climb ladders?
               </span>
               <YoutubeEmbed
@@ -1672,7 +1692,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
@@ -1690,7 +1710,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by Mojang
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 "Mud blocks and mangroves! Frogs and tadpoles! Chests in boats!
                 The deep dark! The warden! The warden? The warden!!! Eeeek"
               </span>
@@ -1752,7 +1772,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
@@ -1770,7 +1790,7 @@ export default class App extends Component {
                 Developed by Traveller's Tales and published by Warner Bros.
                 Interactive Entertainment
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 I want to become a Lego figure, like my father before me.
               </span>
               <YoutubeEmbed
@@ -1831,7 +1851,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -1843,7 +1863,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by Nintendo
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Can't wait for all the speedruns.
               </span>
               <YoutubeEmbed
@@ -1905,7 +1925,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
               </div>
@@ -1918,7 +1938,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Tango Gameworks and published by Bethesda Softworks
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 It's spoooky.
               </span>
               <YoutubeEmbed
@@ -1980,7 +2000,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -1995,7 +2015,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Sonic Team and published by Sega
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Uhh...Meow?
               </span>
               <YoutubeEmbed
@@ -2056,7 +2076,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
               </div>
@@ -2070,7 +2090,7 @@ export default class App extends Component {
                 Developed by BlueTwelve Studio and published by Annapurna
                 Interactive
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Uhh...Meow?
               </span>
               <YoutubeEmbed
@@ -2138,7 +2158,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -2152,7 +2172,7 @@ export default class App extends Component {
                 Developed by Rocksteady Studios and published by Warner Bros.
                 Interactive Entertainment
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">Bird.</span>
+              <span className="pb-5 text-sm italic text-gray-400">Bird.</span>
               <YoutubeEmbed
                 embedId="2EVFYstVuVk"
                 className="mb-10"
@@ -2212,7 +2232,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -2225,7 +2245,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by Nintendo
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 You're a kid. You're a squid. You're a kid. You're a squid.
                 You're a kid. You're a squid. You're a kid. You're a squid.
                 You're a kid. You're a squid.
@@ -2289,7 +2309,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -2304,7 +2324,7 @@ export default class App extends Component {
                 Developed by Avalance Software and published by Warner Bros.
                 Interactive Entertainment
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Hogwarts didn't always have bathrooms. Before adopting Muggle
                 plumbing methods in the eighteenth century, witches and wizards
                 simply relieved themselves wherever they stood, and vanished the
@@ -2368,7 +2388,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PC></PC>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -2381,7 +2401,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Creative Assembly and published by Sega
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Get ready for your computer to get toasty
               </span>
               <YoutubeEmbed
@@ -2442,7 +2462,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -2456,7 +2476,7 @@ export default class App extends Component {
                 Developed by Koei Tecmo Games and Team Ninja and published by
                 Square Enix
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Bullsh*t. *Limp Bizkit plays*
               </span>
               <YoutubeEmbed
@@ -2518,7 +2538,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -2532,7 +2552,7 @@ export default class App extends Component {
                 Developed by WB Games Montréal published by Warner Bros.
                 Interactive Entertainment
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Batman may cause internal bleeding and life-lasting injuries,
                 but he doesn't kill
               </span>
@@ -2594,7 +2614,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -2610,7 +2630,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Firaxis Games and published by 2K Games
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Pretty sure one of these heroes died...
               </span>
               <YoutubeEmbed
@@ -2671,7 +2691,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
@@ -2690,7 +2710,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Asobo Studio and published by Focus Entertainment
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 I don't know how my computer rendered all those rats without
                 exploding
               </span>
@@ -2733,7 +2753,7 @@ export default class App extends Component {
                 src={"assets/Studios/Daedalic.png"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
-                style={{ bottom: "-10px", left: "150px", width: "150px" }}
+                style={{ bottom: "-15px", right: "5px", width: "100px" }}
                 alt="Daedalic Entertainment Logo"
               ></img>
               <img
@@ -2755,7 +2775,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -2771,7 +2791,7 @@ export default class App extends Component {
                 Developed by Daedalic Entertainment and published by Daedalic
                 Entertainment and Nacon
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 I would like Andy Serkis to act out in-person while I play this
                 game. While he's in his suit.
               </span>
@@ -2816,7 +2836,7 @@ export default class App extends Component {
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ bottom: "-10px", right: "10px", width: "40px" }}
-                alt="Daedalic Entertainment Logo"
+                alt="Ubisoft Logo"
               ></img>
               <img
                 src={"assets/Logo/Avatar.png"}
@@ -2834,7 +2854,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -2849,7 +2869,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Massive Entertainment and published by Ubisoft
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 I wonder if this is based off a movie
               </span>
               <YoutubeEmbed
@@ -2917,7 +2937,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -2930,7 +2950,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Ubisoft Milan and published by Ubisoft
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 It's a me, Chris Pratt
               </span>
               <YoutubeEmbed
@@ -2991,7 +3011,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -3005,7 +3025,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Striking Distance Studios and published by KRAFTON
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 This takes place in the same universe as PUBG. No, I am not
                 joking.
               </span>
@@ -3067,7 +3087,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
                 <Nintendo></Nintendo>
@@ -3083,7 +3103,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by Neostream Interactive
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 인디게임이 최고다!
               </span>
               <YoutubeEmbed
@@ -3144,7 +3164,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -3159,7 +3179,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Intercept Games and published by Private Division
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 This is probably the closest you'll get to working at NASA
               </span>
               <YoutubeEmbed
@@ -3220,7 +3240,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
@@ -3232,7 +3252,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by Team Reptile
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Not to be confused with Jet Set Radio
               </span>
               <YoutubeEmbed
@@ -3294,7 +3314,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -3310,7 +3330,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by SNK
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Are you okay? Buster Wolf!
               </span>
               <YoutubeEmbed
@@ -3372,7 +3392,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -3388,7 +3408,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Tribute Games and published by Dotemu
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 I really hope they tip their pizza delivery guy generously
               </span>
               <YoutubeEmbed
@@ -3449,7 +3469,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -3462,7 +3482,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by Square Enix
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Game of the Decade
               </span>
               <YoutubeEmbed
@@ -3523,7 +3543,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
@@ -3538,7 +3558,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by WolfEye Studios and published by Devolver Digital
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Welcome to the Weird West.
               </span>
               <YoutubeEmbed
@@ -3598,7 +3618,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -3611,7 +3631,7 @@ export default class App extends Component {
                 Developed by Polyphony Digital and published by Sony Interactive
                 Entertainment
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Vrrrrooooooooommm responsibly.
               </span>
               <YoutubeEmbed
@@ -3672,7 +3692,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -3688,7 +3708,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by Sabotage Studio
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 With special guest composer Yasunori Mitsuda! (Chrono Trigger,
                 Chrono Cross, Xeno series)
               </span>
@@ -3749,7 +3769,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
@@ -3764,7 +3784,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by Saber Interactive
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 The galaxy is in peril. Entire worlds are falling. The Imperium
                 needs you.
               </span>
@@ -3825,7 +3845,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
@@ -3842,7 +3862,7 @@ export default class App extends Component {
                 Developed by Flying Wild Hog and Leonard Menchiari and published
                 by Devolver Digital
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 私は恐怖の達人です、老人。
               </span>
               <YoutubeEmbed
@@ -3902,7 +3922,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -3917,7 +3937,7 @@ export default class App extends Component {
                 Developed by Insomniac Games and published by Sony Interactive
                 Entertainment
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Spider-Mans? Spider-Men? Spideys?
               </span>
               <YoutubeEmbed
@@ -3977,7 +3997,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -3989,7 +4009,7 @@ export default class App extends Component {
                 Developed by Insomniac Games and published by Sony Interactive
                 Entertainment
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 "I'm the best there is at what I do, but what I do best isn't
                 very nice."
               </span>
@@ -4051,7 +4071,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <GamePass></GamePass>
@@ -4065,7 +4085,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Jacob Dzwinel and published by Humble Games
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 One person made this game! One!
               </span>
               <YoutubeEmbed
@@ -4126,7 +4146,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PC></PC>
                 <Nintendo></Nintendo>
               </div>
@@ -4140,7 +4160,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by Team Cherry
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Release date when?
               </span>
               <YoutubeEmbed
@@ -4201,7 +4221,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -4214,7 +4234,7 @@ export default class App extends Component {
               <p className="pb-4 text-sm md:text-lg">
                 Developed by Wayforward and published by Nintendo
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Military warfare...but make it kid-friendly!
               </span>
               <YoutubeEmbed
@@ -4274,7 +4294,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
@@ -4288,7 +4308,7 @@ export default class App extends Component {
                 Developed by Firesprite and Guerrilla Games and published by
                 Sony Interactive Entertainment
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 Can't wait to get trampled by a Tallneck in VR
               </span>
               <YoutubeEmbed
@@ -4349,21 +4369,25 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
-                Final Fantasy XVI is an upcoming action role-playing game
-                developed and published by Square Enix for the PlayStation 5. It
-                is the sixteenth game in the mainline Final Fantasy series and
-                is being produced by Naoki Yoshida and directed by Hiroshi
-                Takai.
+                Final Fantasy XVI is an action role-playing game set in the
+                fantasy world of Valisthea, where the people live comfortably
+                thanks to mountains of crystal called the Mothercrystals. The
+                world is controlled by six factions: the Grand Duchy of Rosaria,
+                the Holy Empire of Sanbreque, the Kingdom of Waloed, the
+                Dhalmekian Republic, the Iron Kingdom, and the Crystalline
+                Dominion. A central part of the plot are the Eikons, summoned
+                monsters controlled by or manifesting through humans called
+                Dominants.
               </p>
               <p className="pb-4 text-sm md:text-lg">
                 Developed and published by Square Enix
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
-                I've watched this trailer more times than I count.
+              <span className="pb-5 text-sm italic text-gray-400">
+                "Eikon? That thing's a bloody mountain!"
               </span>
               <YoutubeEmbed
                 embedId="yr6PtdY0i7M"
@@ -4398,21 +4422,21 @@ export default class App extends Component {
                 src={"assets/Cover Art/Avowed.png"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
-                alt="Final Fantasy 16 Cover Art"
+                alt="Avowed Cover Art"
               ></img>
               <img
                 src={"assets/Logo/Avowed.png"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
-                alt="Final Fantasy 16 Logo"
-                style={{ left: "15px", top: "0" }}
+                alt="Avowed Logo"
+                style={{ left: "10px", top: "0" }}
               ></img>
               <img
                 src={"assets/Studios/Obsidian.png"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-20px", right: "5px" }}
-                alt="Square Enix Logo"
+                alt="Obisidian Entertainment Logo"
               ></img>
             </Atropos>
             <ReactModal
@@ -4423,7 +4447,7 @@ export default class App extends Component {
               }
               overlayClassName="Overlay"
             >
-              <div className="flex mb-10 -mt-16 -ml-6 md:-ml-10">
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
@@ -4440,7 +4464,7 @@ export default class App extends Component {
                 Developed by Obsidian Entertainment and published by Xbox Game
                 Studios
               </p>
-              <span className="pb-10 text-sm italic text-gray-400">
+              <span className="pb-5 text-sm italic text-gray-400">
                 From the same parent company that owns Skyrim...get ready for
                 the Skyrim killer.
               </span>
@@ -4472,42 +4496,208 @@ export default class App extends Component {
             </ReactModal>
           </div>
           <div>
-            <h1 className="w-4/6 mx-auto mt-20 text-2xl text-center md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500">
+            <Atropos onClick={this.handleOpenModal53}>
+              <img
+                src={"assets/Cover Art/LoP.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Lies of P Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/LoP.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Lies of P Logo"
+                style={{ left: "15px", top: "-150px" }}
+              ></img>
+              <img
+                src={"assets/Studios/Neowiz.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "80px", bottom: "-20px", right: "5px" }}
+                alt="Neowiz Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal53}
+              onRequestClose={this.handleCloseModal53}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PlayStation></PlayStation>
+                <Xbox></Xbox>
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-xs text-white md:text-lg">
+                Inspired by the familiar story of Pinocchio, Lies of P is an
+                action souls-like game set in a cruel, dark Belle Époque world.
+                All of humanity is lost in a once beautiful city that has now
+                become a living hell filled with unspeakable horrors. Lies of P
+                offers an elegant world filled with tension, a deep combat
+                system and a gripping story.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Round8 and published by NEOWIZ
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                The only way Pinocchio can become human is to dodge roll, parry,
+                and riposte.
+              </span>
+              <YoutubeEmbed
+                embedId="QzE4WBKs98o"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal53}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal54}>
+              <img
+                src={"assets/Cover Art/Replaced.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Replaced Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/Replaced.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Replaced Logo"
+                style={{ left: "15px", top: "-50px" }}
+              ></img>
+              <img
+                src={"assets/Studios/sadcat.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "80px", bottom: "-20px", right: "5px" }}
+                alt="Sad Cat Studios Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal54}
+              onRequestClose={this.handleCloseModal54}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <Xbox></Xbox>
+                <GamePass></GamePass>
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-xs text-white md:text-lg">
+                REPLACED is a 2.5D sci-fi retro-futuristic action platformer
+                where you play as R.E.A.C.H – an artificial intelligence trapped
+                in a human body against its own will. REPLACED combines
+                cinematic platformer, pixel art, and free-flow action combat
+                with a deep engaging dystopian story set in an alternative
+                1980’s. Explore and uncover the mysteries in and around
+                Phoenix-City from the perspective of R.E.A.C.H. who is learning
+                how to be human in a society that has taken a turn for the
+                worst.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Sad Cat Studios and published by Coatsink
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                Gorgeous art direction? Platforming? Cool combat? Yes please!
+              </span>
+              <YoutubeEmbed
+                embedId="_P5OlfGbk5g"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal54}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h1 className="p-2 mt-20 text-4xl text-center text-transparent md:text-4xl bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-600">
+              FAQ
+            </h1>
+            <h1 className="w-2/3 mx-auto mt-5 text-2xl text-center text-transparent md:text-2xl bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500">
               Where's the game I'm looking forward to?
             </h1>
-            <p className="w-4/6 mx-auto mt-5 text-lg text-center">
+            <p className="w-2/3 mx-auto mt-5 text-lg text-center">
               Unfortunately, these things take time! If you haven't already
               guessed, there's loads upon loads of games coming out in 2022.
               Please be patient, I may get around to it sooner or later.
             </p>
-            <h1 className="w-4/6 mx-auto mt-10 text-2xl text-center md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500">
+            <h1 className="w-2/3 mx-auto mt-10 text-2xl text-center text-transparent md:text-2xl bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500">
               Why do you sometimes use pictures that aren't the official covers?
             </h1>
-            <p className="w-4/6 mx-auto mt-5 text-lg text-center">
+            <p className="w-2/3 mx-auto mt-5 text-lg text-center">
               I would if I could. However, some covers do not have a clean
               logoless version out there - or in some cases, isn't even released
               yet - so I resort to having to use something else, preferably an
               asset from the studio themselves.
             </p>
           </div>
-        </div>
-        <footer className="footer bg-zinc-50 relative w-full">
-          <div class="container mx-auto">
-            <div class=" flex flex-col items-center">
-              <div class="sm:w-2/3 text-center py-4">
-                <p class="text-sm text-blue-700 font-bold">
-                  Website made by{" "}
-                  <a
-                    href={"https://www.raymonduong.com/"}
-                    className="text-black"
-                  >
-                    © 2022 Raymond Duong
-                  </a>
-                </p>
+          <footer className="relative w-full mt-40 bg-transparent footer">
+            <div class="container mx-auto">
+              <div class=" flex flex-col items-center">
+                <div class="sm:w-2/3 text-center py-4">
+                  <p class="text-sm text-blue-300 font-bold">
+                    Website made by{" "}
+                    <a
+                      href={"https://www.raymonduong.com/"}
+                      className="text-white"
+                    >
+                      © 2022 Raymond Duong
+                    </a>
+                  </p>
+                  <p className="text-white">
+                    All Trademarks Are Property Of Their Respective Owners
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </footer>
+          </footer>
+        </div>
       </div>
     );
   }
