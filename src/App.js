@@ -73,6 +73,9 @@ export default class App extends Component {
       showModal55: false,
       showModal56: false,
       showModal57: false,
+      showModal58: false,
+      showModal59: false,
+      showModal60: false,
     };
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
@@ -132,6 +135,9 @@ export default class App extends Component {
     this.handleOpenModal55 = this.handleOpenModal55.bind(this);
     this.handleOpenModal56 = this.handleOpenModal56.bind(this);
     this.handleOpenModal57 = this.handleOpenModal57.bind(this);
+    this.handleOpenModal58 = this.handleOpenModal58.bind(this);
+    this.handleOpenModal59 = this.handleOpenModal59.bind(this);
+    this.handleOpenModal60 = this.handleOpenModal60.bind(this);
 
     this.handleCloseModal = this.handleCloseModal.bind(this);
     this.handleCloseModal2 = this.handleCloseModal2.bind(this);
@@ -190,6 +196,9 @@ export default class App extends Component {
     this.handleCloseModal55 = this.handleCloseModal55.bind(this);
     this.handleCloseModal56 = this.handleCloseModal56.bind(this);
     this.handleCloseModal57 = this.handleCloseModal57.bind(this);
+    this.handleCloseModal58 = this.handleCloseModal58.bind(this);
+    this.handleCloseModal59 = this.handleCloseModal59.bind(this);
+    this.handleCloseModal60 = this.handleCloseModal60.bind(this);
   }
   handleOpenModal() {
     this.setState({ showModal: true });
@@ -362,6 +371,15 @@ export default class App extends Component {
   handleOpenModal57() {
     this.setState({ showModal57: true });
   }
+  handleOpenModal58() {
+    this.setState({ showModal58: true });
+  }
+  handleOpenModal59() {
+    this.setState({ showModal59: true });
+  }
+  handleOpenModal60() {
+    this.setState({ showModal60: true });
+  }
 
   handleCloseModal() {
     this.setState({ showModal: false });
@@ -533,6 +551,15 @@ export default class App extends Component {
   }
   handleCloseModal57() {
     this.setState({ showModal57: false });
+  }
+  handleCloseModal58() {
+    this.setState({ showModal58: false });
+  }
+  handleCloseModal59() {
+    this.setState({ showModal59: false });
+  }
+  handleCloseModal60() {
+    this.setState({ showModal60: false });
   }
 
   render() {
@@ -4686,13 +4713,13 @@ export default class App extends Component {
                 src={"assets/Cover Art/Tunic.png"}
                 className="rounded-md game-box game-box-bg brightness-90"
                 data-atropos-offset="-4"
-                alt="Replaced Cover Art"
+                alt="Tunic Cover Art"
               ></img>
               <img
                 src={"assets/Logo/Tunic.png"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
-                alt="Replaced Logo"
+                alt="Tunic Logo"
                 style={{ left: "15px", top: "-180px" }}
               ></img>
               <img
@@ -4700,7 +4727,7 @@ export default class App extends Component {
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
-                alt="Sad Cat Studios Logo"
+                alt="Finji Logo"
               ></img>
             </Atropos>
             <ReactModal
@@ -4771,7 +4798,7 @@ export default class App extends Component {
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Palia Logo"
-                style={{ left: "45px", top: "-170px", width: "200px" }}
+                style={{ left: "15px", top: "-150px" }}
               ></img>
               <img
                 src={"assets/Studios/Six.png"}
@@ -4846,7 +4873,7 @@ export default class App extends Component {
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="The Day Before Logo"
-                style={{ left: "50px", top: "-100px", width: "200px" }}
+                style={{ left: "15px", top: "-110px" }}
               ></img>
               <img
                 src={"assets/Studios/Fntastic.png"}
@@ -4905,6 +4932,230 @@ export default class App extends Component {
               </button>
             </ReactModal>
           </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal58}>
+              <img
+                src={"assets/Cover Art/TOW2.png"}
+                className="rounded-md game-box game-box-bg brightness-90"
+                data-atropos-offset="-4"
+                alt="The Outer Worlds 2 Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/TOW2.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="The Outer Worlds 2 Logo"
+                style={{ left: "10px", top: "0" }}
+              ></img>
+              <img
+                src={"assets/Studios/Obsidian.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "80px", bottom: "-20px", right: "5px" }}
+                alt="Obisidian Entertainment Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal58}
+              onRequestClose={this.handleCloseModal58}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <Xbox></Xbox>
+                <GamePass></GamePass>
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                Avowed is an upcoming first-person fantasy role-playing video
+                game developed by Obsidian Entertainment and published by Xbox
+                Game Studios. It was revealed at the Xbox Games Showcase on July
+                24, 2020, and is set to be released on Xbox Series X/S, Xbox
+                Game Pass, and Microsoft Windows. Set in the world of Eora, it
+                is a spin-off of the Pillars of Eternity series.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Obsidian Entertainment and published by Xbox Game
+                Studios
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                From the same parent company that owns Skyrim...get ready for
+                the Skyrim killer.
+              </span>
+              <YoutubeEmbed
+                embedId="W3QkO8fy3tg"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal58}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div><div>
+            <Atropos onClick={this.handleOpenModal59}>
+              <img
+                src={"assets/Cover Art/Hellblade2.png"}
+                className="rounded-md game-box game-box-bg brightness-90"
+                data-atropos-offset="-4"
+                alt="Senua's Saga: Hellblade II Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/Hellblade2.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Senua's Saga: Hellblade II Logo"
+                style={{ left: "20px", top: "150px" }}
+              ></img>
+              <img
+                src={"assets/Studios/NinjaTheory.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "30px", bottom: "-15px" }}
+                alt="Ninja Theory Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal59}
+              onRequestClose={this.handleCloseModal59}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <Xbox></Xbox>
+                <GamePass></GamePass>
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+              Senua's Saga: Hellblade II is an action adventure video game currently in development by Ninja Theory. Currently confirmed to be one of the new titles in development for the Xbox Series X, the game once again stars Senua on a journey through a hostile world based in the myths and legends of the Norse.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Ninja Theory and published by Xbox Game
+                Studios
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                Do yourself a favor and play the first one with <b>headphones on</b>
+              </span>
+              <YoutubeEmbed
+                embedId="W3QkO8fy3tg"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal59}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal60}>
+              <img
+                src={"assets/Cover Art/SW3.png"}
+                className="rounded-md game-box game-box-bg brightness-50"
+                data-atropos-offset="-4"
+                alt="Shadow Warrior 3 Art"
+              ></img>
+              <img
+                src={"assets/Logo/SW3.png"}
+                className="game-box-logo game-box drop-shadow-2xl"
+                data-atropos-offset="5"
+                alt="Shadow Warrior 3 Logo"
+                style={{ top:"0"}}
+              ></img>
+              <img
+                src={"assets/Studios/Devolver.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "150px", bottom: "-15px", right: "-20px" }}
+                alt="Devolver Digital Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal60}
+              onRequestClose={this.handleCloseModal60}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PlayStation></PlayStation>
+                <Xbox></Xbox>
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+              Shadow Warrior 3 is an upcoming first-person shooter developed by Flying Wild Hog and published by Devolver Digital. As the sequel to Shadow Warrior 2, the game is set to be released for Microsoft Windows, PlayStation 4 and Xbox One in 2022.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Flying Wild Hog and published by Devolver Digital
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                A ridiculous story with even more ridiculously fun gameplay.
+              </span>
+              <YoutubeEmbed
+                embedId="NYH5pwuIx58"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal60}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+
         </div>
         <div>
           <div>
