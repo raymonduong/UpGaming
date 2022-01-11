@@ -631,7 +631,7 @@ export default class App extends Component {
                 I know gōngfu
               </span>
               <YoutubeEmbed embedId="1FQ1YO3Ks2U"></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.sifugame.com/">
                   Go To This Game's Website
                 </a>
@@ -707,7 +707,7 @@ export default class App extends Component {
                 yeah.
               </span>
               <YoutubeEmbed embedId="Lq594XmpPBg"></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.playstation.com/en-ca/games/horizon-forbidden-west/">
                   Go To This Game's Website
                 </a>
@@ -785,7 +785,7 @@ export default class App extends Component {
                 OOOOOOOHHHHHHHH
               </span>
               <YoutubeEmbed embedId="E3Huy2cdih0"></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://en.bandainamcoent.eu/elden-ring/elden-ring">
                   Go To This Game's Website
                 </a>
@@ -862,7 +862,7 @@ export default class App extends Component {
                 I would die for Hisuian Voltorb
               </span>
               <YoutubeEmbed embedId="YUW1ZWAq09M"></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://legends.pokemon.com/en-us/">
                   Go To This Game's Website
                 </a>
@@ -944,7 +944,7 @@ export default class App extends Component {
                 embedId="oFzsANuSbdw"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.ubisoft.com/en-ca/game/rainbow-six/extraction">
                   Go To This Game's Website
                 </a>
@@ -1029,7 +1029,7 @@ export default class App extends Component {
                 embedId="UwJAAy7tPhE"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://dl2.dyinglightgame.com/">
                   Go To This Game's Website
                 </a>
@@ -1109,7 +1109,7 @@ export default class App extends Component {
                 embedId="wqv3Es1oJyE"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.nintendo.com/games/detail/triangle-strategy-switch/">
                   Go To This Game's Website
                 </a>
@@ -1189,7 +1189,7 @@ export default class App extends Component {
                 embedId="Ikqs6B4ozM0"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://playwonderlands.2k.com/">
                   Go To This Game's Website
                 </a>
@@ -1268,7 +1268,7 @@ export default class App extends Component {
                 embedId="EE-4GvjKcfs"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.playstation.com/en-ca/games/god-of-war-ragnarok/">
                   Go To This Game's Website
                 </a>
@@ -1347,7 +1347,7 @@ export default class App extends Component {
                 embedId="AdZUrXCqUck"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://forspoken.square-enix-games.com/en-us/">
                   Go To This Game's Website
                 </a>
@@ -1429,7 +1429,7 @@ export default class App extends Component {
                 embedId="SjDMwsbaSd8"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.stalker2.com/">
                   Go To This Game's Website
                 </a>
@@ -1508,7 +1508,7 @@ export default class App extends Component {
                 embedId="H3LAkr0ANgw"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.nintendo.com/games/detail/kirby-and-the-forgotten-land-switch/">
                   Go To This Game's Website
                 </a>
@@ -1589,7 +1589,7 @@ export default class App extends Component {
                 embedId="3pWjcqXnP2g"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://bethesda.net/game/redfall">
                   Go To This Game's Website
                 </a>
@@ -1678,7 +1678,7 @@ export default class App extends Component {
                 embedId="YgjzDJA1o1E"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.saintsrow.com/">
                   Go To This Game's Website
                 </a>
@@ -1761,7 +1761,7 @@ export default class App extends Component {
                 embedId="pYqyVpCV-3c"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://bethesda.net/en/game/starfield">
                   Go To This Game's Website
                 </a>
@@ -1847,7 +1847,7 @@ export default class App extends Component {
                 embedId="or1DfXdqu3U"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.minecraft.net/en-us">
                   Go To This Game's Website
                 </a>
@@ -1931,7 +1931,7 @@ export default class App extends Component {
                 embedId="2yTr5oS99_c"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.starwars.com/games-apps/lego-star-wars-the-skywalker-saga">
                   Go To This Game's Website
                 </a>
@@ -2009,7 +2009,7 @@ export default class App extends Component {
                 embedId="3fr1Z07AV00"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.nintendo.co.uk/Games/Nintendo-Switch-games/The-sequel-to-The-Legend-of-Zelda-Breath-of-the-Wild-1576884.html">
                   Go To This Game's Website
                 </a>
@@ -2091,7 +2091,7 @@ export default class App extends Component {
                 embedId="l4tkNjJsOvY"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://bethesda.net/en/game/ghostwire-tokyo">
                   Go To This Game's Website
                 </a>
@@ -2173,7 +2173,7 @@ export default class App extends Component {
                 embedId="RRkKZG1z9PY"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://frontiers.sonicthehedgehog.com/">
                   Go To This Game's Website
                 </a>
@@ -2253,7 +2253,7 @@ export default class App extends Component {
                 embedId="u84hRUQlaio"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://stray.game/">Go To This Game's Website</a>
               </p>
               <button
@@ -2336,7 +2336,7 @@ export default class App extends Component {
                 embedId="2EVFYstVuVk"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.suicidesquadgame.com/en-us">
                   Go To This Game's Website
                 </a>
@@ -2418,7 +2418,7 @@ export default class App extends Component {
                 embedId="GUYDXVDLmns"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.nintendo.com/games/detail/splatoon-3-switch/">
                   Go To This Game's Website
                 </a>
@@ -2503,7 +2503,7 @@ export default class App extends Component {
                 embedId="1O6Qstncpnc"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.hogwartslegacy.com/en-us">
                   Go To This Game's Website
                 </a>
@@ -2582,7 +2582,7 @@ export default class App extends Component {
                 embedId="033FWxL22A0"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://warhammer3.totalwar.com/">
                   Go To This Game's Website
                 </a>
@@ -2662,7 +2662,7 @@ export default class App extends Component {
                 embedId="heLn5URnZCc"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://square-enix-games.com/sopffo/en-us/">
                   Go To This Game's Website
                 </a>
@@ -2744,7 +2744,7 @@ export default class App extends Component {
                 embedId="IhVf_3TeTQE"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.gothamknightsgame.com/en-us">
                   Go To This Game's Website
                 </a>
@@ -2826,7 +2826,7 @@ export default class App extends Component {
                 embedId="Ripgh8W2PMg"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://midnightsuns.2k.com/">
                   Go To This Game's Website
                 </a>
@@ -2912,7 +2912,7 @@ export default class App extends Component {
                 embedId="Y-Q5wHtguZI"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.focus-entmt.com/en-us/games/a-plague-tale-requiem">
                   Go To This Game's Website
                 </a>
@@ -2998,7 +2998,7 @@ export default class App extends Component {
                 embedId="Qv2YBl9LL3s"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/">
                   Go To This Game's Website
                 </a>
@@ -3080,7 +3080,7 @@ export default class App extends Component {
                 embedId="Axmg1E4HrVE"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.ubisoft.com/en-ca/game/avatar-frontiers-of-pandora">
                   Go To This Game's Website
                 </a>
@@ -3166,7 +3166,7 @@ export default class App extends Component {
                 embedId="VHIuHMv3t88"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.nintendo.com/games/detail/mario-plus-rabbids-sparks-of-hope-switch/">
                   Go To This Game's Website
                 </a>
@@ -3247,7 +3247,7 @@ export default class App extends Component {
                 embedId="WnVhgyLbC8A"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.callistothegame.com/en">
                   Go To This Game's Website
                 </a>
@@ -3329,7 +3329,7 @@ export default class App extends Component {
                 embedId="QFdoqcJEi8o"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="http://www.neostream.com/">
                   Go To This Game's Website
                 </a>
@@ -3410,7 +3410,7 @@ export default class App extends Component {
                 embedId="P_nj6wW6Gsc"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/">
                   Go To This Game's Website
                 </a>
@@ -3488,7 +3488,7 @@ export default class App extends Component {
                 embedId="1mptdlfRJkw"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://team-reptile.com/category/bomb-rush-cyberfunk/">
                   Go To This Game's Website
                 </a>
@@ -3571,7 +3571,7 @@ export default class App extends Component {
                 embedId="_o7Ip64-Sio"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.snk-corp.co.jp/us/games/kof-xv/">
                   Go To This Game's Website
                 </a>
@@ -3654,7 +3654,7 @@ export default class App extends Component {
                 embedId="13qJvTq7_KA"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.shredders-revenge.com/">
                   Go To This Game's Website
                 </a>
@@ -3733,7 +3733,7 @@ export default class App extends Component {
                 embedId="pY9weUmUw_0"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://square-enix-games.com/chocobo-gp/en-us/">
                   Go To This Game's Website
                 </a>
@@ -3814,7 +3814,7 @@ export default class App extends Component {
                 embedId="0NS3lzv0Nw4"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.weirdwest.com/">
                   Go To This Game's Website
                 </a>
@@ -3892,7 +3892,7 @@ export default class App extends Component {
                 embedId="1tBUsXIkG1A"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.playstation.com/en-ca/games/gran-turismo-7/">
                   Go To This Game's Website
                 </a>
@@ -3973,7 +3973,7 @@ export default class App extends Component {
                 embedId="vqK-1WGqYmI"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://seaofstarsgame.co/">
                   Go To This Game's Website
                 </a>
@@ -4054,7 +4054,7 @@ export default class App extends Component {
                 embedId="TgxVQRTXtz0"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.focus-entmt.com/en-us/games/warhammer-40000-space-marine-2">
                   Go To This Game's Website
                 </a>
@@ -4136,7 +4136,7 @@ export default class App extends Component {
                 embedId="q4Dyrl7dVbo"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.trektoyomi.com/">
                   Go To This Game's Website
                 </a>
@@ -4216,7 +4216,7 @@ export default class App extends Component {
                 embedId="sAKe9OI3Cog"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://insomniac.games/game/marvels-spider-man-2/">
                   Go To This Game's Website
                 </a>
@@ -4294,7 +4294,7 @@ export default class App extends Component {
                 embedId="Zcj9AzHv_l8"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://insomniac.games/game/marvels-wolverine/">
                   Go To This Game's Website
                 </a>
@@ -4374,7 +4374,7 @@ export default class App extends Component {
                 embedId="vAAG5ramERM"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.humblegames.com/games/midnightfightexpress/">
                   Go To This Game's Website
                 </a>
@@ -4454,7 +4454,7 @@ export default class App extends Component {
                 embedId="yQxwbZsL14Y"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.hollowknightsilksong.com/">
                   Go To This Game's Website
                 </a>
@@ -4533,7 +4533,7 @@ export default class App extends Component {
                 embedId="fftL_XeK2qU"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.nintendo.com/games/detail/advance-wars-1-plus-2-re-boot-camp-switch/">
                   Go To This Game's Website
                 </a>
@@ -4612,7 +4612,7 @@ export default class App extends Component {
                 embedId="yPNn-jwAC9c"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://blog.playstation.com/2022/01/04/horizon-call-of-the-mountain-revealed-for-playstation-vr2/">
                   Go To This Game's Website
                 </a>
@@ -4695,7 +4695,7 @@ export default class App extends Component {
                 embedId="yr6PtdY0i7M"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://na.finalfantasyxvi.com/">
                   Go To This Game's Website
                 </a>
@@ -4779,7 +4779,7 @@ export default class App extends Component {
                 embedId="W3QkO8fy3tg"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.xbox.com/en-CA/games/avowed">
                   Go To This Game's Website
                 </a>
@@ -4870,7 +4870,7 @@ export default class App extends Component {
                 embedId="QzE4WBKs98o"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.liesofp.com/">Go To This Game's Website</a>
               </p>
               <button
@@ -4953,7 +4953,7 @@ export default class App extends Component {
                 embedId="_P5OlfGbk5g"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://playreplaced.com/">Go To This Game's Website</a>
               </p>
               <button
@@ -5034,7 +5034,7 @@ export default class App extends Component {
                 embedId="s9qGwXx5ABg"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://tunicgame.com/">Go To This Game's Website</a>
               </p>
               <button
@@ -5112,7 +5112,7 @@ export default class App extends Component {
                 embedId="lP009fvbt8c"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://palia.com/">Go To This Game's Website</a>
               </p>
               <button
@@ -5191,7 +5191,7 @@ export default class App extends Component {
                 embedId="AI0k1V0t_SI"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.daybeforegame.com/">Go To This Game's Website</a>
               </p>
               <button
@@ -5267,7 +5267,7 @@ export default class App extends Component {
                 embedId="ClhDyC0ZECs"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.xbox.com/en-CA/games/the-outer-worlds-2">Go To This Game's Website</a>
               </p>
               <button
@@ -5347,7 +5347,7 @@ export default class App extends Component {
                 embedId="fukYzbthEVU"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://www.xbox.com/en-CA/games/senuas-saga-hellblade-ii">Go To This Game's Website</a>
               </p>
               <button
@@ -5425,7 +5425,7 @@ export default class App extends Component {
                 embedId="NYH5pwuIx58"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p>
+              <p className="text-center text-sm">
                 <a href="https://shadowwarrior.com/">Go To This Game's Website</a>
               </p>
               <button
