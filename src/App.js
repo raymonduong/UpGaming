@@ -70,6 +70,9 @@ export default class App extends Component {
       showModal52: false,
       showModal53: false,
       showModal54: false,
+      showModal55: false,
+      showModal56: false,
+      showModal57: false,
     };
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
@@ -126,6 +129,9 @@ export default class App extends Component {
     this.handleOpenModal52 = this.handleOpenModal52.bind(this);
     this.handleOpenModal53 = this.handleOpenModal53.bind(this);
     this.handleOpenModal54 = this.handleOpenModal54.bind(this);
+    this.handleOpenModal55 = this.handleOpenModal55.bind(this);
+    this.handleOpenModal56 = this.handleOpenModal56.bind(this);
+    this.handleOpenModal57 = this.handleOpenModal57.bind(this);
 
     this.handleCloseModal = this.handleCloseModal.bind(this);
     this.handleCloseModal2 = this.handleCloseModal2.bind(this);
@@ -181,6 +187,9 @@ export default class App extends Component {
     this.handleCloseModal52 = this.handleCloseModal52.bind(this);
     this.handleCloseModal53 = this.handleCloseModal53.bind(this);
     this.handleCloseModal54 = this.handleCloseModal54.bind(this);
+    this.handleCloseModal55 = this.handleCloseModal55.bind(this);
+    this.handleCloseModal56 = this.handleCloseModal56.bind(this);
+    this.handleCloseModal57 = this.handleCloseModal57.bind(this);
   }
   handleOpenModal() {
     this.setState({ showModal: true });
@@ -344,6 +353,15 @@ export default class App extends Component {
   handleOpenModal54() {
     this.setState({ showModal54: true });
   }
+  handleOpenModal55() {
+    this.setState({ showModal55: true });
+  }
+  handleOpenModal56() {
+    this.setState({ showModal56: true });
+  }
+  handleOpenModal57() {
+    this.setState({ showModal57: true });
+  }
 
   handleCloseModal() {
     this.setState({ showModal: false });
@@ -506,6 +524,15 @@ export default class App extends Component {
   }
   handleCloseModal54() {
     this.setState({ showModal54: false });
+  }
+  handleCloseModal55() {
+    this.setState({ showModal55: false });
+  }
+  handleCloseModal56() {
+    this.setState({ showModal56: false });
+  }
+  handleCloseModal57() {
+    this.setState({ showModal57: false });
   }
 
   render() {
@@ -4632,6 +4659,231 @@ export default class App extends Component {
               ></YoutubeEmbed>
               <button
                 onClick={this.handleCloseModal54}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal55}>
+              <img
+                src={"assets/Cover Art/Tunic.png"}
+                className="rounded-md game-box game-box-bg brightness-90"
+                data-atropos-offset="-4"
+                alt="Replaced Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/Tunic.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Replaced Logo"
+                style={{ left: "15px", top: "-180px" }}
+              ></img>
+              <img
+                src={"assets/Studios/Finji.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "30px", bottom: "-15px" }}
+                alt="Sad Cat Studios Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal55}
+              onRequestClose={this.handleCloseModal55}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <Xbox></Xbox>
+                <GamePass></GamePass>
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-xs text-white md:text-lg">
+                Explore a land filled with lost legends, ancient powers, and
+                ferocious monsters in TUNIC, an isometric action game about a
+                small fox on a big adventure. Stranded on a mysterious beach,
+                armed with only your own curiosity, you will confront colossal
+                beasts, collect strange and powerful items, and unravel
+                long-lost secrets.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Andrew Shouldice and published by Finji
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                Do you like cute aesthetics? Games made by one person? Then this
+                game is for you!
+              </span>
+              <YoutubeEmbed
+                embedId="s9qGwXx5ABg"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal55}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal56}>
+              <img
+                src={"assets/Cover Art/Palia.png"}
+                className="rounded-md game-box game-box-bg brightness-75"
+                data-atropos-offset="-4"
+                alt="Palia Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/Palia.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Palia Logo"
+                style={{ left: "45px", top: "-170px", width: "200px" }}
+              ></img>
+              <img
+                src={"assets/Studios/Six.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "80px", bottom: "-20px", right: "5px" }}
+                alt="Singularity Six Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal56}
+              onRequestClose={this.handleCloseModal56}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-xs text-white md:text-lg">
+                After disappearing thousands of years ago, humans have just
+                begun to reappear across Palia. As one of the newly reemerged
+                humans, you will have to find your place in the world. Uncover
+                the mysteries of humanity’s past or just live a simple life -
+                you decide!
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed and published by Singularity Six, Inc
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                An MMO that definitely encourages you to listen to lofi hiphop
+                beats and drink tea while playing.
+              </span>
+              <YoutubeEmbed
+                embedId="lP009fvbt8c"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal56}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal57}>
+              <img
+                src={"assets/Cover Art/TheDayBefore.png"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="The Day Before Cover Art"
+              ></img>
+              <img
+                src={"assets/Logo/TheDayBefore.png"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="The Day Before Logo"
+                style={{ left: "50px", top: "-100px", width: "200px" }}
+              ></img>
+              <img
+                src={"assets/Studios/Fntastic.png"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "80px", bottom: "-20px", right: "5px" }}
+                alt="Fntastic Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal57}
+              onRequestClose={this.handleCloseModal57}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PlayStation></PlayStation>
+                <Xbox></Xbox>
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-xs text-white md:text-lg">
+              Welcome to The Day Before, an open-world MMO survival set in a deadly, post-pandemic America overrun by flesh-hungry infected and survivors killing each other for food, weapons, and cars. You wake up alone in a world you no longer remember, setting out to find answers and the resources to survive.
+              </p>
+              <p className="pb-4 text-sm md:text-lg">
+                Developed by Fntastic and published by Mytona
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                Giving me "The Division" vibes
+              </span>
+              <YoutubeEmbed
+                embedId="AI0k1V0t_SI"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <button
+                onClick={this.handleCloseModal57}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
