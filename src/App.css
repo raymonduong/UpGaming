@@ -310,6 +310,7 @@ h1 {
   outline: none;
   height: 95vh;
   top: 20px;
+  font-family: ;
 }
 @media (max-width: 767.98px) {
   .Modal {
@@ -371,4 +372,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+}
+
+@media (min-width: 992px) {
+  .video-responsive iframe {
+    max-height: 504px;
+    max-width: 896px;
+  }
 }
