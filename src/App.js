@@ -624,13 +624,18 @@ export default class App extends Component {
                 his unique mastery of Kung Fu as well as a mysterious pendant to
                 prevail, and preserve his family's legacy.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by and published by Sloclap
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
                 I know gōngfu
               </span>
               <YoutubeEmbed embedId="1FQ1YO3Ks2U"></YoutubeEmbed>
+              <p>
+                <a href="https://www.sifugame.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -693,7 +698,7 @@ export default class App extends Component {
                 frontier known as the Forbidden West to find the source of a
                 mysterious plague that kills all it infects.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Guerrilla Games and Published by PlayStation
                 Studios
               </p>
@@ -702,6 +707,11 @@ export default class App extends Component {
                 yeah.
               </span>
               <YoutubeEmbed embedId="Lq594XmpPBg"></YoutubeEmbed>
+              <p>
+                <a href="https://www.playstation.com/en-ca/games/horizon-forbidden-west/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal2}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-4 right-4 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -768,13 +778,18 @@ export default class App extends Component {
                 quest for glory in the aftermath of a great war, the gods of old
                 actively decaying all around you.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by FromSoftware and Published by Bandai Namco
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
                 OOOOOOOHHHHHHHH
               </span>
               <YoutubeEmbed embedId="E3Huy2cdih0"></YoutubeEmbed>
+              <p>
+                <a href="https://en.bandainamcoent.eu/elden-ring/elden-ring">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal3}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -839,7 +854,7 @@ export default class App extends Component {
                 in Jubilife Village, the place that will become one of Sinnoh's
                 major cities.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Game Freak and Published by Nintendo and The
                 Pokémon Company
               </p>
@@ -847,6 +862,11 @@ export default class App extends Component {
                 I would die for Hisuian Voltorb
               </span>
               <YoutubeEmbed embedId="YUW1ZWAq09M"></YoutubeEmbed>
+              <p>
+                <a href="https://legends.pokemon.com/en-us/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal4}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -914,7 +934,7 @@ export default class App extends Component {
                 multiplayer game in which players must work together to combat
                 and defeat a type of parasite-like aliens called the Archaeans.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Ubisoft Montreal and published by Ubisoft
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -924,6 +944,11 @@ export default class App extends Component {
                 embedId="oFzsANuSbdw"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.ubisoft.com/en-ca/game/rainbow-six/extraction">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal5}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -994,7 +1019,7 @@ export default class App extends Component {
                 across the world and have evolved, plunged it into a period
                 known as the Modern Dark Ages.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Techland
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1004,6 +1029,11 @@ export default class App extends Component {
                 embedId="UwJAAy7tPhE"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://dl2.dyinglightgame.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal6}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1068,7 +1098,7 @@ export default class App extends Component {
                 convictions—Utility, Morality, Liberty—which together make up
                 Serenoa's world view and influence how the story will unfold.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Artdink and Square Enix and published by Nintendo
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1079,6 +1109,11 @@ export default class App extends Component {
                 embedId="wqv3Es1oJyE"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.nintendo.com/games/detail/triangle-strategy-switch/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal7}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1144,7 +1179,7 @@ export default class App extends Component {
                 by 2K Games. It is a spin-off in the Borderlands series and a
                 successor to Borderlands 2: Tiny Tina's Assault on Dragon Keep
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Gearbox Software and published by 2K Games
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1154,6 +1189,11 @@ export default class App extends Component {
                 embedId="Ikqs6B4ozM0"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://playwonderlands.2k.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal8}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1217,7 +1257,7 @@ export default class App extends Component {
                 Interactive Entertainment. It is scheduled to be released in
                 2022 for the PlayStation 4 and PlayStation 5.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Santa Monica Studio and published by Sony
                 Interactive Entertainment
               </p>
@@ -1228,6 +1268,11 @@ export default class App extends Component {
                 embedId="EE-4GvjKcfs"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.playstation.com/en-ca/games/god-of-war-ragnarok/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal9}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1292,7 +1337,7 @@ export default class App extends Component {
                 It is to be released on May 24, 2022 for Microsoft Windows and
                 PlayStation 5.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Luminous Productions and published by Square Enix
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1302,6 +1347,11 @@ export default class App extends Component {
                 embedId="AdZUrXCqUck"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://forspoken.square-enix-games.com/en-us/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal10}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1369,7 +1419,7 @@ export default class App extends Component {
                 consoles, as well as the first S.T.A.L.K.E.R. game in 13 years
                 since the release of Call of Pripyat in 2009.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by GSC Game World
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1379,6 +1429,11 @@ export default class App extends Component {
                 embedId="SjDMwsbaSd8"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.stalker2.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal11}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1443,7 +1498,7 @@ export default class App extends Component {
                 on September 23, 2021 and is planned to release worldwide in
                 Spring 2022.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by HAL Laboratory and published by Nintendo
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1453,6 +1508,11 @@ export default class App extends Component {
                 embedId="H3LAkr0ANgw"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.nintendo.com/games/detail/kirby-and-the-forgotten-land-switch/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal12}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1519,7 +1579,7 @@ export default class App extends Component {
                 Rosa, and supernatural sharpshooter Jacob Boyer — and slay their
                 enemies, vampires and humans alike.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Arkane Studios and published by Bethesda Softworks
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1529,6 +1589,11 @@ export default class App extends Component {
                 embedId="3pWjcqXnP2g"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://bethesda.net/game/redfall">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal13}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1602,7 +1667,7 @@ export default class App extends Component {
                 PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, and
                 Windows platforms.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Volition and published by Deep Silver
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1613,6 +1678,11 @@ export default class App extends Component {
                 embedId="YgjzDJA1o1E"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.saintsrow.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal14}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1680,7 +1750,7 @@ export default class App extends Component {
                 with unparalleled freedom as you embark on an epic journey to
                 answer humanity’s greatest mystery.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Bethesda Game Studios and published by Bethesda
                 Softworks
               </p>
@@ -1691,6 +1761,11 @@ export default class App extends Component {
                 embedId="pYqyVpCV-3c"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://bethesda.net/en/game/starfield">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal15}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1761,7 +1836,7 @@ export default class App extends Component {
                 biomes more atmospheric and immersive. In addition, it also
                 introduces several new mobs and biome variants.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Mojang
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1772,6 +1847,11 @@ export default class App extends Component {
                 embedId="or1DfXdqu3U"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.minecraft.net/en-us">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal16}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1840,7 +1920,7 @@ export default class App extends Component {
                 the sixth entry in TT Games' Lego Star Wars series of video
                 games and the successor to Lego Star Wars: The Force Awakens.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Traveller's Tales and published by Warner Bros.
                 Interactive Entertainment
               </p>
@@ -1851,6 +1931,11 @@ export default class App extends Component {
                 embedId="2yTr5oS99_c"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.starwars.com/games-apps/lego-star-wars-the-skywalker-saga">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal17}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1914,7 +1999,7 @@ export default class App extends Component {
                 sequel is part of The Legend of Zelda series and is currently
                 aimed to be released in 2022 for the Nintendo Switch
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Nintendo
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1924,6 +2009,11 @@ export default class App extends Component {
                 embedId="3fr1Z07AV00"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.nintendo.co.uk/Games/Nintendo-Switch-games/The-sequel-to-The-Legend-of-Zelda-Breath-of-the-Wild-1576884.html">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal18}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -1991,7 +2081,7 @@ export default class App extends Component {
                 the dark truth behind the disappearance as you FACE THE UNKNOWN
                 in Ghostwire: Tokyo.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Tango Gameworks and published by Bethesda Softworks
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2001,6 +2091,11 @@ export default class App extends Component {
                 embedId="l4tkNjJsOvY"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://bethesda.net/en/game/ghostwire-tokyo">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal19}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2068,7 +2163,7 @@ export default class App extends Component {
                 game to feature open-world gameplay; as Sonic, the player
                 explores the Starfall Islands, which comprise various biomes.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Sonic Team and published by Sega
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2078,6 +2173,11 @@ export default class App extends Component {
                 embedId="RRkKZG1z9PY"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://frontiers.sonicthehedgehog.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal20}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2142,7 +2242,7 @@ export default class App extends Component {
                 HK_Project, the game is scheduled for release in early 2022 for
                 Microsoft Windows, PlayStation 4, and PlayStation 5.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by BlueTwelve Studio and published by Annapurna
                 Interactive
               </p>
@@ -2153,6 +2253,9 @@ export default class App extends Component {
                 embedId="u84hRUQlaio"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://stray.game/">Go To This Game's Website</a>
+              </p>
               <button
                 onClick={this.handleCloseModal21}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2224,7 +2327,7 @@ export default class App extends Component {
                 action-adventure game developed by Rocksteady Studios and
                 published by Warner Bros. Interactive Entertainment.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Rocksteady Studios and published by Warner Bros.
                 Interactive Entertainment
               </p>
@@ -2233,6 +2336,11 @@ export default class App extends Component {
                 embedId="2EVFYstVuVk"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.suicidesquadgame.com/en-us">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal22}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2298,7 +2406,7 @@ export default class App extends Component {
                 consists of competitive online multiplayer matches alongside a
                 story-driven single-player mode.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Nintendo
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2310,6 +2418,11 @@ export default class App extends Component {
                 embedId="GUYDXVDLmns"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.nintendo.com/games/detail/splatoon-3-switch/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal23}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2376,7 +2489,7 @@ export default class App extends Component {
                 developed by Avalanche Software and published by Warner Bros.
                 Interactive Entertainment under its Portkey Games label.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Avalance Software and published by Warner Bros.
                 Interactive Entertainment
               </p>
@@ -2390,6 +2503,11 @@ export default class App extends Component {
                 embedId="1O6Qstncpnc"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.hogwartslegacy.com/en-us">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal24}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2454,7 +2572,7 @@ export default class App extends Component {
                 third to be set in Games Workshop's Warhammer Fantasy fictional
                 universe.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Creative Assembly and published by Sega
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2464,6 +2582,11 @@ export default class App extends Component {
                 embedId="033FWxL22A0"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://warhammer3.totalwar.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal25}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2528,7 +2651,7 @@ export default class App extends Component {
                 role-playing game developed by Koei Tecmo Games and Team Ninja,
                 and published by Square Enix.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Koei Tecmo Games and Team Ninja and published by
                 Square Enix
               </p>
@@ -2539,6 +2662,11 @@ export default class App extends Component {
                 embedId="heLn5URnZCc"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://square-enix-games.com/sopffo/en-us/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal26}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2604,7 +2732,7 @@ export default class App extends Component {
                 by WB Games Montréal and published by Warner Bros. Interactive
                 Entertainment.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by WB Games Montréal published by Warner Bros.
                 Interactive Entertainment
               </p>
@@ -2616,6 +2744,11 @@ export default class App extends Component {
                 embedId="IhVf_3TeTQE"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.gothamknightsgame.com/en-us">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal27}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2683,7 +2816,7 @@ export default class App extends Component {
                 properties, such as Midnight Sons, Avengers, X-Men, and
                 Runaways.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Firaxis Games and published by 2K Games
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2693,6 +2826,11 @@ export default class App extends Component {
                 embedId="Ripgh8W2PMg"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://midnightsuns.2k.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal28}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2763,7 +2901,7 @@ export default class App extends Component {
                 brother, Hugo, on an intense new quest for hope, as a terrifying
                 curse hunts them down.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Asobo Studio and published by Focus Entertainment
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2774,6 +2912,11 @@ export default class App extends Component {
                 embedId="Y-Q5wHtguZI"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.focus-entmt.com/en-us/games/a-plague-tale-requiem">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal29}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2843,7 +2986,7 @@ export default class App extends Component {
                 Rings and follows the character of Gollum before the events of
                 The Lord of the Rings and The Hobbit.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Daedalic Entertainment and published by Daedalic
                 Entertainment and Nacon
               </p>
@@ -2855,6 +2998,11 @@ export default class App extends Component {
                 embedId="Qv2YBl9LL3s"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal30}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -2922,7 +3070,7 @@ export default class App extends Component {
                 will be published by Ubisoft for Microsoft Windows, PlayStation
                 5, Xbox Series X/S, Amazon Luna and Stadia in 2022.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Massive Entertainment and published by Ubisoft
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2932,6 +3080,11 @@ export default class App extends Component {
                 embedId="Axmg1E4HrVE"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.ubisoft.com/en-ca/game/avatar-frontiers-of-pandora">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal31}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3003,7 +3156,7 @@ export default class App extends Component {
                 between Nintendo's Mario and Ubisoft's Raving Rabbids franchises
                 and a sequel to the 2017 game Mario + Rabbids Kingdom Battle
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Ubisoft Milan and published by Ubisoft
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3013,6 +3166,11 @@ export default class App extends Component {
                 embedId="VHIuHMv3t88"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.nintendo.com/games/detail/mario-plus-rabbids-sparks-of-hope-switch/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal32}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3078,7 +3236,7 @@ export default class App extends Component {
                 developed by Striking Distance Studios, founded by Glen
                 Schofield, who had previously co-created the Dead Space series.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Striking Distance Studios and published by KRAFTON
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3089,6 +3247,11 @@ export default class App extends Component {
                 embedId="WnVhgyLbC8A"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.callistothegame.com/en">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal33}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3156,7 +3319,7 @@ export default class App extends Component {
                 explorers searching for monsters & supernatural events in a
                 19th-century-inspired world.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Neostream Interactive
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3166,6 +3329,11 @@ export default class App extends Component {
                 embedId="QFdoqcJEi8o"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="http://www.neostream.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal34}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3232,7 +3400,7 @@ export default class App extends Component {
                 scheduled for release in 2022 for Microsoft Windows, PlayStation
                 4, PlayStation 5, Xbox One and Xbox Series X/S.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Intercept Games and published by Private Division
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3242,6 +3410,11 @@ export default class App extends Component {
                 embedId="P_nj6wW6Gsc"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal35}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3305,7 +3478,7 @@ export default class App extends Component {
                 developed and published by Team Reptile. It will be released on
                 Steam for Microsoft Windows sometime in 2022.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Team Reptile
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3315,6 +3488,11 @@ export default class App extends Component {
                 embedId="1mptdlfRJkw"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://team-reptile.com/category/bomb-rush-cyberfunk/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal36}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3383,7 +3561,7 @@ export default class App extends Component {
                 in The King of Fighters series to use Unreal Engine 4 and the
                 first to use GGPO rollback networking.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by SNK
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3393,6 +3571,11 @@ export default class App extends Component {
                 embedId="_o7Ip64-Sio"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.snk-corp.co.jp/us/games/kof-xv/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal37}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3461,7 +3644,7 @@ export default class App extends Component {
                 Turtles franchise, and inspired by the 1987 animated series and
                 the games based on it.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Tribute Games and published by Dotemu
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3471,6 +3654,11 @@ export default class App extends Component {
                 embedId="13qJvTq7_KA"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.shredders-revenge.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal38}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3535,7 +3723,7 @@ export default class App extends Component {
                 franchise, and is a sequel to 1999's Chocobo Racing. It is
                 scheduled for release for the Nintendo Switch on March 10, 2022.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Square Enix
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3545,6 +3733,11 @@ export default class App extends Component {
                 embedId="pY9weUmUw_0"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://square-enix-games.com/chocobo-gp/en-us/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal39}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3611,7 +3804,7 @@ export default class App extends Component {
                 The game is set to be released for Windows, PlayStation 4 and
                 Xbox One in March 2022.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by WolfEye Studios and published by Devolver Digital
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3621,6 +3814,11 @@ export default class App extends Component {
                 embedId="0NS3lzv0Nw4"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.weirdwest.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal40}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3683,7 +3881,7 @@ export default class App extends Component {
                 Entertainment. The game will be the eighth mainline installment
                 in the Gran Turismo series.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Polyphony Digital and published by Sony Interactive
                 Entertainment
               </p>
@@ -3694,6 +3892,11 @@ export default class App extends Component {
                 embedId="1tBUsXIkG1A"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.playstation.com/en-ca/games/gran-turismo-7/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal41}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3759,7 +3962,7 @@ export default class App extends Component {
                 only force capable of fending off the monstrous creations of the
                 evil alchemist known as The Fleshmancer.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Sabotage Studio
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3770,6 +3973,11 @@ export default class App extends Component {
                 embedId="vqK-1WGqYmI"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://seaofstarsgame.co/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal42}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3835,7 +4043,7 @@ export default class App extends Component {
                 released for Microsoft Windows, PlayStation 5 and Xbox Series
                 X/S at a date that is yet to be announced.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Saber Interactive
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3846,6 +4054,11 @@ export default class App extends Component {
                 embedId="TgxVQRTXtz0"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.focus-entmt.com/en-us/games/warhammer-40000-space-marine-2">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal43}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3912,7 +4125,7 @@ export default class App extends Component {
                 must voyage beyond life and death to confront himself and decide
                 his path forward.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Flying Wild Hog and Leonard Menchiari and published
                 by Devolver Digital
               </p>
@@ -3923,6 +4136,11 @@ export default class App extends Component {
                 embedId="q4Dyrl7dVbo"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.trektoyomi.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal44}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3987,7 +4205,7 @@ export default class App extends Component {
                 place just a couple months after Marvel's Spider-Man: Miles
                 Morales.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Insomniac Games and published by Sony Interactive
                 Entertainment
               </p>
@@ -3998,6 +4216,11 @@ export default class App extends Component {
                 embedId="sAKe9OI3Cog"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://insomniac.games/game/marvels-spider-man-2/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal45}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4059,7 +4282,7 @@ export default class App extends Component {
                 Games for PlayStation 5. Created in collaboration with Marvel
                 Games and PlayStation.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Insomniac Games and published by Sony Interactive
                 Entertainment
               </p>
@@ -4071,6 +4294,11 @@ export default class App extends Component {
                 embedId="Zcj9AzHv_l8"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://insomniac.games/game/marvels-wolverine/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal46}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4136,7 +4364,7 @@ export default class App extends Component {
                 Fight your way across the city in a brutal romp that mixes old
                 school brawlers and fast-paced motion-captured combat.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Jacob Dzwinel and published by Humble Games
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4146,6 +4374,11 @@ export default class App extends Component {
                 embedId="vAAG5ramERM"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.humblegames.com/games/midnightfightexpress/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal47}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4211,7 +4444,7 @@ export default class App extends Component {
                 originally announced in February 2019 as a sequel to the 2017
                 game Hollow Knight.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Team Cherry
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4221,6 +4454,11 @@ export default class App extends Component {
                 embedId="yQxwbZsL14Y"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.hollowknightsilksong.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal48}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4285,7 +4523,7 @@ export default class App extends Component {
                 multiple maps. This remake features two campaigns that cover the
                 events of Advance Wars and Advance Wars 2: Black Hole Rising!
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Wayforward and published by Nintendo
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4295,6 +4533,11 @@ export default class App extends Component {
                 embedId="fftL_XeK2qU"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.nintendo.com/games/detail/advance-wars-1-plus-2-re-boot-camp-switch/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal49}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4358,7 +4601,7 @@ export default class App extends Component {
                 experience, designed to push hardware technology, innovation,
                 and gameplay.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Firesprite and Guerrilla Games and published by
                 Sony Interactive Entertainment
               </p>
@@ -4369,6 +4612,11 @@ export default class App extends Component {
                 embedId="yPNn-jwAC9c"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://blog.playstation.com/2022/01/04/horizon-call-of-the-mountain-revealed-for-playstation-vr2/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal50}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4437,7 +4685,7 @@ export default class App extends Component {
                 monsters controlled by or manifesting through humans called
                 Dominants.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Square Enix
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4447,6 +4695,11 @@ export default class App extends Component {
                 embedId="yr6PtdY0i7M"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://na.finalfantasyxvi.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal51}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4514,7 +4767,7 @@ export default class App extends Component {
                 Game Pass, and Microsoft Windows. Set in the world of Eora, it
                 is a spin-off of the Pillars of Eternity series.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Obsidian Entertainment and published by Xbox Game
                 Studios
               </p>
@@ -4526,6 +4779,11 @@ export default class App extends Component {
                 embedId="W3QkO8fy3tg"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.xbox.com/en-CA/games/avowed">
+                  Go To This Game's Website
+                </a>
+              </p>
               <button
                 onClick={this.handleCloseModal52}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4586,14 +4844,22 @@ export default class App extends Component {
                 <PC></PC>
               </div>
               <p className="pb-4 text-xs text-white md:text-lg">
-                Inspired by the familiar story of Pinocchio, Lies of P is an
-                action souls-like game set in a cruel, dark Belle Époque world.
-                All of humanity is lost in a once beautiful city that has now
-                become a living hell filled with unspeakable horrors. Lies of P
-                offers an elegant world filled with tension, a deep combat
-                system and a gripping story.
+                You wake up at an abandoned train station in Krat, a city
+                overwhelmed by madness and bloodlust. In front of you lies a
+                single note that reads. Find Mr. Geppetto. He's here in the
+                city. Play as Pinocchio, a puppet mechanoid, and fight through
+                everything in your path to find this mystery person. But don't
+                expect any help along the way and don't make the mistake of
+                trusting anyone. You must always lie to others if you hope to
+                become human.Inspired by the familiar story of Pinocchio, Lies
+                of P is an action souls-like game set in a cruel, dark Belle
+                Époque world. All of humanity is lost in a once beautiful city
+                that has now become a living hell filled with unspeakable
+                horrors. Lies of P offers an elegant world filled with tension,
+                a deep combat system and a gripping story. Guide Pinocchio and
+                experience his unrelenting journey to become human.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Round8 and published by NEOWIZ
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4604,6 +4870,9 @@ export default class App extends Component {
                 embedId="QzE4WBKs98o"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.liesofp.com/">Go To This Game's Website</a>
+              </p>
               <button
                 onClick={this.handleCloseModal53}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4674,7 +4943,7 @@ export default class App extends Component {
                 how to be human in a society that has taken a turn for the
                 worst.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Sad Cat Studios and published by Coatsink
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4684,6 +4953,9 @@ export default class App extends Component {
                 embedId="_P5OlfGbk5g"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://playreplaced.com/">Go To This Game's Website</a>
+              </p>
               <button
                 onClick={this.handleCloseModal54}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4751,7 +5023,7 @@ export default class App extends Component {
                 beasts, collect strange and powerful items, and unravel
                 long-lost secrets.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Andrew Shouldice and published by Finji
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4762,6 +5034,9 @@ export default class App extends Component {
                 embedId="s9qGwXx5ABg"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://tunicgame.com/">Go To This Game's Website</a>
+              </p>
               <button
                 onClick={this.handleCloseModal55}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4826,7 +5101,7 @@ export default class App extends Component {
                 the mysteries of humanity’s past or just live a simple life -
                 you decide!
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed and published by Singularity Six, Inc
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4837,6 +5112,9 @@ export default class App extends Component {
                 embedId="lP009fvbt8c"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://palia.com/">Go To This Game's Website</a>
+              </p>
               <button
                 onClick={this.handleCloseModal56}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4897,9 +5175,13 @@ export default class App extends Component {
                 <PC></PC>
               </div>
               <p className="pb-4 text-xs text-white md:text-lg">
-              Welcome to The Day Before, an open-world MMO survival set in a deadly, post-pandemic America overrun by flesh-hungry infected and survivors killing each other for food, weapons, and cars. You wake up alone in a world you no longer remember, setting out to find answers and the resources to survive.
+                Welcome to The Day Before, an open-world MMO survival set in a
+                deadly, post-pandemic America overrun by flesh-hungry infected
+                and survivors killing each other for food, weapons, and cars.
+                You wake up alone in a world you no longer remember, setting out
+                to find answers and the resources to survive.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Fntastic and published by Mytona
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4909,6 +5191,9 @@ export default class App extends Component {
                 embedId="AI0k1V0t_SI"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.daybeforegame.com/">Go To This Game's Website</a>
+              </p>
               <button
                 onClick={this.handleCloseModal57}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -4969,25 +5254,22 @@ export default class App extends Component {
                 <PC></PC>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
-                Avowed is an upcoming first-person fantasy role-playing video
-                game developed by Obsidian Entertainment and published by Xbox
-                Game Studios. It was revealed at the Xbox Games Showcase on July
-                24, 2020, and is set to be released on Xbox Series X/S, Xbox
-                Game Pass, and Microsoft Windows. Set in the world of Eora, it
-                is a spin-off of the Pillars of Eternity series.
+              The Outer Worlds 2 is a sci-fi role-playing video game being developed by Obsidian Entertainment and published by Microsoft. It was announced on the 13 June 2021 at E3, the game will take place in a new star system with a new crew. Unlike its predecessor, The Outer Worlds, The Outer Worlds 2 will not be available on the Playstation 5.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Obsidian Entertainment and published by Xbox Game
                 Studios
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
-                From the same parent company that owns Skyrim...get ready for
-                the Skyrim killer.
+              ♪ It's not the best choice. It's Spacer's Choice! ♪
               </span>
               <YoutubeEmbed
                 embedId="ClhDyC0ZECs"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.xbox.com/en-CA/games/the-outer-worlds-2">Go To This Game's Website</a>
+              </p>
               <button
                 onClick={this.handleCloseModal58}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -5010,7 +5292,8 @@ export default class App extends Component {
                 </svg>
               </button>
             </ReactModal>
-          </div><div>
+          </div>
+          <div>
             <Atropos onClick={this.handleOpenModal59}>
               <img
                 src={"assets/Cover Art/Hellblade2.png"}
@@ -5047,19 +5330,26 @@ export default class App extends Component {
                 <PC></PC>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
-              Senua's Saga: Hellblade II is an action adventure video game currently in development by Ninja Theory. Currently confirmed to be one of the new titles in development for the Xbox Series X, the game once again stars Senua on a journey through a hostile world based in the myths and legends of the Norse.
+                Senua's Saga: Hellblade II is an action adventure video game
+                currently in development by Ninja Theory. Currently confirmed to
+                be one of the new titles in development for the Xbox Series X,
+                the game once again stars Senua on a journey through a hostile
+                world based in the myths and legends of the Norse.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
-                Developed by Ninja Theory and published by Xbox Game
-                Studios
+              <p className="pb-4 text-sm md:text-base">
+                Developed by Ninja Theory and published by Xbox Game Studios
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
-                Do yourself a favor and play the first one with <b>headphones on</b>
+                Do yourself a favor and play the first one with{" "}
+                <b>headphones on</b>
               </span>
               <YoutubeEmbed
                 embedId="fukYzbthEVU"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://www.xbox.com/en-CA/games/senuas-saga-hellblade-ii">Go To This Game's Website</a>
+              </p>
               <button
                 onClick={this.handleCloseModal59}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -5096,7 +5386,7 @@ export default class App extends Component {
                 className="game-box-logo game-box drop-shadow-2xl"
                 data-atropos-offset="5"
                 alt="Shadow Warrior 3 Logo"
-                style={{ top:"0"}}
+                style={{ top: "0" }}
               ></img>
               <img
                 src={"assets/Studios/Devolver.png"}
@@ -5120,9 +5410,12 @@ export default class App extends Component {
                 <PC></PC>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
-              Shadow Warrior 3 is an upcoming first-person shooter developed by Flying Wild Hog and published by Devolver Digital. As the sequel to Shadow Warrior 2, the game is set to be released for Microsoft Windows, PlayStation 4 and Xbox One in 2022.
+                Shadow Warrior 3 is an upcoming first-person shooter developed
+                by Flying Wild Hog and published by Devolver Digital. As the
+                sequel to Shadow Warrior 2, the game is set to be released for
+                Microsoft Windows, PlayStation 4 and Xbox One in 2022.
               </p>
-              <p className="pb-4 text-sm md:text-lg">
+              <p className="pb-4 text-sm md:text-base">
                 Developed by Flying Wild Hog and published by Devolver Digital
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -5132,6 +5425,9 @@ export default class App extends Component {
                 embedId="NYH5pwuIx58"
                 className="mb-10"
               ></YoutubeEmbed>
+              <p>
+                <a href="https://shadowwarrior.com/">Go To This Game's Website</a>
+              </p>
               <button
                 onClick={this.handleCloseModal60}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -5155,7 +5451,6 @@ export default class App extends Component {
               </button>
             </ReactModal>
           </div>
-
         </div>
         <div>
           <div>
