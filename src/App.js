@@ -4985,7 +4985,7 @@ export default class App extends Component {
                 the Skyrim killer.
               </span>
               <YoutubeEmbed
-                embedId="W3QkO8fy3tg"
+                embedId="ClhDyC0ZECs"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
@@ -5057,7 +5057,7 @@ export default class App extends Component {
                 Do yourself a favor and play the first one with <b>headphones on</b>
               </span>
               <YoutubeEmbed
-                embedId="W3QkO8fy3tg"
+                embedId="fukYzbthEVU"
                 className="mb-10"
               ></YoutubeEmbed>
               <button
