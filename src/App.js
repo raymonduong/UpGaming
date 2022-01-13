@@ -10,6 +10,7 @@ import PlayStation from "./components/PlayStation";
 import GamePass from "./components/GamePass";
 import Nintendo from "./components/Nintendo";
 import PC from "./components/PC";
+import EP from "./components/EditorsPick";
 <link rel="stylesheet" href="path/to/atropos.css" />;
 
 export default class App extends Component {
@@ -586,19 +587,19 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal}>
               <img
-                src={"assets/Cover Art/SIFU.png"}
+                src={"assets/Cover Art/SIFU.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Sifu Cover Art"
               ></img>
               <img
-                src={"assets/Logo/SIFU.png"}
+                src={"assets/Logo/SIFU.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Sifu Logo"
               ></img>
               <img
-                src={"assets/Studios/Sloclap.png"}
+                src={"assets/Studios/Sloclap.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "100px", bottom: "-15px", right: "0" }}
@@ -616,6 +617,7 @@ export default class App extends Component {
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Sifu is the story of a young Kung Fu student on a path of
@@ -631,7 +633,7 @@ export default class App extends Component {
                 I know gōngfu
               </span>
               <YoutubeEmbed embedId="1FQ1YO3Ks2U"></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.sifugame.com/">
                   Go To This Game's Website
                 </a>
@@ -662,19 +664,19 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal2}>
               <img
-                src={"assets/Cover Art/HFW.png"}
+                src={"assets/Cover Art/HFW.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Horizon Forbidden West Cover Art"
               ></img>
               <img
-                src={"assets/Logo/HFW.png"}
+                src={"assets/Logo/HFW.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Horizon Forbidden West Logo"
               ></img>
               <img
-                src={"assets/Studios/ps.png"}
+                src={"assets/Studios/ps.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
@@ -691,6 +693,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Horizon Forbidden West continues the story of Aloy, a young
@@ -707,7 +710,7 @@ export default class App extends Component {
                 yeah.
               </span>
               <YoutubeEmbed embedId="Lq594XmpPBg"></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.playstation.com/en-ca/games/horizon-forbidden-west/">
                   Go To This Game's Website
                 </a>
@@ -738,20 +741,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal3}>
               <img
-                src={"assets/Cover Art/ELDENRING.png"}
+                src={"assets/Cover Art/ELDENRING.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Elden Ring Cover Art"
               ></img>
               <img
-                src={"assets/Logo/ELDENRING.png"}
+                src={"assets/Logo/ELDENRING.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "-150px" }}
                 alt="Elden Ring Logo"
               ></img>
               <img
-                src={"assets/Studios/BandaiNamco.png"}
+                src={"assets/Studios/BandaiNamco.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "auto", bottom: "-20px" }}
@@ -770,6 +773,7 @@ export default class App extends Component {
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Elden Ring tells the story of the Tarnished who were banished
@@ -785,7 +789,7 @@ export default class App extends Component {
                 OOOOOOOHHHHHHHH
               </span>
               <YoutubeEmbed embedId="E3Huy2cdih0"></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://en.bandainamcoent.eu/elden-ring/elden-ring">
                   Go To This Game's Website
                 </a>
@@ -816,20 +820,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal4}>
               <img
-                src={"assets/Cover Art/Arceus.png"}
+                src={"assets/Cover Art/Arceus.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Pokemon Legends Arceus Cover Art"
               ></img>
               <img
-                src={"assets/Studios/Nintendo.png"}
+                src={"assets/Studios/Nintendo.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "45px", top: "-18px", left: "0" }}
                 alt="Nintendo Switch Logo"
               ></img>
               <img
-                src={"assets/Logo/Arceus.png"}
+                src={"assets/Logo/Arceus.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "-120px" }}
@@ -846,6 +850,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Pokémon Legends: Arceus is set in a version of Sinnoh based on
@@ -862,7 +867,7 @@ export default class App extends Component {
                 I would die for Hisuian Voltorb
               </span>
               <YoutubeEmbed embedId="YUW1ZWAq09M"></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://legends.pokemon.com/en-us/">
                   Go To This Game's Website
                 </a>
@@ -893,20 +898,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal5}>
               <img
-                src={"assets/Cover Art/R6Extract.png"}
+                src={"assets/Cover Art/R6Extract.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Rainbow Six Extraction Cover Art"
               ></img>
               <img
-                src={"assets/Studios/Ubisoft.png"}
+                src={"assets/Studios/Ubisoft.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ bottom: "140px", width: "100px", right: "35px" }}
                 alt="Ubisoft Logo"
               ></img>
               <img
-                src={"assets/Logo/R6Extract.png"}
+                src={"assets/Logo/R6Extract.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Rainbow Six Extraction Logo"
@@ -944,7 +949,7 @@ export default class App extends Component {
                 embedId="oFzsANuSbdw"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.ubisoft.com/en-ca/game/rainbow-six/extraction">
                   Go To This Game's Website
                 </a>
@@ -975,13 +980,13 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal6}>
               <img
-                src={"assets/Cover Art/DL2.png"}
+                src={"assets/Cover Art/DL2.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Dying Light 2 Cover Art"
               ></img>
               <img
-                src={"assets/Logo/DL2.png"}
+                src={"assets/Logo/DL2.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "100px" }}
@@ -989,7 +994,7 @@ export default class App extends Component {
                 title=""
               ></img>
               <img
-                src={"assets/Studios/Techland.png"}
+                src={"assets/Studios/Techland.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "90px", bottom: "-20px" }}
@@ -1029,7 +1034,7 @@ export default class App extends Component {
                 embedId="UwJAAy7tPhE"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://dl2.dyinglightgame.com/">
                   Go To This Game's Website
                 </a>
@@ -1060,20 +1065,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal7}>
               <img
-                src={"assets/Cover Art/Black.png"}
+                src={"assets/Cover Art/Black.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Triangle Strategy Cover Art"
               ></img>
               <img
-                src={"assets/Studios/Nintendo.png"}
+                src={"assets/Studios/Nintendo.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "45px", top: "-18px", left: "0" }}
                 alt="Nintendo Switch Logo"
               ></img>
               <img
-                src={"assets/Logo/Triangle.png"}
+                src={"assets/Logo/Triangle.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "-50px", left: "15px" }}
@@ -1109,7 +1114,7 @@ export default class App extends Component {
                 embedId="wqv3Es1oJyE"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.nintendo.com/games/detail/triangle-strategy-switch/">
                   Go To This Game's Website
                 </a>
@@ -1140,13 +1145,13 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal8}>
               <img
-                src={"assets/Cover Art/TTW.png"}
+                src={"assets/Cover Art/TTW.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Tiny Tina's Wonderland Cover Art"
               ></img>
               <img
-                src={"assets/Logo/TTW.png"}
+                src={"assets/Logo/TTW.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Tiny Tina's Wonderland Logo"
@@ -1172,6 +1177,7 @@ export default class App extends Component {
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Tiny Tina's Wonderlands is an action role-playing first-person
@@ -1189,7 +1195,7 @@ export default class App extends Component {
                 embedId="Ikqs6B4ozM0"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://playwonderlands.2k.com/">
                   Go To This Game's Website
                 </a>
@@ -1220,20 +1226,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal9}>
               <img
-                src={"assets/Cover Art/GOWR.png"}
+                src={"assets/Cover Art/GOWR.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="God of War: Ragnorak Cover Art"
               ></img>
               <img
-                src={"assets/Logo/GOWR.png"}
+                src={"assets/Logo/GOWR.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="God of War: Ragnorak Logo"
                 style={{ top: "-180px", left: "15px" }}
               ></img>
               <img
-                src={"assets/Studios/ps.png"}
+                src={"assets/Studios/ps.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
@@ -1250,6 +1256,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 God of War Ragnarök is an upcoming action-adventure game
@@ -1268,7 +1275,7 @@ export default class App extends Component {
                 embedId="EE-4GvjKcfs"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.playstation.com/en-ca/games/god-of-war-ragnarok/">
                   Go To This Game's Website
                 </a>
@@ -1299,20 +1306,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal10}>
               <img
-                src={"assets/Cover Art/Forspoken.png"}
+                src={"assets/Cover Art/Forspoken.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Forspoken Cover Art"
               ></img>
               <img
-                src={"assets/Logo/Forspoken.png"}
+                src={"assets/Logo/Forspoken.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Forspoken Logo"
                 style={{ left: "15px", top: "-100px" }}
               ></img>
               <img
-                src={"assets/Studios/SQ.png"}
+                src={"assets/Studios/SQ.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-30px", right: "5px" }}
@@ -1330,6 +1337,7 @@ export default class App extends Component {
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Forspoken is an upcoming action role-playing video game
@@ -1347,7 +1355,7 @@ export default class App extends Component {
                 embedId="AdZUrXCqUck"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://forspoken.square-enix-games.com/en-us/">
                   Go To This Game's Website
                 </a>
@@ -1378,19 +1386,19 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal11}>
               <img
-                src={"assets/Cover Art/Stalker2.png"}
+                src={"assets/Cover Art/Stalker2.webp"}
                 className="rounded-md game-box game-box-bg brightness-50"
                 data-atropos-offset="-4"
                 alt="Stalker 2 Art"
               ></img>
               <img
-                src={"assets/Logo/Stalker2.png"}
+                src={"assets/Logo/Stalker2.webp"}
                 className="game-box-logo game-box drop-shadow-2xl"
                 data-atropos-offset="5"
                 alt="Stalker 2 Logo"
               ></img>
               <img
-                src={"assets/Studios/GameWorld.png"}
+                src={"assets/Studios/GameWorld.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "auto", bottom: "-20px", right: "10px" }}
@@ -1429,7 +1437,7 @@ export default class App extends Component {
                 embedId="SjDMwsbaSd8"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.stalker2.com/">
                   Go To This Game's Website
                 </a>
@@ -1460,20 +1468,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal12}>
               <img
-                src={"assets/Cover Art/Kirby.png"}
+                src={"assets/Cover Art/Kirby.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Kirby and the Forgetten Land Cover Art"
               ></img>
               <img
-                src={"assets/Studios/Nintendo.png"}
+                src={"assets/Studios/Nintendo.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "45px", top: "-18px", left: "0" }}
                 alt="Nintendo Switch Logo"
               ></img>
               <img
-                src={"assets/Logo/Kirby.png"}
+                src={"assets/Logo/Kirby.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "-90px" }}
@@ -1490,6 +1498,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Kirby and the Forgotten Land is an upcoming 3D platformer Kirby
@@ -1508,7 +1517,7 @@ export default class App extends Component {
                 embedId="H3LAkr0ANgw"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.nintendo.com/games/detail/kirby-and-the-forgotten-land-switch/">
                   Go To This Game's Website
                 </a>
@@ -1539,20 +1548,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal13}>
               <img
-                src={"assets/Cover Art/Redfall.png"}
+                src={"assets/Cover Art/Redfall.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Redfall Art"
               ></img>
               <img
-                src={"assets/Logo/Redfall.png"}
+                src={"assets/Logo/Redfall.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "-165px", left: "15px" }}
                 alt="Redfall Logo"
               ></img>
               <img
-                src={"assets/Studios/Bethesda.png"}
+                src={"assets/Studios/Bethesda.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-20px", right: "10px" }}
@@ -1571,6 +1580,7 @@ export default class App extends Component {
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Trapped inside Redfall, players must choose among four unique
@@ -1589,7 +1599,7 @@ export default class App extends Component {
                 embedId="3pWjcqXnP2g"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://bethesda.net/game/redfall">
                   Go To This Game's Website
                 </a>
@@ -1620,13 +1630,13 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal14}>
               <img
-                src={"assets/Cover Art/SR.png"}
+                src={"assets/Cover Art/SR.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Saints Row Art"
               ></img>
               <img
-                src={"assets/Studios/DeepSilver.png"}
+                src={"assets/Studios/DeepSilver.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "40px", bottom: "-5px", right: "5px" }}
@@ -1640,7 +1650,7 @@ export default class App extends Component {
                 alt="Saints Row Logo"
               ></img>
               <img
-                src={"assets/Logo/MC.png"}
+                src={"assets/Logo/MC.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ width: "100%", objectFit: "cover", left: "0" }}
@@ -1678,7 +1688,7 @@ export default class App extends Component {
                 embedId="YgjzDJA1o1E"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.saintsrow.com/">
                   Go To This Game's Website
                 </a>
@@ -1709,20 +1719,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal15}>
               <img
-                src={"assets/Cover Art/Starfield.png"}
+                src={"assets/Cover Art/Starfield.webp"}
                 className="rounded-md game-box game-box-bg brightness-50"
                 data-atropos-offset="-4"
                 alt="Starfield Art"
               ></img>
               <img
-                src={"assets/Logo/Starfield.png"}
+                src={"assets/Logo/Starfield.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "0", left: "15px" }}
                 alt="Starfield Logo"
               ></img>
               <img
-                src={"assets/Studios/Bethesda.png"}
+                src={"assets/Studios/Bethesda.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-20px", right: "10px" }}
@@ -1741,6 +1751,7 @@ export default class App extends Component {
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Starfield is the first new universe in 25 years from Bethesda
@@ -1761,7 +1772,7 @@ export default class App extends Component {
                 embedId="pYqyVpCV-3c"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://bethesda.net/en/game/starfield">
                   Go To This Game's Website
                 </a>
@@ -1792,21 +1803,21 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal16}>
               <img
-                src={"assets/Cover Art/Minecraft.png"}
+                src={"assets/Cover Art/Minecraft.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Minecraft The Wild Update Art"
                 style={{ objectPosition: "left" }}
               ></img>
               <img
-                src={"assets/Logo/Minecraft.png"}
+                src={"assets/Logo/Minecraft.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "0", left: "15px" }}
                 alt="Minecraft The Wild Update Logo"
               ></img>
               <img
-                src={"assets/Studios/Mojang.png"}
+                src={"assets/Studios/Mojang.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "50px", bottom: "-15px", right: "5px" }}
@@ -1827,6 +1838,7 @@ export default class App extends Component {
                 <GamePass></GamePass>
                 <PC></PC>
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 The Wild Update is the name of an upcoming major themed update
@@ -1847,7 +1859,7 @@ export default class App extends Component {
                 embedId="or1DfXdqu3U"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.minecraft.net/en-us">
                   Go To This Game's Website
                 </a>
@@ -1878,20 +1890,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal17}>
               <img
-                src={"assets/Cover Art/LEGO.png"}
+                src={"assets/Cover Art/LEGO.webp"}
                 className="rounded-md game-box game-box-bg brightness-50"
                 data-atropos-offset="-4"
                 alt="LEGO Star Wars: The Skywalker Saga Art"
               ></img>
               <img
-                src={"assets/Logo/LEGO.png"}
+                src={"assets/Logo/LEGO.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "0", left: "15px" }}
                 alt="LEGO Star Wars: The Skywalker Saga Logo"
               ></img>
               <img
-                src={"assets/Studios/WB.png"}
+                src={"assets/Studios/WB.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "40px", bottom: "-10px", right: "5px" }}
@@ -1912,6 +1924,7 @@ export default class App extends Component {
                 <GamePass></GamePass>
                 <PC></PC>
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Lego Star Wars: The Skywalker Saga is an upcoming Lego-themed
@@ -1931,7 +1944,7 @@ export default class App extends Component {
                 embedId="2yTr5oS99_c"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.starwars.com/games-apps/lego-star-wars-the-skywalker-saga">
                   Go To This Game's Website
                 </a>
@@ -1962,20 +1975,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal18}>
               <img
-                src={"assets/Cover Art/Loz.png"}
+                src={"assets/Cover Art/Loz.webp"}
                 className="rounded-md game-box game-box-bg brightness-75"
                 data-atropos-offset="-4"
                 alt="The Sequel to the Legend of Zelda: Breath of the Wild Cover Art"
               ></img>
               <img
-                src={"assets/Studios/Nintendo.png"}
+                src={"assets/Studios/Nintendo.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "45px", top: "-18px", left: "0" }}
                 alt="Nintendo Switch Logo"
               ></img>
               <img
-                src={"assets/Logo/LoZ.png"}
+                src={"assets/Logo/LoZ.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "0", left: "20px" }}
@@ -1992,6 +2005,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 An untitled sequel to the 2017 action-adventure game The Legend
@@ -2009,7 +2023,7 @@ export default class App extends Component {
                 embedId="3fr1Z07AV00"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.nintendo.co.uk/Games/Nintendo-Switch-games/The-sequel-to-The-Legend-of-Zelda-Breath-of-the-Wild-1576884.html">
                   Go To This Game's Website
                 </a>
@@ -2040,13 +2054,13 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal19}>
               <img
-                src={"assets/Cover Art/GWT.png"}
+                src={"assets/Cover Art/GWT.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Ghostwire Tokyo Art"
               ></img>
               <img
-                src={"assets/Logo/GWT.png"}
+                src={"assets/Logo/GWT.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "120px", left: "15px" }}
@@ -2054,7 +2068,7 @@ export default class App extends Component {
                 title=""
               ></img>
               <img
-                src={"assets/Studios/Bethesda.png"}
+                src={"assets/Studios/Bethesda.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-20px", right: "10px" }}
@@ -2072,6 +2086,7 @@ export default class App extends Component {
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Tokyo is overrun by deadly supernatural forces, perpetrated by a
@@ -2091,7 +2106,7 @@ export default class App extends Component {
                 embedId="l4tkNjJsOvY"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://bethesda.net/en/game/ghostwire-tokyo">
                   Go To This Game's Website
                 </a>
@@ -2122,13 +2137,13 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal20}>
               <img
-                src={"assets/Cover Art/Sonic.png"}
+                src={"assets/Cover Art/Sonic.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Sonic Frontiers Tokyo Art"
               ></img>
               <img
-                src={"assets/Logo/Sonic.png"}
+                src={"assets/Logo/Sonic.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "-120px", left: "15px" }}
@@ -2136,7 +2151,7 @@ export default class App extends Component {
                 title=""
               ></img>
               <img
-                src={"assets/Studios/Sega.png"}
+                src={"assets/Studios/Sega.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-20px", right: "10px" }}
@@ -2173,7 +2188,7 @@ export default class App extends Component {
                 embedId="RRkKZG1z9PY"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://frontiers.sonicthehedgehog.com/">
                   Go To This Game's Website
                 </a>
@@ -2204,20 +2219,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal21}>
               <img
-                src={"assets/Cover Art/Stray.png"}
+                src={"assets/Cover Art/Stray.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Stray Art"
               ></img>
               <img
-                src={"assets/Logo/Stray.png"}
+                src={"assets/Logo/Stray.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "90px", left: "15px" }}
                 alt="Stray Logo"
               ></img>
               <img
-                src={"assets/Studios/Annapurna.png"}
+                src={"assets/Studios/Annapurna.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "50px", bottom: "-10px", right: "5px" }}
@@ -2235,6 +2250,7 @@ export default class App extends Component {
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Stray is an upcoming adventure game developed by BlueTwelve
@@ -2253,7 +2269,7 @@ export default class App extends Component {
                 embedId="u84hRUQlaio"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://stray.game/">Go To This Game's Website</a>
               </p>
               <button
@@ -2282,27 +2298,27 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal22}>
               <img
-                src={"assets/Cover Art/SS.png"}
+                src={"assets/Cover Art/White.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Blank White Background"
               ></img>
               <img
-                src={"assets/Studios/WB.png"}
+                src={"assets/Studios/WB.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "40px", bottom: "-5px", right: "5px" }}
                 alt="Warner Bros Logo"
               ></img>
               <img
-                src={"assets/Logo/SSLogo.png"}
+                src={"assets/Logo/SSLogo.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="1"
                 style={{ top: "0", left: "15px" }}
                 alt="Suicide Squad: Kill the Justice League Logo"
               ></img>
               <img
-                src={"assets/Logo/SS.png"}
+                src={"assets/Logo/SS.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ width: "100%", objectFit: "cover", left: "0" }}
@@ -2336,7 +2352,7 @@ export default class App extends Component {
                 embedId="2EVFYstVuVk"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.suicidesquadgame.com/en-us">
                   Go To This Game's Website
                 </a>
@@ -2367,21 +2383,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal23}>
               <img
-                src={"assets/Cover Art/Splatoon3.png"}
+                src={"assets/Cover Art/Splatoon3.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Splatoon 3 Cover Art"
-                style={{ objectPosition: "left" }}
               ></img>
               <img
-                src={"assets/Studios/Nintendo.png"}
+                src={"assets/Studios/Nintendo.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "45px", top: "-18px", left: "0" }}
                 alt="Nintendo Switch Logo"
               ></img>
               <img
-                src={"assets/Logo/Splatoon3.png"}
+                src={"assets/Logo/Splatoon3.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "0", left: "20px" }}
@@ -2418,7 +2433,7 @@ export default class App extends Component {
                 embedId="GUYDXVDLmns"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.nintendo.com/games/detail/splatoon-3-switch/">
                   Go To This Game's Website
                 </a>
@@ -2449,13 +2464,13 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal24}>
               <img
-                src={"assets/Cover Art/Hogwarts.png"}
+                src={"assets/Cover Art/Hogwarts.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Hogwarts Legacy Art"
               ></img>
               <img
-                src={"assets/Logo/Hogwarts.png"}
+                src={"assets/Logo/Hogwarts.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "0" }}
@@ -2463,7 +2478,7 @@ export default class App extends Component {
                 title=""
               ></img>
               <img
-                src={"assets/Studios/WB.png"}
+                src={"assets/Studios/WB.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "40px", bottom: "-10px", right: "5px" }}
@@ -2482,6 +2497,7 @@ export default class App extends Component {
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Hogwarts Legacy is an upcoming open-world, action role-playing
@@ -2503,7 +2519,7 @@ export default class App extends Component {
                 embedId="1O6Qstncpnc"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.hogwartslegacy.com/en-us">
                   Go To This Game's Website
                 </a>
@@ -2534,20 +2550,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal25}>
               <img
-                src={"assets/Cover Art/Warhammer.png"}
+                src={"assets/Cover Art/Warhammer.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Total War: Warhammer 3 Art"
               ></img>
               <img
-                src={"assets/Logo/Warhammer.png"}
+                src={"assets/Logo/Warhammer.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "150px" }}
                 alt="Total War: Warhammer 3 Logo"
               ></img>
               <img
-                src={"assets/Studios/CreativeAssembly.png"}
+                src={"assets/Studios/CreativeAssembly.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "40px", bottom: "-10px", right: "5px" }}
@@ -2582,7 +2598,7 @@ export default class App extends Component {
                 embedId="033FWxL22A0"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://warhammer3.totalwar.com/">
                   Go To This Game's Website
                 </a>
@@ -2613,20 +2629,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal26}>
               <img
-                src={"assets/Cover Art/FFOrigin.png"}
+                src={"assets/Cover Art/FFOrigin.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Stranger of Paradise: Final Fantasy Origin Cover Art"
               ></img>
               <img
-                src={"assets/Logo/FFOrigin.png"}
+                src={"assets/Logo/FFOrigin.webp"}
                 className="game-box-logo game-box drop-shadow-2xl"
                 data-atropos-offset="5"
                 alt="Stranger of Paradise: Final Fantasy Origin Logo"
                 style={{ top: "-60px" }}
               ></img>
               <img
-                src={"assets/Studios/SQBlack.png"}
+                src={"assets/Studios/SQBlack.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "100px", bottom: "-20px", right: "10px" }}
@@ -2662,7 +2678,7 @@ export default class App extends Component {
                 embedId="heLn5URnZCc"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://square-enix-games.com/sopffo/en-us/">
                   Go To This Game's Website
                 </a>
@@ -2693,13 +2709,13 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal27}>
               <img
-                src={"assets/Cover Art/GK.png"}
+                src={"assets/Cover Art/GK.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Gotham Knights Art"
               ></img>
               <img
-                src={"assets/Logo/GK.png"}
+                src={"assets/Logo/GK.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ left: "15px" }}
@@ -2707,7 +2723,7 @@ export default class App extends Component {
                 title=""
               ></img>
               <img
-                src={"assets/Studios/WB.png"}
+                src={"assets/Studios/WB.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "40px", bottom: "-10px", right: "5px" }}
@@ -2744,7 +2760,7 @@ export default class App extends Component {
                 embedId="IhVf_3TeTQE"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.gothamknightsgame.com/en-us">
                   Go To This Game's Website
                 </a>
@@ -2775,16 +2791,16 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal28}>
               <img
-                src={"assets/Cover Art/MMS.png"}
+                src={"assets/Cover Art/MMS.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Marvel's Midnight Suns Art"
               ></img>
               <img
-                src={"assets/Logo/MMS.png"}
+                src={"assets/Logo/MMS.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
-                style={{ left: "22px" }}
+                style={{ left: "65px", width:"60%", top:"-165px" }}
                 alt="Marvel's Midnight Suns Logo"
               ></img>
               <img
@@ -2826,7 +2842,7 @@ export default class App extends Component {
                 embedId="Ripgh8W2PMg"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://midnightsuns.2k.com/">
                   Go To This Game's Website
                 </a>
@@ -2857,20 +2873,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal29}>
               <img
-                src={"assets/Cover Art/PTR.png"}
+                src={"assets/Cover Art/PTR.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="A Plague Tale: Requiem Art"
               ></img>
               <img
-                src={"assets/Studios/FocusEntertainment.png"}
+                src={"assets/Studios/FocusEntertainment.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "35px", bottom: "-10px", right: "5px" }}
                 alt="Focus Entertainment Logo"
               ></img>
               <img
-                src={"assets/Logo/PTR.png"}
+                src={"assets/Logo/PTR.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ left: "22px", top: "170px" }}
@@ -2891,6 +2907,7 @@ export default class App extends Component {
                 <GamePass></GamePass>
                 <PC></PC>
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 A Plague Tale: Requiem is a narrative-driven, action-adventure
@@ -2912,7 +2929,7 @@ export default class App extends Component {
                 embedId="Y-Q5wHtguZI"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.focus-entmt.com/en-us/games/a-plague-tale-requiem">
                   Go To This Game's Website
                 </a>
@@ -2943,26 +2960,25 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal30}>
               <img
-                src={"assets/Cover Art/Gollum.png"}
+                src={"assets/Cover Art/White.webp"}
                 className="rounded-md game-box game-box-bg brightness-100"
                 data-atropos-offset="-4"
-                alt="The Lord of the Rings: Gollum Art"
+                alt="White Background"
               ></img>
               <img
-                src={"assets/Studios/Daedalic.png"}
+                src={"assets/Studios/Daedalic.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ bottom: "-15px", right: "5px", width: "100px" }}
                 alt="Daedalic Entertainment Logo"
               ></img>
               <img
-                src={"assets/Logo/Gollum.png"}
+                src={"assets/Logo/Gollum.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="The Lord of the Rings: Gollum Logo"
                 style={{
-                  top: "-150px",
-                  filter: "drop-shadow(5px 5px 5px #000000)",
+                  left:"15px"
                 }}
               ></img>
             </Atropos>
@@ -2998,7 +3014,7 @@ export default class App extends Component {
                 embedId="Qv2YBl9LL3s"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/">
                   Go To This Game's Website
                 </a>
@@ -3029,21 +3045,21 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal31}>
               <img
-                src={"assets/Cover Art/Avatar.png"}
+                src={"assets/Cover Art/Avatar.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Avatar: Frontiers of Pandora Art"
                 style={{ objectPosition: "left" }}
               ></img>
               <img
-                src={"assets/Studios/UbisoftLogo.png"}
+                src={"assets/Studios/UbisoftLogo.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ bottom: "-10px", right: "10px", width: "40px" }}
                 alt="Ubisoft Logo"
               ></img>
               <img
-                src={"assets/Logo/Avatar.png"}
+                src={"assets/Logo/Avatar.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Avatar: Frontiers of Pandora Logo"
@@ -3080,7 +3096,7 @@ export default class App extends Component {
                 embedId="Axmg1E4HrVE"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.ubisoft.com/en-ca/game/avatar-frontiers-of-pandora">
                   Go To This Game's Website
                 </a>
@@ -3111,27 +3127,27 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal32}>
               <img
-                src={"assets/Cover Art/M+R.png"}
+                src={"assets/Cover Art/M+R.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Mario + Rabbids Sparks of Hope Cover Art"
               ></img>
               <img
-                src={"assets/Studios/Nintendo.png"}
+                src={"assets/Studios/Nintendo.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "45px", top: "-18px", left: "0" }}
                 alt="Nintendo Switch Logo"
               ></img>
               <img
-                src={"assets/Studios/UbisoftBlack.png"}
+                src={"assets/Studios/UbisoftBlack.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "45px", bottom: "-15px", right: "5px" }}
                 alt="Ubisoft Logo"
               ></img>
               <img
-                src={"assets/Logo/M+R.png"}
+                src={"assets/Logo/M+R.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "-160px" }}
@@ -3148,6 +3164,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Mario + Rabbids Sparks of Hope is an upcoming turn-based
@@ -3166,7 +3183,7 @@ export default class App extends Component {
                 embedId="VHIuHMv3t88"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.nintendo.com/games/detail/mario-plus-rabbids-sparks-of-hope-switch/">
                   Go To This Game's Website
                 </a>
@@ -3197,21 +3214,21 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal33}>
               <img
-                src={"assets/Cover Art/TCP.png"}
+                src={"assets/Cover Art/TCP.webp"}
                 className="rounded-md game-box game-box-bg brightness-75"
                 data-atropos-offset="-4"
                 alt="The Callisto Protocol Art"
                 style={{ objectPosition: "left" }}
               ></img>
               <img
-                src={"assets/Studios/Krafton.png"}
+                src={"assets/Studios/Krafton.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ bottom: "-20px", right: "10px", width: "90px" }}
                 alt="KRAFTON Logo"
               ></img>
               <img
-                src={"assets/Logo/TCP.png"}
+                src={"assets/Logo/TCP.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="The Callisto Protocol Logo"
@@ -3247,7 +3264,7 @@ export default class App extends Component {
                 embedId="WnVhgyLbC8A"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.callistothegame.com/en">
                   Go To This Game's Website
                 </a>
@@ -3278,20 +3295,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal34}>
               <img
-                src={"assets/Cover Art/LDI.png"}
+                src={"assets/Cover Art/LDI.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Little Devil Inside Art"
               ></img>
               <img
-                src={"assets/Studios/Neostream.png"}
+                src={"assets/Studios/Neostream.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ bottom: "-10px", right: "-10px", width: "80px" }}
                 alt="Neostream Logo"
               ></img>
               <img
-                src={"assets/Logo/LDI.png"}
+                src={"assets/Logo/LDI.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Little Devil Inside Logo"
@@ -3310,6 +3327,7 @@ export default class App extends Component {
                 <PlayStation></PlayStation>
                 <PC></PC>
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Little Devil Inside is an upcoming action-adventure video game
@@ -3329,7 +3347,7 @@ export default class App extends Component {
                 embedId="QFdoqcJEi8o"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="http://www.neostream.com/">
                   Go To This Game's Website
                 </a>
@@ -3360,20 +3378,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal35}>
               <img
-                src={"assets/Cover Art/KSP2.png"}
+                src={"assets/Cover Art/KSP2.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Kerbal Space Program 2 Art"
               ></img>
               <img
-                src={"assets/Studios/Squad.png"}
+                src={"assets/Studios/Squad.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ bottom: "-15px", right: "5px", width: "40px" }}
                 alt="Squad Logo"
               ></img>
               <img
-                src={"assets/Logo/KSP2.png"}
+                src={"assets/Logo/KSP2.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Kerbal Space Program 2 Logo"
@@ -3410,7 +3428,7 @@ export default class App extends Component {
                 embedId="P_nj6wW6Gsc"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.kerbalspaceprogram.com/game/kerbal-space-program-2/">
                   Go To This Game's Website
                 </a>
@@ -3441,20 +3459,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal36}>
               <img
-                src={"assets/Cover Art/BRC.png"}
+                src={"assets/Cover Art/BRC.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Bomb Rush Cyberfunk Art"
               ></img>
               <img
-                src={"assets/Studios/TeamReptile.png"}
+                src={"assets/Studios/TeamReptile.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ bottom: "0px", right: "-40px", width: "150px" }}
                 alt="Team Reptile Logo"
               ></img>
               <img
-                src={"assets/Logo/BRC.png"}
+                src={"assets/Logo/BRC.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Bomb Rush Cyberfunk Logo"
@@ -3472,6 +3490,7 @@ export default class App extends Component {
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PC></PC>
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Bomb Rush Cyberfunk is an upcoming action-adventure game
@@ -3488,7 +3507,7 @@ export default class App extends Component {
                 embedId="1mptdlfRJkw"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://team-reptile.com/category/bomb-rush-cyberfunk/">
                   Go To This Game's Website
                 </a>
@@ -3519,21 +3538,21 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal37}>
               <img
-                src={"assets/Cover Art/KOFXV.png"}
+                src={"assets/Cover Art/KOFXV.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 style={{ objectPosition: "" }}
                 alt="The King of Fighters XV Art"
               ></img>
               <img
-                src={"assets/Studios/SNK.png"}
+                src={"assets/Studios/SNK.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ bottom: "-20px", right: "5px", width: "80px" }}
                 alt="SNK Logo"
               ></img>
               <img
-                src={"assets/Logo/KOFXV.png"}
+                src={"assets/Logo/KOFXV.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="The King of Fighters XV Logo"
@@ -3571,7 +3590,7 @@ export default class App extends Component {
                 embedId="_o7Ip64-Sio"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.snk-corp.co.jp/us/games/kof-xv/">
                   Go To This Game's Website
                 </a>
@@ -3602,21 +3621,21 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal38}>
               <img
-                src={"assets/Cover Art/TMNT.png"}
+                src={"assets/Cover Art/TMNT.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 style={{ objectPosition: "" }}
                 alt="Teenage Mutant Ninja Turtles: Shredder's Revenge Art"
               ></img>
               <img
-                src={"assets/Studios/Tribute.png"}
+                src={"assets/Studios/Tribute.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ bottom: "-15px", right: "5px", width: "40px" }}
                 alt="Tribute Games Logo"
               ></img>
               <img
-                src={"assets/Logo/TMNT.png"}
+                src={"assets/Logo/TMNT.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Teenage Mutant Ninja Turtles: Shredder's Revenge Logo"
@@ -3636,6 +3655,7 @@ export default class App extends Component {
                 <Xbox></Xbox>
                 <PC></PC>
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Teenage Mutant Ninja Turtles: Shredder's Revenge is an upcoming
@@ -3654,7 +3674,7 @@ export default class App extends Component {
                 embedId="13qJvTq7_KA"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.shredders-revenge.com/">
                   Go To This Game's Website
                 </a>
@@ -3685,20 +3705,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal39}>
               <img
-                src={"assets/Cover Art/Chocobo.png"}
+                src={"assets/Cover Art/Chocobo.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Chocobo GP Cover Art"
               ></img>
               <img
-                src={"assets/Logo/Chocobo.png"}
+                src={"assets/Logo/Chocobo.webp"}
                 className="game-box-logo game-box drop-shadow-2xl"
                 data-atropos-offset="5"
                 alt="Chocobo GP Logo"
                 style={{ top: "60px" }}
               ></img>
               <img
-                src={"assets/Studios/SQ.png"}
+                src={"assets/Studios/SQ.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "100px", bottom: "-25px", right: "0px" }}
@@ -3733,7 +3753,7 @@ export default class App extends Component {
                 embedId="pY9weUmUw_0"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://square-enix-games.com/chocobo-gp/en-us/">
                   Go To This Game's Website
                 </a>
@@ -3764,20 +3784,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal40}>
               <img
-                src={"assets/Cover Art/Black.png"}
+                src={"assets/Cover Art/Black.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Black Cover Art"
               ></img>
               <img
-                src={"assets/Logo/WeirdWest.png"}
+                src={"assets/Logo/WeirdWest.webp"}
                 className="game-box-logo game-box drop-shadow-2xl"
                 data-atropos-offset="5"
                 alt="Weird West Logo"
                 title=""
               ></img>
               <img
-                src={"assets/Studios/Devolver.png"}
+                src={"assets/Studios/Devolver.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "150px", bottom: "-15px", right: "-20px" }}
@@ -3797,6 +3817,7 @@ export default class App extends Component {
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Weird West is an upcoming action role-playing video game
@@ -3814,7 +3835,7 @@ export default class App extends Component {
                 embedId="0NS3lzv0Nw4"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.weirdwest.com/">
                   Go To This Game's Website
                 </a>
@@ -3845,19 +3866,19 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal41}>
               <img
-                src={"assets/Cover Art/GT7.png"}
+                src={"assets/Cover Art/GT7.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Gran Turismo 7 Cover Art"
               ></img>
               <img
-                src={"assets/Logo/GT7.png"}
+                src={"assets/Logo/GT7.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Gran Turismo 7 Logo"
               ></img>
               <img
-                src={"assets/Studios/ps.png"}
+                src={"assets/Studios/ps.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
@@ -3892,7 +3913,7 @@ export default class App extends Component {
                 embedId="1tBUsXIkG1A"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.playstation.com/en-ca/games/gran-turismo-7/">
                   Go To This Game's Website
                 </a>
@@ -3923,20 +3944,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal42}>
               <img
-                src={"assets/Cover Art/SoS.png"}
+                src={"assets/Cover Art/SoS.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Sea of Stars Cover Art"
               ></img>
               <img
-                src={"assets/Logo/SoS.png"}
+                src={"assets/Logo/SoS.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Sea of Stars Logo"
                 style={{ top: "180px" }}
               ></img>
               <img
-                src={"assets/Studios/Sabotage.png"}
+                src={"assets/Studios/Sabotage.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
@@ -3954,6 +3975,7 @@ export default class App extends Component {
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PC></PC>
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Sea of Stars is a turn-based RPG inspired by the classics. It
@@ -3973,7 +3995,7 @@ export default class App extends Component {
                 embedId="vqK-1WGqYmI"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://seaofstarsgame.co/">
                   Go To This Game's Website
                 </a>
@@ -4004,19 +4026,19 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal43}>
               <img
-                src={"assets/Cover Art/SM2.png"}
+                src={"assets/Cover Art/SM2.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Space Marine 2 Cover Art"
               ></img>
               <img
-                src={"assets/Logo/SM2.png"}
+                src={"assets/Logo/SM2.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Space Marine 2 Logo"
               ></img>
               <img
-                src={"assets/Studios/Saber.png"}
+                src={"assets/Studios/Saber.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
@@ -4054,7 +4076,7 @@ export default class App extends Component {
                 embedId="TgxVQRTXtz0"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.focus-entmt.com/en-us/games/warhammer-40000-space-marine-2">
                   Go To This Game's Website
                 </a>
@@ -4085,19 +4107,19 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal44}>
               <img
-                src={"assets/Cover Art/Yomi.png"}
+                src={"assets/Cover Art/Yomi.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Trek to Yomi Cover Art"
               ></img>
               <img
-                src={"assets/Logo/Yomi.png"}
+                src={"assets/Logo/Yomi.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Trek to Yomi Logo"
               ></img>
               <img
-                src={"assets/Studios/Devolver.png"}
+                src={"assets/Studios/Devolver.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "150px", bottom: "-15px", right: "-20px" }}
@@ -4117,6 +4139,7 @@ export default class App extends Component {
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 As a vow to his dying Master, the young swordsman Hiroki is
@@ -4136,7 +4159,7 @@ export default class App extends Component {
                 embedId="q4Dyrl7dVbo"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.trektoyomi.com/">
                   Go To This Game's Website
                 </a>
@@ -4167,19 +4190,19 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal45}>
               <img
-                src={"assets/Cover Art/Spider-man.png"}
+                src={"assets/Cover Art/Spider-man.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Spider-Man 2 Cover Art"
               ></img>
               <img
-                src={"assets/Logo/spider-man.png"}
+                src={"assets/Logo/spider-man.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Spider-Man 2 Logo"
               ></img>
               <img
-                src={"assets/Studios/PS.png"}
+                src={"assets/Studios/PS.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
@@ -4196,6 +4219,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Marvel's Spider-Man 2 is a 2023 action-adventure video game
@@ -4216,7 +4240,7 @@ export default class App extends Component {
                 embedId="sAKe9OI3Cog"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://insomniac.games/game/marvels-spider-man-2/">
                   Go To This Game's Website
                 </a>
@@ -4247,19 +4271,19 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal46}>
               <img
-                src={"assets/Cover Art/Wolverine.png"}
+                src={"assets/Cover Art/Wolverine.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Wolverine Cover Art"
               ></img>
               <img
-                src={"assets/Logo/Wolverine.png"}
+                src={"assets/Logo/Wolverine.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Wolverine Logo"
               ></img>
               <img
-                src={"assets/Studios/PS.png"}
+                src={"assets/Studios/PS.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
@@ -4276,6 +4300,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Marvel’s Wolverine is currently in development by Insomniac
@@ -4294,7 +4319,7 @@ export default class App extends Component {
                 embedId="Zcj9AzHv_l8"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://insomniac.games/game/marvels-wolverine/">
                   Go To This Game's Website
                 </a>
@@ -4325,20 +4350,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal47}>
               <img
-                src={"assets/Cover Art/MFE.png"}
+                src={"assets/Cover Art/MFE.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Midnight Fight Express Cover Art"
               ></img>
               <img
-                src={"assets/Logo/MFE.png"}
+                src={"assets/Logo/MFE.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Midnight Fight Express Logo"
                 style={{ top: "10px" }}
               ></img>
               <img
-                src={"assets/Studios/Humble.png"}
+                src={"assets/Studios/Humble.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "auto", bottom: "-15px" }}
@@ -4359,6 +4384,7 @@ export default class App extends Component {
                 <GamePass></GamePass>
                 <PC></PC>
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Fight your way across the city in a brutal romp that mixes old
@@ -4374,7 +4400,7 @@ export default class App extends Component {
                 embedId="vAAG5ramERM"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.humblegames.com/games/midnightfightexpress/">
                   Go To This Game's Website
                 </a>
@@ -4405,20 +4431,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal48}>
               <img
-                src={"assets/Cover Art/HKS.png"}
+                src={"assets/Cover Art/HKS.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Hollow Knight Silksong Cover Art"
               ></img>
               <img
-                src={"assets/Logo/HKS.png"}
+                src={"assets/Logo/HKS.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "100px" }}
                 alt="Hollow Knight Silksong Logo"
               ></img>
               <img
-                src={"assets/Studios/Cherry.png"}
+                src={"assets/Studios/Cherry.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
@@ -4436,6 +4462,7 @@ export default class App extends Component {
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PC></PC>
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Hollow Knight: Silksong is an upcoming Metroidvania
@@ -4454,7 +4481,7 @@ export default class App extends Component {
                 embedId="yQxwbZsL14Y"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.hollowknightsilksong.com/">
                   Go To This Game's Website
                 </a>
@@ -4485,20 +4512,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal49}>
               <img
-                src={"assets/Cover Art/AdvanceWars.png"}
+                src={"assets/Cover Art/AdvanceWars.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Advance Wars 1+2: Re-Boot Camp Cover Art"
               ></img>
               <img
-                src={"assets/Studios/Nintendo.png"}
+                src={"assets/Studios/Nintendo.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "45px", top: "-18px", left: "0" }}
                 alt="Nintendo Switch Logo"
               ></img>
               <img
-                src={"assets/Logo/AdvanceWars.png"}
+                src={"assets/Logo/AdvanceWars.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 style={{ top: "50px", left: "0px", width: "150%" }}
@@ -4515,6 +4542,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <Nintendo></Nintendo>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Take down enemy squads and capture towns and bases to secure
@@ -4533,7 +4561,7 @@ export default class App extends Component {
                 embedId="fftL_XeK2qU"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.nintendo.com/games/detail/advance-wars-1-plus-2-re-boot-camp-switch/">
                   Go To This Game's Website
                 </a>
@@ -4564,19 +4592,19 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal50}>
               <img
-                src={"assets/Cover Art/Black.png"}
+                src={"assets/Cover Art/Black.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Black Cover Art"
               ></img>
               <img
-                src={"assets/Logo/HCM.png"}
+                src={"assets/Logo/HCM.webp"}
                 className="game-box-logo game-box drop-shadow-2xl"
                 data-atropos-offset="5"
                 alt="Horizon VR Call of the Mountain Logo"
               ></img>
               <img
-                src={"assets/Studios/PS.png"}
+                src={"assets/Studios/PS.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
@@ -4593,6 +4621,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Horizon Call of the Mountain, created for PlayStation's Next-Gen
@@ -4612,7 +4641,7 @@ export default class App extends Component {
                 embedId="yPNn-jwAC9c"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://blog.playstation.com/2022/01/04/horizon-call-of-the-mountain-revealed-for-playstation-vr2/">
                   Go To This Game's Website
                 </a>
@@ -4643,20 +4672,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal51}>
               <img
-                src={"assets/Cover Art/FFXVI.png"}
+                src={"assets/Cover Art/FFXVI.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Final Fantasy 16 Cover Art"
               ></img>
               <img
-                src={"assets/Logo/FFXVI.png"}
+                src={"assets/Logo/FFXVI.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Final Fantasy 16 Logo"
                 style={{ left: "15px", top: "0" }}
               ></img>
               <img
-                src={"assets/Studios/SQ.png"}
+                src={"assets/Studios/SQ.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "100px", bottom: "-30px", right: "5px" }}
@@ -4673,6 +4702,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PlayStation></PlayStation>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Final Fantasy XVI is an action role-playing game set in the
@@ -4695,7 +4725,7 @@ export default class App extends Component {
                 embedId="yr6PtdY0i7M"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://na.finalfantasyxvi.com/">
                   Go To This Game's Website
                 </a>
@@ -4726,20 +4756,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal52}>
               <img
-                src={"assets/Cover Art/Avowed.png"}
+                src={"assets/Cover Art/Avowed.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Avowed Cover Art"
               ></img>
               <img
-                src={"assets/Logo/Avowed.png"}
+                src={"assets/Logo/Avowed.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Avowed Logo"
                 style={{ left: "10px", top: "0" }}
               ></img>
               <img
-                src={"assets/Studios/Obsidian.png"}
+                src={"assets/Studios/Obsidian.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-20px", right: "5px" }}
@@ -4758,6 +4788,7 @@ export default class App extends Component {
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Avowed is an upcoming first-person fantasy role-playing video
@@ -4779,7 +4810,7 @@ export default class App extends Component {
                 embedId="W3QkO8fy3tg"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.xbox.com/en-CA/games/avowed">
                   Go To This Game's Website
                 </a>
@@ -4810,20 +4841,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal53}>
               <img
-                src={"assets/Cover Art/LoP.png"}
+                src={"assets/Cover Art/LoP.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Lies of P Cover Art"
               ></img>
               <img
-                src={"assets/Logo/LoP.png"}
+                src={"assets/Logo/LoP.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Lies of P Logo"
                 style={{ left: "15px", top: "-150px" }}
               ></img>
               <img
-                src={"assets/Studios/Neowiz.png"}
+                src={"assets/Studios/Neowiz.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-20px", right: "5px" }}
@@ -4842,6 +4873,7 @@ export default class App extends Component {
                 <PlayStation></PlayStation>
                 <Xbox></Xbox>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-xs text-white md:text-lg">
                 You wake up at an abandoned train station in Krat, a city
@@ -4870,7 +4902,7 @@ export default class App extends Component {
                 embedId="QzE4WBKs98o"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://www.liesofp.com/">Go To This Game's Website</a>
               </p>
               <button
@@ -4899,20 +4931,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal54}>
               <img
-                src={"assets/Cover Art/Replaced.png"}
+                src={"assets/Cover Art/Replaced.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="Replaced Cover Art"
               ></img>
               <img
-                src={"assets/Logo/Replaced.png"}
+                src={"assets/Logo/Replaced.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Replaced Logo"
                 style={{ left: "15px", top: "-50px" }}
               ></img>
               <img
-                src={"assets/Studios/sadcat.png"}
+                src={"assets/Studios/sadcat.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-20px", right: "5px" }}
@@ -4931,6 +4963,7 @@ export default class App extends Component {
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-xs text-white md:text-lg">
                 REPLACED is a 2.5D sci-fi retro-futuristic action platformer
@@ -4953,8 +4986,10 @@ export default class App extends Component {
                 embedId="_P5OlfGbk5g"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
-                <a href="https://playreplaced.com/">Go To This Game's Website</a>
+              <p className="text-sm text-center">
+                <a href="https://playreplaced.com/">
+                  Go To This Game's Website
+                </a>
               </p>
               <button
                 onClick={this.handleCloseModal54}
@@ -4982,20 +5017,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal55}>
               <img
-                src={"assets/Cover Art/Tunic.png"}
+                src={"assets/Cover Art/Tunic.webp"}
                 className="rounded-md game-box game-box-bg brightness-90"
                 data-atropos-offset="-4"
                 alt="Tunic Cover Art"
               ></img>
               <img
-                src={"assets/Logo/Tunic.png"}
+                src={"assets/Logo/Tunic.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Tunic Logo"
                 style={{ left: "15px", top: "-180px" }}
               ></img>
               <img
-                src={"assets/Studios/Finji.png"}
+                src={"assets/Studios/Finji.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
@@ -5014,6 +5049,7 @@ export default class App extends Component {
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-xs text-white md:text-lg">
                 Explore a land filled with lost legends, ancient powers, and
@@ -5034,7 +5070,7 @@ export default class App extends Component {
                 embedId="s9qGwXx5ABg"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://tunicgame.com/">Go To This Game's Website</a>
               </p>
               <button
@@ -5063,20 +5099,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal56}>
               <img
-                src={"assets/Cover Art/Palia.png"}
+                src={"assets/Cover Art/Palia.webp"}
                 className="rounded-md game-box game-box-bg brightness-75"
                 data-atropos-offset="-4"
                 alt="Palia Cover Art"
               ></img>
               <img
-                src={"assets/Logo/Palia.png"}
+                src={"assets/Logo/Palia.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Palia Logo"
                 style={{ left: "15px", top: "-150px" }}
               ></img>
               <img
-                src={"assets/Studios/Six.png"}
+                src={"assets/Studios/Six.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-20px", right: "5px" }}
@@ -5093,6 +5129,7 @@ export default class App extends Component {
             >
               <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-xs text-white md:text-lg">
                 After disappearing thousands of years ago, humans have just
@@ -5112,7 +5149,7 @@ export default class App extends Component {
                 embedId="lP009fvbt8c"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
+              <p className="text-sm text-center">
                 <a href="https://palia.com/">Go To This Game's Website</a>
               </p>
               <button
@@ -5141,20 +5178,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal57}>
               <img
-                src={"assets/Cover Art/TheDayBefore.png"}
+                src={"assets/Cover Art/TheDayBefore.webp"}
                 className="rounded-md game-box game-box-bg"
                 data-atropos-offset="-4"
                 alt="The Day Before Cover Art"
               ></img>
               <img
-                src={"assets/Logo/TheDayBefore.png"}
+                src={"assets/Logo/TheDayBefore.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="The Day Before Logo"
                 style={{ left: "15px", top: "-110px" }}
               ></img>
               <img
-                src={"assets/Studios/Fntastic.png"}
+                src={"assets/Studios/Fntastic.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-20px", right: "5px" }}
@@ -5191,8 +5228,10 @@ export default class App extends Component {
                 embedId="AI0k1V0t_SI"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
-                <a href="https://www.daybeforegame.com/">Go To This Game's Website</a>
+              <p className="text-sm text-center">
+                <a href="https://www.daybeforegame.com/">
+                  Go To This Game's Website
+                </a>
               </p>
               <button
                 onClick={this.handleCloseModal57}
@@ -5220,20 +5259,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal58}>
               <img
-                src={"assets/Cover Art/TOW2.png"}
+                src={"assets/Cover Art/TOW2.webp"}
                 className="rounded-md game-box game-box-bg brightness-90"
                 data-atropos-offset="-4"
                 alt="The Outer Worlds 2 Cover Art"
               ></img>
               <img
-                src={"assets/Logo/TOW2.png"}
+                src={"assets/Logo/TOW2.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="The Outer Worlds 2 Logo"
                 style={{ left: "10px", top: "0" }}
               ></img>
               <img
-                src={"assets/Studios/Obsidian.png"}
+                src={"assets/Studios/Obsidian.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "80px", bottom: "-20px", right: "5px" }}
@@ -5252,23 +5291,31 @@ export default class App extends Component {
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
-              The Outer Worlds 2 is a sci-fi role-playing video game being developed by Obsidian Entertainment and published by Microsoft. It was announced on the 13 June 2021 at E3, the game will take place in a new star system with a new crew. Unlike its predecessor, The Outer Worlds, The Outer Worlds 2 will not be available on the Playstation 5.
+                The Outer Worlds 2 is a sci-fi role-playing video game being
+                developed by Obsidian Entertainment and published by Microsoft.
+                It was announced on the 13 June 2021 at E3, the game will take
+                place in a new star system with a new crew. Unlike its
+                predecessor, The Outer Worlds, The Outer Worlds 2 will not be
+                available on the Playstation 5.
               </p>
               <p className="pb-4 text-sm md:text-base">
                 Developed by Obsidian Entertainment and published by Xbox Game
                 Studios
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
-              ♪ It's not the best choice. It's Spacer's Choice! ♪
+                ♪ It's not the best choice. It's Spacer's Choice! ♪
               </span>
               <YoutubeEmbed
                 embedId="ClhDyC0ZECs"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
-                <a href="https://www.xbox.com/en-CA/games/the-outer-worlds-2">Go To This Game's Website</a>
+              <p className="text-sm text-center">
+                <a href="https://www.xbox.com/en-CA/games/the-outer-worlds-2">
+                  Go To This Game's Website
+                </a>
               </p>
               <button
                 onClick={this.handleCloseModal58}
@@ -5296,20 +5343,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal59}>
               <img
-                src={"assets/Cover Art/Hellblade2.png"}
+                src={"assets/Cover Art/Hellblade2.webp"}
                 className="rounded-md game-box game-box-bg brightness-90"
                 data-atropos-offset="-4"
                 alt="Senua's Saga: Hellblade II Cover Art"
               ></img>
               <img
-                src={"assets/Logo/Hellblade2.png"}
+                src={"assets/Logo/Hellblade2.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
                 alt="Senua's Saga: Hellblade II Logo"
                 style={{ left: "20px", top: "150px" }}
               ></img>
               <img
-                src={"assets/Studios/NinjaTheory.png"}
+                src={"assets/Studios/NinjaTheory.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "30px", bottom: "-15px" }}
@@ -5328,6 +5375,7 @@ export default class App extends Component {
                 <Xbox></Xbox>
                 <GamePass></GamePass>
                 <PC></PC>
+                <EP></EP>
               </div>
               <p className="pb-4 text-sm text-white md:text-lg">
                 Senua's Saga: Hellblade II is an action adventure video game
@@ -5347,8 +5395,10 @@ export default class App extends Component {
                 embedId="fukYzbthEVU"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
-                <a href="https://www.xbox.com/en-CA/games/senuas-saga-hellblade-ii">Go To This Game's Website</a>
+              <p className="text-sm text-center">
+                <a href="https://www.xbox.com/en-CA/games/senuas-saga-hellblade-ii">
+                  Go To This Game's Website
+                </a>
               </p>
               <button
                 onClick={this.handleCloseModal59}
@@ -5376,20 +5426,20 @@ export default class App extends Component {
           <div>
             <Atropos onClick={this.handleOpenModal60}>
               <img
-                src={"assets/Cover Art/SW3.png"}
+                src={"assets/Cover Art/SW3.webp"}
                 className="rounded-md game-box game-box-bg brightness-50"
                 data-atropos-offset="-4"
                 alt="Shadow Warrior 3 Art"
               ></img>
               <img
-                src={"assets/Logo/SW3.png"}
+                src={"assets/Logo/SW3.webp"}
                 className="game-box-logo game-box drop-shadow-2xl"
                 data-atropos-offset="5"
                 alt="Shadow Warrior 3 Logo"
                 style={{ top: "0" }}
               ></img>
               <img
-                src={"assets/Studios/Devolver.png"}
+                src={"assets/Studios/Devolver.webp"}
                 className="game-box-studio game-box"
                 data-atropos-offset="3"
                 style={{ width: "150px", bottom: "-15px", right: "-20px" }}
@@ -5425,8 +5475,10 @@ export default class App extends Component {
                 embedId="NYH5pwuIx58"
                 className="mb-10"
               ></YoutubeEmbed>
-              <p className="text-center text-sm">
-                <a href="https://shadowwarrior.com/">Go To This Game's Website</a>
+              <p className="text-sm text-center">
+                <a href="https://shadowwarrior.com/">
+                  Go To This Game's Website
+                </a>
               </p>
               <button
                 onClick={this.handleCloseModal60}
