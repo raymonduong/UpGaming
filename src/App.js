@@ -626,7 +626,7 @@ export default class App extends Component {
                 his unique mastery of Kung Fu as well as a mysterious pendant to
                 prevail, and preserve his family's legacy.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by and published by Sloclap
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -701,7 +701,7 @@ export default class App extends Component {
                 frontier known as the Forbidden West to find the source of a
                 mysterious plague that kills all it infects.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Guerrilla Games and Published by PlayStation
                 Studios
               </p>
@@ -782,7 +782,7 @@ export default class App extends Component {
                 quest for glory in the aftermath of a great war, the gods of old
                 actively decaying all around you.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by FromSoftware and Published by Bandai Namco
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -859,7 +859,7 @@ export default class App extends Component {
                 in Jubilife Village, the place that will become one of Sinnoh's
                 major cities.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Game Freak and Published by Nintendo and The
                 Pokémon Company
               </p>
@@ -939,7 +939,7 @@ export default class App extends Component {
                 multiplayer game in which players must work together to combat
                 and defeat a type of parasite-like aliens called the Archaeans.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Ubisoft Montreal and published by Ubisoft
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1024,7 +1024,7 @@ export default class App extends Component {
                 across the world and have evolved, plunged it into a period
                 known as the Modern Dark Ages.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Techland
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1103,7 +1103,7 @@ export default class App extends Component {
                 convictions—Utility, Morality, Liberty—which together make up
                 Serenoa's world view and influence how the story will unfold.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Artdink and Square Enix and published by Nintendo
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1185,7 +1185,7 @@ export default class App extends Component {
                 by 2K Games. It is a spin-off in the Borderlands series and a
                 successor to Borderlands 2: Tiny Tina's Assault on Dragon Keep
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Gearbox Software and published by 2K Games
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1264,7 +1264,7 @@ export default class App extends Component {
                 Interactive Entertainment. It is scheduled to be released in
                 2022 for the PlayStation 4 and PlayStation 5.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Santa Monica Studio and published by Sony
                 Interactive Entertainment
               </p>
@@ -1345,7 +1345,7 @@ export default class App extends Component {
                 It is to be released on May 24, 2022 for Microsoft Windows and
                 PlayStation 5.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Luminous Productions and published by Square Enix
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1427,7 +1427,7 @@ export default class App extends Component {
                 consoles, as well as the first S.T.A.L.K.E.R. game in 13 years
                 since the release of Call of Pripyat in 2009.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by GSC Game World
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1507,7 +1507,7 @@ export default class App extends Component {
                 on September 23, 2021 and is planned to release worldwide in
                 Spring 2022.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by HAL Laboratory and published by Nintendo
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1589,7 +1589,7 @@ export default class App extends Component {
                 Rosa, and supernatural sharpshooter Jacob Boyer — and slay their
                 enemies, vampires and humans alike.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Arkane Studios and published by Bethesda Softworks
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1677,7 +1677,7 @@ export default class App extends Component {
                 PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, and
                 Windows platforms.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Volition and published by Deep Silver
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1761,7 +1761,7 @@ export default class App extends Component {
                 with unparalleled freedom as you embark on an epic journey to
                 answer humanity’s greatest mystery.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Bethesda Game Studios and published by Bethesda
                 Softworks
               </p>
@@ -1848,7 +1848,7 @@ export default class App extends Component {
                 biomes more atmospheric and immersive. In addition, it also
                 introduces several new mobs and biome variants.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Mojang
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -1933,7 +1933,7 @@ export default class App extends Component {
                 the sixth entry in TT Games' Lego Star Wars series of video
                 games and the successor to Lego Star Wars: The Force Awakens.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Traveller's Tales and published by Warner Bros.
                 Interactive Entertainment
               </p>
@@ -2013,7 +2013,7 @@ export default class App extends Component {
                 sequel is part of The Legend of Zelda series and is currently
                 aimed to be released in 2022 for the Nintendo Switch
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Nintendo
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2096,7 +2096,7 @@ export default class App extends Component {
                 the dark truth behind the disappearance as you FACE THE UNKNOWN
                 in Ghostwire: Tokyo.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Tango Gameworks and published by Bethesda Softworks
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2178,7 +2178,7 @@ export default class App extends Component {
                 game to feature open-world gameplay; as Sonic, the player
                 explores the Starfall Islands, which comprise various biomes.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Sonic Team and published by Sega
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2258,7 +2258,7 @@ export default class App extends Component {
                 HK_Project, the game is scheduled for release in early 2022 for
                 Microsoft Windows, PlayStation 4, and PlayStation 5.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by BlueTwelve Studio and published by Annapurna
                 Interactive
               </p>
@@ -2343,7 +2343,7 @@ export default class App extends Component {
                 action-adventure game developed by Rocksteady Studios and
                 published by Warner Bros. Interactive Entertainment.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Rocksteady Studios and published by Warner Bros.
                 Interactive Entertainment
               </p>
@@ -2421,7 +2421,7 @@ export default class App extends Component {
                 consists of competitive online multiplayer matches alongside a
                 story-driven single-player mode.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Nintendo
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2505,7 +2505,7 @@ export default class App extends Component {
                 developed by Avalanche Software and published by Warner Bros.
                 Interactive Entertainment under its Portkey Games label.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Avalance Software and published by Warner Bros.
                 Interactive Entertainment
               </p>
@@ -2588,7 +2588,7 @@ export default class App extends Component {
                 third to be set in Games Workshop's Warhammer Fantasy fictional
                 universe.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Creative Assembly and published by Sega
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2667,7 +2667,7 @@ export default class App extends Component {
                 role-playing game developed by Koei Tecmo Games and Team Ninja,
                 and published by Square Enix.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Koei Tecmo Games and Team Ninja and published by
                 Square Enix
               </p>
@@ -2748,7 +2748,7 @@ export default class App extends Component {
                 by WB Games Montréal and published by Warner Bros. Interactive
                 Entertainment.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by WB Games Montréal published by Warner Bros.
                 Interactive Entertainment
               </p>
@@ -2832,7 +2832,7 @@ export default class App extends Component {
                 properties, such as Midnight Sons, Avengers, X-Men, and
                 Runaways.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Firaxis Games and published by 2K Games
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -2918,7 +2918,7 @@ export default class App extends Component {
                 brother, Hugo, on an intense new quest for hope, as a terrifying
                 curse hunts them down.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Asobo Studio and published by Focus Entertainment
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3002,7 +3002,7 @@ export default class App extends Component {
                 Rings and follows the character of Gollum before the events of
                 The Lord of the Rings and The Hobbit.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Daedalic Entertainment and published by Daedalic
                 Entertainment and Nacon
               </p>
@@ -3086,7 +3086,7 @@ export default class App extends Component {
                 will be published by Ubisoft for Microsoft Windows, PlayStation
                 5, Xbox Series X/S, Amazon Luna and Stadia in 2022.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Massive Entertainment and published by Ubisoft
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3173,7 +3173,7 @@ export default class App extends Component {
                 between Nintendo's Mario and Ubisoft's Raving Rabbids franchises
                 and a sequel to the 2017 game Mario + Rabbids Kingdom Battle
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Ubisoft Milan and published by Ubisoft
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3253,7 +3253,7 @@ export default class App extends Component {
                 developed by Striking Distance Studios, founded by Glen
                 Schofield, who had previously co-created the Dead Space series.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Striking Distance Studios and published by KRAFTON
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3337,7 +3337,7 @@ export default class App extends Component {
                 explorers searching for monsters & supernatural events in a
                 19th-century-inspired world.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Neostream Interactive
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3418,7 +3418,7 @@ export default class App extends Component {
                 scheduled for release in 2022 for Microsoft Windows, PlayStation
                 4, PlayStation 5, Xbox One and Xbox Series X/S.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Intercept Games and published by Private Division
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3497,7 +3497,7 @@ export default class App extends Component {
                 developed and published by Team Reptile. It will be released on
                 Steam for Microsoft Windows sometime in 2022.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Team Reptile
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3580,7 +3580,7 @@ export default class App extends Component {
                 in The King of Fighters series to use Unreal Engine 4 and the
                 first to use GGPO rollback networking.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by SNK
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3664,7 +3664,7 @@ export default class App extends Component {
                 Turtles franchise, and inspired by the 1987 animated series and
                 the games based on it.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Tribute Games and published by Dotemu
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3743,7 +3743,7 @@ export default class App extends Component {
                 franchise, and is a sequel to 1999's Chocobo Racing. It is
                 scheduled for release for the Nintendo Switch on March 10, 2022.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Square Enix
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3825,7 +3825,7 @@ export default class App extends Component {
                 The game is set to be released for Windows, PlayStation 4 and
                 Xbox One in March 2022.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by WolfEye Studios and published by Devolver Digital
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -3902,7 +3902,7 @@ export default class App extends Component {
                 Entertainment. The game will be the eighth mainline installment
                 in the Gran Turismo series.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Polyphony Digital and published by Sony Interactive
                 Entertainment
               </p>
@@ -3984,7 +3984,7 @@ export default class App extends Component {
                 only force capable of fending off the monstrous creations of the
                 evil alchemist known as The Fleshmancer.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Sabotage Studio
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4065,7 +4065,7 @@ export default class App extends Component {
                 released for Microsoft Windows, PlayStation 5 and Xbox Series
                 X/S at a date that is yet to be announced.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Saber Interactive
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4148,7 +4148,7 @@ export default class App extends Component {
                 must voyage beyond life and death to confront himself and decide
                 his path forward.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Flying Wild Hog and Leonard Menchiari and published
                 by Devolver Digital
               </p>
@@ -4229,7 +4229,7 @@ export default class App extends Component {
                 place just a couple months after Marvel's Spider-Man: Miles
                 Morales.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Insomniac Games and published by Sony Interactive
                 Entertainment
               </p>
@@ -4307,7 +4307,7 @@ export default class App extends Component {
                 Games for PlayStation 5. Created in collaboration with Marvel
                 Games and PlayStation.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Insomniac Games and published by Sony Interactive
                 Entertainment
               </p>
@@ -4390,7 +4390,7 @@ export default class App extends Component {
                 Fight your way across the city in a brutal romp that mixes old
                 school brawlers and fast-paced motion-captured combat.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Jacob Dzwinel and published by Humble Games
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4471,7 +4471,7 @@ export default class App extends Component {
                 originally announced in February 2019 as a sequel to the 2017
                 game Hollow Knight.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Team Cherry
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4551,7 +4551,7 @@ export default class App extends Component {
                 multiple maps. This remake features two campaigns that cover the
                 events of Advance Wars and Advance Wars 2: Black Hole Rising!
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Wayforward and published by Nintendo
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4630,7 +4630,7 @@ export default class App extends Component {
                 experience, designed to push hardware technology, innovation,
                 and gameplay.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Firesprite and Guerrilla Games and published by
                 Sony Interactive Entertainment
               </p>
@@ -4715,7 +4715,7 @@ export default class App extends Component {
                 monsters controlled by or manifesting through humans called
                 Dominants.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Square Enix
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4798,7 +4798,7 @@ export default class App extends Component {
                 Game Pass, and Microsoft Windows. Set in the world of Eora, it
                 is a spin-off of the Pillars of Eternity series.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Obsidian Entertainment and published by Xbox Game
                 Studios
               </p>
@@ -4875,7 +4875,7 @@ export default class App extends Component {
                 <PC></PC>
                 <EP></EP>
               </div>
-              <p className="pb-4 text-xs text-white md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 You wake up at an abandoned train station in Krat, a city
                 overwhelmed by madness and bloodlust. In front of you lies a
                 single note that reads. Find Mr. Geppetto. He's here in the
@@ -4885,7 +4885,7 @@ export default class App extends Component {
                 trusting anyone. You must always lie to others if you hope to
                 become human.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Round8 and published by NEOWIZ
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -4959,7 +4959,7 @@ export default class App extends Component {
                 <PC></PC>
                 <EP></EP>
               </div>
-              <p className="pb-4 text-xs text-white md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 REPLACED is a 2.5D sci-fi retro-futuristic action platformer
                 where you play as R.E.A.C.H – an artificial intelligence trapped
                 in a human body against its own will. REPLACED combines
@@ -4970,7 +4970,7 @@ export default class App extends Component {
                 how to be human in a society that has taken a turn for the
                 worst.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Sad Cat Studios and published by Coatsink
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -5045,7 +5045,7 @@ export default class App extends Component {
                 <PC></PC>
                 <EP></EP>
               </div>
-              <p className="pb-4 text-xs text-white md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Explore a land filled with lost legends, ancient powers, and
                 ferocious monsters in TUNIC, an isometric action game about a
                 small fox on a big adventure. Stranded on a mysterious beach,
@@ -5053,7 +5053,7 @@ export default class App extends Component {
                 beasts, collect strange and powerful items, and unravel
                 long-lost secrets.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Andrew Shouldice and published by Finji
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -5125,14 +5125,14 @@ export default class App extends Component {
                 <PC></PC>
                 <EP></EP>
               </div>
-              <p className="pb-4 text-xs text-white md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 After disappearing thousands of years ago, humans have just
                 begun to reappear across Palia. As one of the newly reemerged
                 humans, you will have to find your place in the world. Uncover
                 the mysteries of humanity’s past or just live a simple life -
                 you decide!
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed and published by Singularity Six, Inc
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -5205,14 +5205,14 @@ export default class App extends Component {
                 <Xbox></Xbox>
                 <PC></PC>
               </div>
-              <p className="pb-4 text-xs text-white md:text-lg">
+              <p className="pb-4 text-sm text-white md:text-lg">
                 Welcome to The Day Before, an open-world MMO survival set in a
                 deadly, post-pandemic America overrun by flesh-hungry infected
                 and survivors killing each other for food, weapons, and cars.
                 You wake up alone in a world you no longer remember, setting out
                 to find answers and the resources to survive.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Fntastic and published by Mytona
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -5295,7 +5295,7 @@ export default class App extends Component {
                 predecessor, The Outer Worlds, The Outer Worlds 2 will not be
                 available on the Playstation 5.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Obsidian Entertainment and published by Xbox Game
                 Studios
               </p>
@@ -5378,7 +5378,7 @@ export default class App extends Component {
                 the game once again stars Senua on a journey through a hostile
                 world based in the myths and legends of the Norse.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Ninja Theory and published by Xbox Game Studios
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
@@ -5459,7 +5459,7 @@ export default class App extends Component {
                 sequel to Shadow Warrior 2, the game is set to be released for
                 Microsoft Windows, PlayStation 4 and Xbox One in 2022.
               </p>
-              <p className="pb-4 text-sm md:text-base">
+              <p className="pb-4 text-xs md:text-base">
                 Developed by Flying Wild Hog and published by Devolver Digital
               </p>
               <span className="pb-5 text-sm italic text-gray-400">
