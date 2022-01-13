@@ -4883,13 +4883,7 @@ export default class App extends Component {
                 everything in your path to find this mystery person. But don't
                 expect any help along the way and don't make the mistake of
                 trusting anyone. You must always lie to others if you hope to
-                become human.Inspired by the familiar story of Pinocchio, Lies
-                of P is an action souls-like game set in a cruel, dark Belle
-                Époque world. All of humanity is lost in a once beautiful city
-                that has now become a living hell filled with unspeakable
-                horrors. Lies of P offers an elegant world filled with tension,
-                a deep combat system and a gripping story. Guide Pinocchio and
-                experience his unrelenting journey to become human.
+                become human.
               </p>
               <p className="pb-4 text-sm md:text-base">
                 Developed by Round8 and published by NEOWIZ
