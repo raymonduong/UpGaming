@@ -2384,7 +2384,7 @@ export default class App extends Component {
             <Atropos onClick={this.handleOpenModal23}>
               <img
                 src={"assets/Cover Art/Splatoon3.webp"}
-                className="rounded-md game-box game-box-bg"
+                className="rounded-md game-box game-box-bg brightness-75"
                 data-atropos-offset="-4"
                 alt="Splatoon 3 Cover Art"
               ></img>
@@ -3150,7 +3150,7 @@ export default class App extends Component {
                 src={"assets/Logo/M+R.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
-                style={{ top: "-160px" }}
+                style={{ top: "20px" }}
                 alt="Mario + Rabbids Sparks of Hope Logo"
               ></img>
             </Atropos>
