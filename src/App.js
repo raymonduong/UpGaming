@@ -579,10 +579,10 @@ export default class App extends Component {
         <h2 className="p-5 mb-5 text-4xl text-center text-transparent md:text-3xl bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-600">
           Have a look at these upcoming video games.
         </h2>
-        <p className="mb-10 text-lg text-center text-gray-400">
+        <p className="mb-10 text-lg text-center text-gray-300">
           Go ahead, click any.
         </p>
-        <ul className="list-none mb-10 flex gap-2 md:justify-center md:gap-10 flex-col md:flex-row w-3/5 gap-5 mx-auto md:w-auto">
+        <ul className="list-none mb-10 flex gap-1 md:justify-center md:gap-10 flex-col md:flex-row w-3/5 mx-auto md:w-auto">
           <li className="float-left flex items-center md:justify-center">
             <span className="float-left mr-2">
               <PlayStation></PlayStation>
@@ -2838,7 +2838,7 @@ export default class App extends Component {
                 src={"assets/Logo/MMS.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
-                style={{ left: "65px", width: "60%", top: "-165px" }}
+                style={{ left: "65px", width: "60%", top: "-165px", filter:"drop-shadow(2px 4px 6px black)" }}
                 alt="Marvel's Midnight Suns Logo"
               ></img>
               <img
@@ -3084,7 +3084,7 @@ export default class App extends Component {
             <Atropos onClick={this.handleOpenModal31}>
               <img
                 src={"assets/Cover Art/Avatar.webp"}
-                className="rounded-md game-box game-box-bg"
+                className="rounded-md game-box game-box-bg brightness-90"
                 data-atropos-offset="-4"
                 alt="Avatar: Frontiers of Pandora Art"
                 style={{ objectPosition: "left" }}
