@@ -579,9 +579,47 @@ export default class App extends Component {
         <h2 className="p-5 mb-5 text-4xl text-center text-transparent md:text-3xl bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-600">
           Have a look at these upcoming video games.
         </h2>
-        <p className="mb-40 text-lg text-center text-gray-400">
+        <p className="mb-10 text-lg text-center text-gray-400">
           Go ahead, click any.
         </p>
+        <ul className="list-none mb-10 flex gap-2 md:justify-center md:gap-10 flex-col md:flex-row w-3/5 gap-5 mx-auto md:w-auto">
+          <li className="float-left flex items-center md:justify-center">
+            <span className="float-left mr-2">
+              <PlayStation></PlayStation>
+            </span>{" "}
+            PlayStation
+          </li>
+          <li className="float-left flex items-center md:justify-center">
+            <span className="float-left mr-2">
+              <Xbox></Xbox>
+            </span>{" "}
+            Xbox
+          </li>
+          <li className="float-left flex items-center md:justify-center">
+            <span className="float-left mr-2">
+              <GamePass></GamePass>
+            </span>{" "}
+            Xbox Game Pass
+          </li>
+          <li className="float-left flex items-center md:justify-center">
+            <span className="float-left mr-2">
+              <Nintendo></Nintendo>
+            </span>{" "}
+            Nintendo Switch
+          </li>
+          <li className="float-left flex items-center md:justify-center">
+            <span className="float-left mr-2">
+              <PC></PC>
+            </span>{" "}
+            PC Game
+          </li>
+          <li className="float-left flex items-center md:justify-center">
+            <span className="float-left mr-2">
+              <EP></EP>
+            </span>{" "}
+            Editor's Pick
+          </li>
+        </ul>
         <div></div>
         <div className="flex flex-col items-start content-center justify-center w-3/5 gap-5 mx-auto mb-16 md:w-2/3 md:flex-row md:flex-wrap">
           <div>
@@ -2800,7 +2838,7 @@ export default class App extends Component {
                 src={"assets/Logo/MMS.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
-                style={{ left: "65px", width:"60%", top:"-165px" }}
+                style={{ left: "65px", width: "60%", top: "-165px" }}
                 alt="Marvel's Midnight Suns Logo"
               ></img>
               <img
@@ -2978,7 +3016,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="The Lord of the Rings: Gollum Logo"
                 style={{
-                  left:"15px"
+                  left: "15px",
                 }}
               ></img>
             </Atropos>
