@@ -616,7 +616,7 @@ export default class App extends Component {
           Have a look at these upcoming video games.
         </h2>
         <fieldset className="flex md:justify-center w-3/5 mx-auto border border-solid border-white mb-10 p-3 rounded-lg">
-          <legend className="text-lg text-center">Legend</legend>
+          <legend className="text-lg text-center px-5">Legend</legend>
           <ul className="list-none flex gap-1 md:gap-10 flex-col md:flex-row">
             <li className="float-left flex items-center md:justify-center">
               <span className="float-left mr-2">
