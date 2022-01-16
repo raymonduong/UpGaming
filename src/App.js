@@ -77,6 +77,10 @@ export default class App extends Component {
       showModal58: false,
       showModal59: false,
       showModal60: false,
+      showModal61: false,
+      showModal62: false,
+      showModal63: false,
+      showModal64: false,
     };
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
@@ -139,6 +143,10 @@ export default class App extends Component {
     this.handleOpenModal58 = this.handleOpenModal58.bind(this);
     this.handleOpenModal59 = this.handleOpenModal59.bind(this);
     this.handleOpenModal60 = this.handleOpenModal60.bind(this);
+    this.handleOpenModal61 = this.handleOpenModal61.bind(this);
+    this.handleOpenModal62 = this.handleOpenModal62.bind(this);
+    this.handleOpenModal63 = this.handleOpenModal63.bind(this);
+    this.handleOpenModal64 = this.handleOpenModal64.bind(this);
 
     this.handleCloseModal = this.handleCloseModal.bind(this);
     this.handleCloseModal2 = this.handleCloseModal2.bind(this);
@@ -200,6 +208,10 @@ export default class App extends Component {
     this.handleCloseModal58 = this.handleCloseModal58.bind(this);
     this.handleCloseModal59 = this.handleCloseModal59.bind(this);
     this.handleCloseModal60 = this.handleCloseModal60.bind(this);
+    this.handleCloseModal61 = this.handleCloseModal61.bind(this);
+    this.handleCloseModal62 = this.handleCloseModal62.bind(this);
+    this.handleCloseModal63 = this.handleCloseModal63.bind(this);
+    this.handleCloseModal64 = this.handleCloseModal64.bind(this);
   }
   handleOpenModal() {
     this.setState({ showModal: true });
@@ -381,6 +393,18 @@ export default class App extends Component {
   handleOpenModal60() {
     this.setState({ showModal60: true });
   }
+  handleOpenModal61() {
+    this.setState({ showModal61: true });
+  }
+  handleOpenModal62() {
+    this.setState({ showModal62: true });
+  }
+  handleOpenModal63() {
+    this.setState({ showModal63: true });
+  }
+  handleOpenModal64() {
+    this.setState({ showModal64: true });
+  }
 
   handleCloseModal() {
     this.setState({ showModal: false });
@@ -561,6 +585,18 @@ export default class App extends Component {
   }
   handleCloseModal60() {
     this.setState({ showModal60: false });
+  }
+  handleCloseModal61() {
+    this.setState({ showModal61: false });
+  }
+  handleCloseModal62() {
+    this.setState({ showModal62: false });
+  }
+  handleCloseModal63() {
+    this.setState({ showModal63: false });
+  }
+  handleCloseModal64() {
+    this.setState({ showModal64: false });
   }
 
   render() {
@@ -2800,7 +2836,7 @@ export default class App extends Component {
                 src={"assets/Logo/MMS.webp"}
                 className="game-box-logo game-box"
                 data-atropos-offset="5"
-                style={{ left: "65px", width:"60%", top:"-165px" }}
+                style={{ left: "65px", width: "60%", top: "-165px" }}
                 alt="Marvel's Midnight Suns Logo"
               ></img>
               <img
@@ -2978,7 +3014,7 @@ export default class App extends Component {
                 data-atropos-offset="5"
                 alt="The Lord of the Rings: Gollum Logo"
                 style={{
-                  left:"15px"
+                  left: "15px",
                 }}
               ></img>
             </Atropos>
@@ -5476,6 +5512,330 @@ export default class App extends Component {
               </p>
               <button
                 onClick={this.handleCloseModal60}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+
+          <div>
+            <Atropos onClick={this.handleOpenModal61}>
+              <img
+                src={"assets/Cover Art/Oxenfree2.webp"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Oxenfree 2 Art"
+              ></img>
+              <img
+                src={"assets/Logo/Oxenfree2.webp"}
+                className="game-box-logo game-box drop-shadow-2xl"
+                data-atropos-offset="5"
+                alt="Oxenfree 2  Logo"
+                style={{ top: "150px" }}
+              ></img>
+              <img
+                src={"assets/Studios/NightSchool.webp"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "80px", bottom: "-15px", right: "0px" }}
+                alt="Night School Studios Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal61}
+              onRequestClose={this.handleCloseModal61}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PlayStation></PlayStation>
+                <Nintendo></Nintendo>
+                <PC></PC>
+                <EP></EP>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                Five years after the events of OXENFREE, Riley returns to her
+                hometown of Camena to investigate mysterious radio signals. What
+                she finds is more than she bargained for.
+              </p>
+              <p className="pb-4 text-xs md:text-base">
+                Developed by Night School Studios and published by MWM
+                Interactive
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                IS LEAVE. POSSIBLE
+              </span>
+              <YoutubeEmbed
+                embedId="N0f0LdibJcQ"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <p className="text-sm text-center">
+                <a href="https://nightschoolstudio.com/oxenfree-ii/">
+                  Go To This Game's Website
+                </a>
+              </p>
+              <button
+                onClick={this.handleCloseModal61}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal62}>
+              <img
+                src={"assets/Cover Art/PotionPermit.webp"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Potion Permit Art"
+              ></img>
+              <img
+                src={"assets/Logo/PotionPermit.webp"}
+                className="game-box-logo game-box drop-shadow-2xl"
+                data-atropos-offset="5"
+                alt="Potion Permit  Logo"
+                style={{ top: "-100px" }}
+              ></img>
+              <img
+                src={"assets/Studios/PQUBE.webp"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "50px", bottom: "-10px", right: "0" }}
+                alt="PQUBE Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal62}
+              onRequestClose={this.handleCloseModal62}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PlayStation></PlayStation>
+                <Xbox></Xbox>
+                <Nintendo></Nintendo>
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                Moonbury's residents need healing, and you're the best chemist
+                around! With your trusty tools, a brewing cauldron, and a canine
+                companion at your side, you'll need to diagnose symptoms, gather
+                ingredients, brew potions, and cure ailments in this open-ended
+                sim RPG.
+              </p>
+              <p className="pb-4 text-xs md:text-base">
+                Developed by MassHive Media and published by PQube Limited
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                Stardew Valley but potions!
+              </span>
+              <YoutubeEmbed
+                embedId="3WvP403k63A"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <p className="text-sm text-center">
+                <a href="https://pqube.co.uk/potion-permit/">
+                  Go To This Game's Website
+                </a>
+              </p>
+              <button
+                onClick={this.handleCloseModal62}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal63}>
+              <img
+                src={"assets/Cover Art/HC.webp"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="ConcernedApe’s Haunted Chocolatier Art"
+              ></img>
+              <img
+                src={"assets/Studios/ConcernedApe.webp"}
+                className="game-box-studio game-box"
+                data-atropos-offset="1"
+                style={{ top: "75px", right: "0" }}
+                alt="Concerned Ape's Logo"
+              ></img>
+              <img
+                src={"assets/Logo/HC.webp"}
+                className="game-box-logo game-box drop-shadow-2xl"
+                data-atropos-offset="3"
+                alt="ConcernedApe’s Haunted Chocolatier Logo"
+                style={{ top: "-60px" }}
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal63}
+              onRequestClose={this.handleCloseModal63}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PC></PC>
+                <EP></EP>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                ConcernedApe’s Haunted Chocolatier is an RPG/simulation game,
+                currently in development. In this game, you will play as a
+                chocolatier living in a haunted castle. In order to thrive in
+                your new role, you will have to gather rare ingredients, make
+                delicious chocolates, and sell them in a chocolate shop.
+              </p>
+              <p className="pb-4 text-xs md:text-base">
+                Developed by Eric Barone and published by Eric Barone
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                Stardew Valley but chocolate!
+              </span>
+              <YoutubeEmbed
+                embedId="kJy7LF789lo"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <p className="text-sm text-center">
+                <a href="https://www.hauntedchocolatier.net/">
+                  Go To This Game's Website
+                </a>
+              </p>
+              <button
+                onClick={this.handleCloseModal62}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal64}>
+              <img
+                src={"assets/Cover Art/Black.webp"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Black Cover"
+              ></img>
+              <img
+                src={"assets/Studios/Nintendo.webp"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "45px", top: "-18px", left: "0" }}
+                alt="Nintendo Switch Logo"
+              ></img>
+              <img
+                src={"assets/Logo/Bayonetta3.webp"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                style={{ top: "0", left:"15px" }}
+                alt="Bayonetta 3 Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal64}
+              onRequestClose={this.handleCloseModal64}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <Nintendo></Nintendo>
+                <EP></EP>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                Bayonetta, the enchanting witch who’s dressed to kill with her
+                hand-and-foot guns, dominates angel and demon alike with action
+                that is, to put it simply, beautiful. The latest trailer for
+                Bayonetta 3, the newest entry in the series, was revealed during
+                the Nintendo Direct on September 24.
+              </p>
+              <p className="pb-4 text-xs md:text-base">
+                Developed by PlatinumGames and published by Nintendo
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+              You’ve waited long enough. The witch. Is. BACK!
+              </span>
+              <YoutubeEmbed
+                embedId="bUAtX8Ox7eI"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <p className="text-sm text-center">
+                <a href="https://www.platinumgames.com/games/bayonetta-3">
+                  Go To This Game's Website
+                </a>
+              </p>
+              <button
+                onClick={this.handleCloseModal64}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
