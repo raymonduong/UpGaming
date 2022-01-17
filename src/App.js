@@ -612,7 +612,7 @@ export default class App extends Component {
         <h1 className="p-5 mb-5 text-5xl font-extrabold text-center text-transparent md:text-9xl mt-52 bg-clip-text bg-gradient-to-r from-blue-500 to-green-500">
           UpGaming
         </h1>
-        <h2 className="p-5 mb-5 text-4xl text-center text-transparent md:text-3xl bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-600">
+        <h2 className="p-5 mb-8 md:mb-20 text-4xl text-center text-transparent md:text-3xl bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-600">
           Have a look at these upcoming video games.
         </h2>
         <fieldset className="flex md:justify-center w-3/5 mx-auto border border-solid border-white mb-10 p-3 rounded-lg">
