@@ -651,40 +651,40 @@ export default class App extends Component {
         <h2 className="p-5 mb-8 md:mb-20 text-4xl text-center text-transparent md:text-3xl bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-600">
           Have a look at these upcoming video games.
         </h2>
-        <fieldset className="flex md:justify-center w-3/5 md:w-auto md:max-w-5xl mx-auto border border-solid border-white mb-10 p-3 rounded-lg">
+        <fieldset className=" mt-60 md:mt-auto flex justify-center w-3/5 lg:w-auto lg:max-w-5xl mx-auto border border-solid border-white mb-10 p-3 rounded-lg">
           <legend className="text-lg text-center px-5">Legend</legend>
-          <ul className="list-none flex space-x-5 flex-col md:flex-row">
-            <li className="float-left flex items-center md:justify-center">
+          <ul className="list-none flex space-x-5 flex-col lg:flex-row">
+            <li className="float-left flex items-center lg:justify-center ml-5">
               <span className="float-left mr-2">
                 <PlayStation></PlayStation>
               </span>{" "}
               PlayStation
             </li>
-            <li className="float-left flex items-center md:justify-center">
+            <li className="float-left flex items-center lg:justify-center">
               <span className="float-left mr-2">
                 <Xbox></Xbox>
               </span>{" "}
               Xbox
             </li>
-            <li className="float-left flex items-center md:justify-center">
+            <li className="float-left flex items-center lg:justify-center">
               <span className="float-left mr-2">
                 <GamePass></GamePass>
               </span>{" "}
               Xbox Game Pass
             </li>
-            <li className="float-left flex items-center md:justify-center">
+            <li className="float-left flex items-center lg:justify-center">
               <span className="float-left mr-2">
                 <Nintendo></Nintendo>
               </span>{" "}
               Nintendo Switch
             </li>
-            <li className="float-left flex items-center md:justify-center">
+            <li className="float-left flex items-center lg:justify-center">
               <span className="float-left mr-2">
                 <PC></PC>
               </span>{" "}
               PC Game
             </li>
-            <li className="float-left flex items-center md:justify-center">
+            <li className="float-left flex items-center lg:justify-center">
               <span className="float-left mr-2">
                 <EP></EP>
               </span>{" "}
