@@ -81,6 +81,10 @@ export default class App extends Component {
       showModal62: false,
       showModal63: false,
       showModal64: false,
+      showModal65: false,
+      showModal66: false,
+      showModal67: false,
+      showModal68: false,
     };
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
@@ -147,6 +151,10 @@ export default class App extends Component {
     this.handleOpenModal62 = this.handleOpenModal62.bind(this);
     this.handleOpenModal63 = this.handleOpenModal63.bind(this);
     this.handleOpenModal64 = this.handleOpenModal64.bind(this);
+    this.handleOpenModal65 = this.handleOpenModal65.bind(this);
+    this.handleOpenModal66 = this.handleOpenModal66.bind(this);
+    this.handleOpenModal67 = this.handleOpenModal67.bind(this);
+    this.handleOpenModal68 = this.handleOpenModal68.bind(this);
 
     this.handleCloseModal = this.handleCloseModal.bind(this);
     this.handleCloseModal2 = this.handleCloseModal2.bind(this);
@@ -212,6 +220,10 @@ export default class App extends Component {
     this.handleCloseModal62 = this.handleCloseModal62.bind(this);
     this.handleCloseModal63 = this.handleCloseModal63.bind(this);
     this.handleCloseModal64 = this.handleCloseModal64.bind(this);
+    this.handleCloseModal65 = this.handleCloseModal65.bind(this);
+    this.handleCloseModal66 = this.handleCloseModal66.bind(this);
+    this.handleCloseModal67 = this.handleCloseModal67.bind(this);
+    this.handleCloseModal68 = this.handleCloseModal68.bind(this);
   }
   handleOpenModal() {
     this.setState({ showModal: true });
@@ -404,6 +416,18 @@ export default class App extends Component {
   }
   handleOpenModal64() {
     this.setState({ showModal64: true });
+  }
+  handleOpenModal65() {
+    this.setState({ showModal65: true });
+  }
+  handleOpenModal66() {
+    this.setState({ showModal66: true });
+  }
+  handleOpenModal67() {
+    this.setState({ showModal67: true });
+  }
+  handleOpenModal68() {
+    this.setState({ showModal68: true });
   }
 
   handleCloseModal() {
@@ -598,6 +622,18 @@ export default class App extends Component {
   handleCloseModal64() {
     this.setState({ showModal64: false });
   }
+  handleCloseModal65() {
+    this.setState({ showModal65: false });
+  }
+  handleCloseModal66() {
+    this.setState({ showModal66: false });
+  }
+  handleCloseModal67() {
+    this.setState({ showModal67: false });
+  }
+  handleCloseModal68() {
+    this.setState({ showModal68: false });
+  }
 
   render() {
     return (
@@ -615,9 +651,9 @@ export default class App extends Component {
         <h2 className="p-5 mb-8 md:mb-20 text-4xl text-center text-transparent md:text-3xl bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-600">
           Have a look at these upcoming video games.
         </h2>
-        <fieldset className="flex md:justify-center w-3/5 mx-auto border border-solid border-white mb-10 p-3 rounded-lg">
+        <fieldset className="flex md:justify-center w-3/5 md:w-auto md:max-w-5xl mx-auto border border-solid border-white mb-10 p-3 rounded-lg">
           <legend className="text-lg text-center px-5">Legend</legend>
-          <ul className="list-none flex gap-1 md:gap-10 flex-col md:flex-row">
+          <ul className="list-none flex space-x-5 flex-col md:flex-row">
             <li className="float-left flex items-center md:justify-center">
               <span className="float-left mr-2">
                 <PlayStation></PlayStation>
@@ -5576,7 +5612,6 @@ export default class App extends Component {
               </button>
             </ReactModal>
           </div>
-
           <div>
             <Atropos onClick={this.handleOpenModal61}>
               <img
@@ -5798,7 +5833,7 @@ export default class App extends Component {
                 </a>
               </p>
               <button
-                onClick={this.handleCloseModal62}
+                onClick={this.handleCloseModal63}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
@@ -5879,6 +5914,338 @@ export default class App extends Component {
               </p>
               <button
                 onClick={this.handleCloseModal64}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal65}>
+              <img
+                src={"assets/Cover Art/Arc.webp"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Oxenfree 2 Art"
+              ></img>
+              <img
+                src={"assets/Logo/Arc.webp"}
+                className="game-box-logo game-box drop-shadow-2xl"
+                data-atropos-offset="5"
+                alt="Oxenfree 2  Logo"
+                style={{ top: "80px" }}
+              ></img>
+              <img
+                src={"assets/Studios/embark.webp"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "80px", bottom: "-20px", right: "5px" }}
+                alt="Embark Studios Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal65}
+              onRequestClose={this.handleCloseModal65}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PlayStation></PlayStation>
+                <Xbox></Xbox>
+                <PC></PC>
+                <EP></EP>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                ARC Raiders is a free-to-play, reimagined, cooperative action
+                shooter that offers an intense struggle in every session:
+                together with your squad, defend our home and resist the
+                onslaught of ARC - a ruthless mechanized threat descending from
+                space.
+              </p>
+              <p className="pb-4 text-xs md:text-base">
+                Developed and published by Embark Studios
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                This studio was formed by EA DICE veterans in 2018; One of them
+                being Patrick Söderlund, the previous head of DICE.
+              </span>
+              <YoutubeEmbed
+                embedId="3BKASgkxK1g"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <p className="text-sm text-center">
+                <a href="https://arcraiders.com/">Go To This Game's Website</a>
+              </p>
+              <button
+                onClick={this.handleCloseModal65}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal66}>
+              <img
+                src={"assets/Cover Art/B&B.webp"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Bear & Breakfast Art"
+              ></img>
+              <img
+                src={"assets/Logo/B&B.webp"}
+                className="game-box-logo game-box drop-shadow-2xl"
+                data-atropos-offset="5"
+                alt="Bear & Breakfast Logo"
+              ></img>
+              <img
+                src={"assets/Studios/GummyCat.webp"}
+                className="game-box-studio game-box"
+                data-atropos-offset="3"
+                style={{ width: "50px", bottom: "-10px", right: "5px" }}
+                alt="Gummy Cat Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal66}
+              onRequestClose={this.handleCloseModal66}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <Nintendo></Nintendo>
+                <PC></PC>
+                <EP></EP>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                Bear and Breakfast is a laid-back management adventure game
+                where you play as a well-meaning bear trying to run a B+B in the
+                woods. Hank and his friends find an abandoned shack and,
+                equipped with their teenage ingenuity, turn it into a
+                money-making bed and breakfast scheme for unsuspecting tourists.
+                As your business expands so do the mysteries of the forest, and
+                Hank soon finds himself uncovering a plot deeper than the
+                wilderness itself.
+              </p>
+              <p className="pb-4 text-xs md:text-base">
+                Developed by Embark Studios and published by Armor Games Studios
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                No refunds.
+              </span>
+              <YoutubeEmbed
+                embedId="GjoqP6XjrRE"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <p className="text-sm text-center">
+                <a href="https://www.bear.game/">Go To This Game's Website</a>
+              </p>
+              <button
+                onClick={this.handleCloseModal66}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal67}>
+              <img
+                src={"assets/Cover Art/DUNE.webp"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="Space Background"
+              ></img>
+              <img
+                src={"assets/Logo/DUNE.webp"}
+                className="game-box-logo game-box drop-shadow-2xl"
+                data-atropos-offset="2"
+                alt="Dune Spice Wars Logo"
+                style={{ top: "-70px", left: "15px" }}
+              ></img>
+              <img
+                src={"assets/Logo/Hand.webp"}
+                className="game-box-logo game-box drop-shadow-2xl"
+                data-atropos-offset="5"
+                alt="Dune Spice Wars Hand Art"
+                style={{ top: "120px", left: "15px" }}
+              ></img>
+              <img
+                src={"assets/Studios/Shiro.webp"}
+                className="game-box-studio game-box"
+                data-atropos-offset="1"
+                style={{ width: "30px", bottom: "-15px", right: "5px" }}
+                alt="Shiro Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal67}
+              onRequestClose={this.handleCloseModal67}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PC></PC>
+                <EP></EP>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                A real-time strategy game with 4X elements, from the developers
+                of the critically acclaimed Northgard. Set in Frank Herbert's
+                groundbreaking Dune universe, you must lead your faction and
+                battle for control and dominance over the harsh desert planet of
+                Arrakis. Spice is the most valuable resource in the universe.
+                The spice extends life, it expands consciousness and makes
+                interstellar travel possible.
+              </p>
+              <p className="pb-4 text-xs md:text-base">
+                Developed by Shiro Games and published by Funcom
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                My Desert. My Arrakis. My Dune.
+              </span>
+              <YoutubeEmbed
+                embedId="OnttuBpqI_4"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <p className="text-sm text-center">
+                <a href="https://www.dunegames.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
+              <button
+                onClick={this.handleCloseModal67}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal68}>
+              <img
+                src={"assets/Cover Art/SOMERVILLE.webp"}
+                className="rounded-md game-box game-box-bg"
+                data-atropos-offset="-4"
+                alt="SOMERVILLE Background"
+              ></img>
+              <img
+                src={"assets/Logo/SOMERVILLE.webp"}
+                className="game-box-logo game-box drop-shadow-2xl"
+                data-atropos-offset="5"
+                alt="SOMERVILLE Art"
+              ></img>
+              <img
+                src={"assets/Studios/JUMPSHIP.webp"}
+                className="game-box-studio game-box"
+                data-atropos-offset="1"
+                style={{ width: "80px", bottom: "-20px", right: "5px" }}
+                alt="JUMPSHIP Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal68}
+              onRequestClose={this.handleCloseModal68}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PC></PC>
+                <Xbox></Xbox>
+                <GamePass></GamePass>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                In the wake of catastrophe you must find the means to make your
+                family whole again. Somerville is a Sci-Fi adventure grounded in
+                the intimate repercussions of large scale conflict. Immerse
+                yourself in a hand-crafted narrative experience set across a
+                vivid rural landscape. Navigate your way through the perilous
+                terrain ahead of you to unravel the mysteries of Earth's
+                visitors.
+              </p>
+              <p className="pb-4 text-xs md:text-base">
+                Developed and published by JUMPSHIP
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                JUMPSHIP is co-founded by Chris Olsen and Dino Patti - the
+                latter worked on INSIDE and LIMBO.
+              </span>
+              <YoutubeEmbed
+                embedId="sr_JKrT5eEQ"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <p className="text-sm text-center">
+                <a href="https://jumpship.co.uk/">Go To This Game's Website</a>
+              </p>
+              <button
+                onClick={this.handleCloseModal68}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
