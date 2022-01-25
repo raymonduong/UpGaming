@@ -85,6 +85,8 @@ export default class App extends Component {
       showModal66: false,
       showModal67: false,
       showModal68: false,
+      showModal69: false,
+      showModal70: false,
     };
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
@@ -155,6 +157,8 @@ export default class App extends Component {
     this.handleOpenModal66 = this.handleOpenModal66.bind(this);
     this.handleOpenModal67 = this.handleOpenModal67.bind(this);
     this.handleOpenModal68 = this.handleOpenModal68.bind(this);
+    this.handleOpenModal69 = this.handleOpenModal69.bind(this);
+    this.handleOpenModal70 = this.handleOpenModal70.bind(this);
 
     this.handleCloseModal = this.handleCloseModal.bind(this);
     this.handleCloseModal2 = this.handleCloseModal2.bind(this);
@@ -224,6 +228,8 @@ export default class App extends Component {
     this.handleCloseModal66 = this.handleCloseModal66.bind(this);
     this.handleCloseModal67 = this.handleCloseModal67.bind(this);
     this.handleCloseModal68 = this.handleCloseModal68.bind(this);
+    this.handleCloseModal69 = this.handleCloseModal69.bind(this);
+    this.handleCloseModal70 = this.handleCloseModal70.bind(this);
   }
   handleOpenModal() {
     this.setState({ showModal: true });
@@ -429,6 +435,12 @@ export default class App extends Component {
   handleOpenModal68() {
     this.setState({ showModal68: true });
   }
+  handleOpenModal69() {
+    this.setState({ showModal69: true });
+  }
+  handleOpenModal70() {
+    this.setState({ showModal70: true });
+  }
 
   handleCloseModal() {
     this.setState({ showModal: false });
@@ -633,6 +645,12 @@ export default class App extends Component {
   }
   handleCloseModal68() {
     this.setState({ showModal68: false });
+  }
+  handleCloseModal69() {
+    this.setState({ showModal69: false });
+  }
+  handleCloseModal70() {
+    this.setState({ showModal70: false });
   }
 
   render() {
@@ -6246,6 +6264,168 @@ export default class App extends Component {
               </p>
               <button
                 onClick={this.handleCloseModal68}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal69}>
+              <img
+                src={"assets/Cover Art/LostArk.webp"}
+                className="rounded-md game-box game-box-bg brightness-75"
+                data-atropos-offset="-4"
+                alt="Lost Ark Background"
+              ></img>
+              <img
+                src={"assets/Logo/LostArk.webp"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                style={{ top: "100px" }}
+                alt="Lost Ark Art"
+              ></img>
+              <img
+                src={"assets/Studios/Smilegate.webp"}
+                className="game-box-studio game-box"
+                data-atropos-offset="1"
+                style={{ width: "40px", bottom: "-15px", right: "5px" }}
+                alt="Smilegate Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal69}
+              onRequestClose={this.handleCloseModal69}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PC></PC>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                Lost Ark is an isometric 2.5D fantasy massively multiplayer
+                online action role-playing game. It is co-developed by Tripod
+                Studio and Smilegate's game development subsidiary Smilegate
+                RPG. It was fully released in the South Korean region on
+                November 12, 2018, and will be released to multiple regions on
+                February 11, 2022.
+              </p>
+              <p className="pb-4 text-xs md:text-base">
+                Developed by Smilegate and published by Smilegate and Amazon
+                Game Studios
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                One of the most popular South Korean MMORPGs has its debut to
+                the rest of the world.
+              </span>
+              <YoutubeEmbed
+                embedId="OX96eqggJqg"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <p className="text-sm text-center">
+                <a href="https://www.playlostark.com/en-us/">
+                  Go To This Game's Website
+                </a>
+              </p>
+              <button
+                onClick={this.handleCloseModal69}
+                className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              >
+                <span class="sr-only">Close menu</span>{" "}
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </ReactModal>
+          </div>
+          <div>
+            <Atropos onClick={this.handleOpenModal70}>
+              <img
+                src={"assets/Cover Art/Wukong.webp"}
+                className="rounded-md game-box game-box-bg brightness-50"
+                data-atropos-offset="-4"
+                alt="Black Myth: Wukong Background"
+              ></img>
+              <img
+                src={"assets/Logo/Wukong.webp"}
+                className="game-box-logo game-box"
+                data-atropos-offset="5"
+                alt="Black Myth: Wukong Art"
+                style={{ top: "0" }}
+              ></img>
+              <img
+                src={"assets/Studios/GameScience.webp"}
+                className="game-box-studio game-box"
+                data-atropos-offset="1"
+                style={{ width: "100px", bottom: "-20px", right: "5px" }}
+                alt="Game Science Logo"
+              ></img>
+            </Atropos>
+            <ReactModal
+              isOpen={this.state.showModal70}
+              onRequestClose={this.handleCloseModal70}
+              className={
+                "fixed sm:inset-10 md:inset-36 lg:inset-16 md:inset-x-20 lg:inset-x-96 px-10 md:px-16 py-20 rounded-lg Modal flex flex-col"
+              }
+              overlayClassName="Overlay"
+            >
+              <div className="flex mb-5 -mt-16 -ml-6 md:-ml-10">
+                <PC></PC>
+                <EP></EP>
+              </div>
+              <p className="pb-4 text-sm text-white md:text-lg">
+                Black Myth: Wukong is an Action-RPG take on the Chinese
+                legendary character of "Sun Wukong" (孫悟空/孙悟空), the main
+                character of the beloved and famous 16th-century novel "Journey
+                to the West" (西遊記/西游记) written by the great Wu Cheng'en
+                (吳承恩).
+              </p>
+              <p className="pb-4 text-xs md:text-base">
+                Developed and published by Game Science
+              </p>
+              <span className="pb-5 text-sm italic text-gray-400">
+                With breathtaking visuals and a solid foundation of one of the oldest yet beloved classic Chinese tales, look out for this indie title to rival God of War
+              </span>
+              <YoutubeEmbed
+                embedId="nOMIwsupy9k"
+                className="mb-10"
+              ></YoutubeEmbed>
+              <p className="text-sm text-center">
+                <a href="http://www.heishenhua.com/">
+                  Go To This Game's Website
+                </a>
+              </p>
+              <button
+                onClick={this.handleCloseModal70}
                 className="absolute inline-flex items-center justify-center p-2 text-gray-100 rounded-md bg-slate-800 top-5 right-5 hover:text-gray-200 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
                 <span class="sr-only">Close menu</span>{" "}
